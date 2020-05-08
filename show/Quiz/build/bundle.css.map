@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\Quizcard.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\texport let QuizData;\n  export let nextQuestion;\n\timport { pointcounter, getPoints, Quiz } from './stores.js';\n\t\n\tlet alternativ=[\"A\",\"B\",\"C\"]\n\t\tlet count = 30;\nlet Choosen=\"\"\n  let isAnswered = false;\n\t\tlet showtext=true;\n\n\tfunction AnswerQuestion(Choice,text) {\n\t\tisAnswered = true;\n\t\tif(QuizData.RightOption== Choice)\n\t\t{\n\t\tChoosen=text+ \" var r�tt svar.Bra jobbat\"\n\t\t$pointcounter+=1\n\t\n\t\t}\n\t\telse\n\t\tChoosen=text+ \" var fel svar.\"\n\t\tshowtext=true;\n\t\tconst interval = setInterval(() => {\n\t\t\tconsole.log('bee11p');\n\t\t\tif(showtext==false)\n\t\t\t\t{\n\t\t\t\tnextQuestion()\n\t\t\t\t\tisAnswered=false\n\t\t\t\tclearInterval(interval)\n\t\t\t\t}\n\t\t\tshowtext=false\n\t\t}, 1000);\n\t}\n</script>\n\n<div>\n<!-- \t<h1>{QuizData.Question}?</h1>\n\t{#each QuizData.Options as option, i}\t\n\t<h1 on:click={event => AnswerQuestion(i,option)}>Alternativ {alternativ[i]}: {option}</h1>\n\t{/each} -->\n{#if isAnswered==false}\n\t<h1>{QuizData.Question}?</h1>\n\t{#each QuizData.Options as option, i}\t\n\t<h1 on:click={event => AnswerQuestion(i,option)}>Alternativ {alternativ[i]}: {option}</h1>\n\t{/each}\n\n{:else}\n<h2 id=\"Points\">\n\t{Choosen}\n\t<span >{$getPoints}</span>\n\t</h2>\n{/if}\n</div>\n\n<style> \n\tdiv{\n\t\tborder: black solid 3px;\n\t\tbackground-color: grey;\n\t}\nh1{\n\tcolor:white;\n\tpadding-left:25px;\n\t}\n\t#Points{\n/* \tright:10px;\t */\n\t\ttext-align: right;\n\t\t\n\t}\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAuDC,iBAAG,CAAC,AACH,MAAM,CAAE,KAAK,CAAC,KAAK,CAAC,GAAG,CACvB,gBAAgB,CAAE,IAAI,AACvB,CAAC,AACF,gBAAE,CAAC,AACF,MAAM,KAAK,CACX,aAAa,IAAI,AACjB,CAAC,AACD,qBAAO,CAAC,AAEP,UAAU,CAAE,KAAK,AAElB,CAAC"
+}

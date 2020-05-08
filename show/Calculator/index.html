@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+<h1>Calculator</h1>
+<input id="textBoard" type="text">
+<table>
+    <tr> 
+        <td>
+        <button type="button" onclick="addOperator('+')" class="button">+</button></td>
+        <td>
+            <button type="button" onclick="addNumber(1)" class="button">1</button></td>
+        <td>
+            <button type="button" onclick="addNumber(2)" class="button">2</button></td>
+        <td>
+            <button type="button" onclick="addNumber(3)" class="button">3</button></td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" onclick="addOperator('*')" class="button">*</button></td>
+            <td>
+                <button type="button" onclick="addNumber(4)" class="button">4</button></td>
+            <td>
+                <button type="button" onclick="addNumber(5)" class="button">5</button></td>
+            <td>
+                <button type="button" onclick="addNumber(6)" class="button">6</button></td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" onclick="addOperator('-')" class="button">-</button></td>
+            <td>
+                <button type="button" onclick="addNumber(7)" class="button">7</button></td>
+            <td>
+                <button type="button" onclick="addNumber(8)" class="button">8</button></td>
+            <td>
+                <button type="button" onclick="addNumber(9)" class="button">9</button></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button type="button" onclick="Summit()" class="button">=</button></td>
+            <td>
+                <button type="button" onclick="reset()" class="button">CE</button></td>
+            <td>
+                <button type="button" onclick="addNumber(0)" class="button">0</button></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
