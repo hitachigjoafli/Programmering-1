@@ -12,6 +12,7 @@ console.log(anotheranswer)
 let fname= "Joakim" //First name
 let lname= "Flink" //Last name
 
+let name= fname+ lname; //First and lastname
 
 name= fname+" "+ lname; //Changed the the name variable
 
