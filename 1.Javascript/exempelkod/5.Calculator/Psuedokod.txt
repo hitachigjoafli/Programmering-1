@@ -1,0 +1,7 @@
+1.Skapa knappar för nummer 0-9 samt för +,-,* och /.
+2. Skapa en textruta där de valda symbolerna ska visas samt resultatet.
+3.Skapa variabler för nummerparametrar, operatorn och svaret.
+4. Skapa funktion för att lägga till ett nummer, denna kommer köras när man trycker på en knapp. Om ingen operator har valts så läggs den valda siffran på första nummerparametern, annars läggs den på den andra. Textrutan uppdateras så numret visas.
+5. Skapa funktion för att välja operatorn, den körs när man trycker på operatorknappar (+,-,*,/). Operatorn läggs in i textrutan.
+6. Skapa funktion för summera de två nummerparamterna och skriva ut dem i textfältet.
+7.Skapa en funktion återställer alla variabler till utgångsläget och rensar textfältet.

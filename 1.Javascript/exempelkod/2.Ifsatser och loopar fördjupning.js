@@ -8,6 +8,17 @@ let i=10
     console.log(i)
      i+=1
  }
+ i=0;
+ while (i<10) {
+     let output=""
+     let p=0;
+     while (p<10) {
+         output+="X"
+         p+=1;
+     }
+    console.log(output)
+     i+=1
+ }
 
 
  for (let i2 = 0; i2 < 120; i2+=10) {

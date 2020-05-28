@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 20%;
+    height: 100px;
+}
+li{
+    
+    color:pink;
+    background-color: yellowgreen;
+}
+.blå{
+    color:brown;
+    background-color: gray;
+}
+#rött{
+    color:green;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Joakim</h1>
+        <h3>Joakim</h3>
+        <p id="mintext">
+            Hej hur går det med programmeringen!?
+        </p>
+        <ul>
+            <li class="blå">Kaka</li>
+            <li class="blå" id="rött">Baka</li>
+        </ul>
+         <ul>
+            <li>Kaka</li>
+            <li>Baka</li>
+        </ul>
+        <img src="https://images.cdn.yle.fi/image/upload/f_auto,fl_progressive/q_88/w_1600,h_900,c_crop,x_0,y_368/w_1200/v1505219195/39-42758359b7c7db20bda.jpg">
+        <div id="remove">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <button type="button" id="knapp" name="knapp"  onclick="sayHi()">Hej</button>
+                
+                <input type="submit" id="knapp" name="knapp" value="Button" >
+            </form>
+        </div>
+        <<script>
+
+        </script>
+        <script src="index.js">
+// javascript
+function sayHi(){
+    let paragrafen= document.getElementById("mintext");
+  let textbox=  document.getElementById("name")
+  textbox.value+= paragrafen.innerText;
+  let re=  document.getElementById("remove")
+  re.innerHTML="<p>hejhej!</p>"
+    // 
+}
+
+        </script>
+    </body>
+</html>

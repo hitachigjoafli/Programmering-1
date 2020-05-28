@@ -30,7 +30,7 @@ let Cats= ["Arvid","Andy","Vince"]
 console.log("The cats "+Cats)
 //Foreach object in Cat array
 Cats.forEach(Cat => {
-    
+    if(Cat.length>4)
 console.log("The cat's name is "+Cat)
 
 });
@@ -43,3 +43,9 @@ console.log(CatArvid.weight)
 
 console.log(typeof(CatArvid.weight))
 console.log(CatArvid.name+" the cat weight is "+CatArvid.weight+" kg")
+if(CatArvid.lazy==true)
+console.log(CatArvid.name+" är lat!")
+else if(CatArvid.weight<=10)
+console.log(CatArvid.name+"  kan behöva tappa lite vikt!")
+else
+console.log(CatArvid.name+" är en liten katt som behöver äta lite!")
