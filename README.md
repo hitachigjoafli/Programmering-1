@@ -7,7 +7,7 @@ De tre delarna:
 1. [Javascript](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript)
 2. [Svelte](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte)
 3. [Vue](https://github.com/abbjoafli/Programmering-1/tree/master/3.Vue)
-![överblick](planjs.png)
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/plankurs.PNG?raw=true)
 
 Vill man få en mer gedigen överblick så **rekomenderar jag starkt** att man parallelt med kursens gång läser [Python-kompendiumet](https://dva128.s3.eu-north-1.amazonaws.com/kompendium/Python_Kompendium.pdf) från Christian Åberg på Mälardalens högskola. Då kommer man äga kunskaper i två språk och ha djupförståelse samt goda förkunskaper för Python kursen på MDH under årskurs två.
 
