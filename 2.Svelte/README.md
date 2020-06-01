@@ -72,8 +72,9 @@ I början rekomenderar jag att ni använder min [MoviePoster](https://raw.github
 - FireStore-databas (kommentarer,like, filmlistor eller annat)
 - Webbsida där man kan visa filminfo.
 - Redovisning i en liten video liknande min, försök hålla det kort och konsist till runt 5 minuter.
-- Kommenterad kod
-- Github med beskrivande readme
+- Kommenterad kod.
+- Github med beskrivande readme.
+- Hosta Websidan på valfri plats.
 
 [Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
 
@@ -110,6 +111,7 @@ Nu är det dags för vårt första sammarbetsprojekt. Vi ska gemensamt med de an
 - Mikrokontroll som loggar värden från temperaturmätare och skickar upp dessa till databasen.
 - Kommenterad kod.
 - Github med beskrivande readme.
+- Hosta Websidan på valfri plats.
 
 
 (  * dessa delar ska varje elev göra individuellt, man får sammarbeta men alla ska göra sin egen.)
