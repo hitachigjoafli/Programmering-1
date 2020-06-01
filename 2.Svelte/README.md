@@ -43,7 +43,7 @@ Med stor frihet kommer också stort ansvar och därmed så får **du** själv be
 Välj valfri resurs, arbeta efter den och lär känna Svelte och dett sättet att arbeta.
 ## 2. Följ videon och skapa ett Quiz
 [Videolänk](https://web.microsoftstream.com/video/2df723a1-f00a-41a1-9ff6-0a9f9c0ef8a7)
-
+[Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/2.QuizParty) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
 
 
 # 3.APier
@@ -73,6 +73,9 @@ I början rekomenderar jag att ni använder min [MoviePoster](https://raw.github
 - Kommenterad kod
 - Github med beskrivande readme
 
+[Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
+[Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/4.MoviesDB) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
+
 ## Resurser
 - [Svelte Realtime Todo with firebase](https://fireship.io/lessons/svelte-v3-overview-firebase/) (Exempel hur du skapar databas och lite intro, mitt tips är att inte använda rxfire utan istället använda Sveltefire nedan.)
 - [Sveltefire](https://github.com/codediodeio/sveltefire) (Bibliotek för att underlätta användning av firebase i Svelte)
@@ -81,6 +84,8 @@ I början rekomenderar jag att ni använder min [MoviePoster](https://raw.github
   - [Everything About Auto in CSS](https://ishadeed.com/article/auto-css/)
 - [Smelte komponent Bibliotek](https://smeltejs.com)
 
+## Plan
+Nu har du blivit så berest i programmeringens värld att du och din partner får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett team! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
 
 
 
@@ -101,27 +106,37 @@ Nu är det dags för vårt första sammarbetsprojekt. Vi ska gemensamt med de an
 - Kommenterad kod.
 - Github med beskrivande readme.
 
-* dessa delar ska varje elev göra indivudellt, man får sammarbeta men alla ska göra sin egen.
-Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
-[Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
 
+* dessa delar ska varje elev göra individuellt, man får sammarbeta men alla ska göra sin egen.
+Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
+
+[Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
+[Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/4.MoviesDB) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
 ## Resurser
 - [Serverless IoTs with Firebase Realtime Database and ESP8266](https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-9937d98d1ae0)[( del 2)](https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-e624304c3197) (Exempel hur man skickar till Firebase RTDB from ESP)
 - [ESP8266 Sent Sensor Data to Firebase Realtime Database](http://microcontrollerkits.blogspot.com/2016/12/esp8266-firebase.html) (Exempel hur man skickar till Firebase RTDB from ESP)
 - [Github rep för Firebase ESP8266](https://github.com/mobizt/Firebase-ESP8266) (Repo för Firebase-ESP8266, mycket fin dokumentation om hur man kan göra.)
 
 
-Det är alltid bra att ha en plan innan man börjar därför skriver jag mitt tillvägagångsätt när jag gör ett sånt här projekt.
 ## Plan
-Nu har du blivit så berrest i programmeringens värld att du och din grupp får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett lag! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
+Nu har du blivit så berest i programmeringens värld att du och din grupp får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett lag! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
 
-[Här](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/exempelkod/5.Calculator) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
+
 
 ## Frågor och svar
 ### Vad är komponentkarta?
 En komponentkarta är en karta över de olika komponenterna i ditt projekt och i vilka komponenter de används, detta för att kunna skapa en tydligare överblick över helheten och underlätta uppdelningen av arbetet om man arbetar i grupp.
-[Exempelbild](https://link)
+[Exempelbild](https://github.com/abbjoafli/Programmering-1/blob/master/img/Komponentkarta.PNG?raw=true)
 
 ### Vad är Databasöverblick?
 En databasöverblick är en överblick över din databas, vilka olika kategorier finns det samt vilka värden som sparas på dem. När man går igenom databasöverblicken ska man gärna förtydliga vilka delar som kopplar ihop olika kategorier om det så görs. Ett exempel att resturangers id kan vara blåfärgad och då är kopplad för att länka ihop en maträtter med deras resturang om man har två kategorier, maträtter och resturanger.Då har man resturangens id i maträttens kategori.
-[Exempelbild](https://link)
+[Exempelbild](https://github.com/abbjoafli/Programmering-1/blob/master/img/databasblick.PNG?raw=true)
+
+### Vart kan jag hosta mina webbsidor?
+Här nedan kommer några enkla hemsidor att gratis hosta din websida på:
+- [Github Pages](https://pages.github.com)
+- [Vercel(föredetta NOW/Zeit)](https://vercel.com)
+- [Google Firebase](https://console.firebase.google.com/u/0/)
+- [Surge](http://surge.sh)
+- AWS S3 Bucket (Detta alternativ spar vi dock tills vi börjar använda AWS)
+
