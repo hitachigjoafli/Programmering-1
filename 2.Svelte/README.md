@@ -33,6 +33,8 @@ I denna modul kommer vi arbeta lite mer fritt, du kommer få mer möjlighet att 
 - [Svelte tutorial for begginers [Video]](https://www.youtube.com/watch?v=zojEMeQGGHs&list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
 - [Svelte Crash Course [Video, medium]](https://www.youtube.com/watch?v=uK2RnIzrQ0M)
 - [Svelte Tutorial - Is it better than React? [Video,lite mer avancerad]](https://www.youtube.com/watch?v=vhGiGqZ78Rs)
+- [Made with Svelte](https://madewithsvelte.com/boilerplate)
+- [Svelte resources](https://github.com/ryanatkn/awesome-svelte-resources)
 
 
 
@@ -74,7 +76,13 @@ I början rekomenderar jag att ni använder min [MoviePoster](https://raw.github
 - Github med beskrivande readme
 
 [Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
+
 [Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/4.MoviesDB) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
+
+
+## Plan
+Nu har du blivit så berest i programmeringens värld att du och din partner får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett team! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
+
 
 ## Resurser
 - [Svelte Realtime Todo with firebase](https://fireship.io/lessons/svelte-v3-overview-firebase/) (Exempel hur du skapar databas och lite intro, mitt tips är att inte använda rxfire utan istället använda Sveltefire nedan.)
@@ -84,13 +92,10 @@ I början rekomenderar jag att ni använder min [MoviePoster](https://raw.github
   - [Everything About Auto in CSS](https://ishadeed.com/article/auto-css/)
 - [Smelte komponent Bibliotek](https://smeltejs.com)
 
-## Plan
-Nu har du blivit så berest i programmeringens värld att du och din partner får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett team! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
-
 
 
 # 5. Uppkopplad Termometer
-![uppkopplad](https://link)
+![uppkopplad](https://github.com/abbjoafli/Programmering-1/blob/master/img/uppkopplad.PNG?raw=true)
 Nu är det dags för vårt första sammarbetsprojekt. Vi ska gemensamt med de andra teknikämnena skapa en uppkopplad termometer som ska skicka data från en mikrokontrol (Esp 8266) till en databas (Firebase RTDB) och sedan visa det på en hemsida med hjälp av Svelte. Du ska samarbeta med en grupp på två andra elever och alla era värden ska loggas på samma databas och kunna visas ihop både nuvarande värde samt tidigare värden i någon form av grafiskt diagram.
 
 ## Uppgiftens krav:
@@ -107,19 +112,23 @@ Nu är det dags för vårt första sammarbetsprojekt. Vi ska gemensamt med de an
 - Github med beskrivande readme.
 
 
-* dessa delar ska varje elev göra individuellt, man får sammarbeta men alla ska göra sin egen.
+  * dessa delar ska varje elev göra individuellt, man får sammarbeta men alla ska göra sin egen.
 Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
 
 [Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
+
 [Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/4.MoviesDB) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
+
+
+## Plan
+Nu har du blivit så berest i programmeringens värld att du och din grupp får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett lag! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
+
 ## Resurser
 - [Serverless IoTs with Firebase Realtime Database and ESP8266](https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-9937d98d1ae0)[( del 2)](https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-e624304c3197) (Exempel hur man skickar till Firebase RTDB from ESP)
 - [ESP8266 Sent Sensor Data to Firebase Realtime Database](http://microcontrollerkits.blogspot.com/2016/12/esp8266-firebase.html) (Exempel hur man skickar till Firebase RTDB from ESP)
 - [Github rep för Firebase ESP8266](https://github.com/mobizt/Firebase-ESP8266) (Repo för Firebase-ESP8266, mycket fin dokumentation om hur man kan göra.)
 
 
-## Plan
-Nu har du blivit så berest i programmeringens värld att du och din grupp får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett lag! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
 
 
 
@@ -137,6 +146,7 @@ Här nedan kommer några enkla hemsidor att gratis hosta din websida på:
 - [Github Pages](https://pages.github.com)
 - [Vercel(föredetta NOW/Zeit)](https://vercel.com)
 - [Google Firebase](https://console.firebase.google.com/u/0/)
+- [Netlify](https://www.netlify.com)
 - [Surge](http://surge.sh)
 - AWS S3 Bucket (Detta alternativ spar vi dock tills vi börjar använda AWS)
 
