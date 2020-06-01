@@ -49,54 +49,79 @@ Välj valfri resurs, arbeta efter den och lär känna Svelte och dett sättet at
 # 3.APier
 Här kommer Jeton Posta ett fint uppgift.
 
+## Resurser
+- [Consuming REST APIs in Svelte](https://blog.logrocket.com/consuming-rest-apis-in-svelte/)
+- [PokeAPi](https://pokeapi.co)
+- [superhero-api](https://akabab.github.io/superhero-api/)
+
+
 # 4. Miniprojekt Filmdatabas
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/tmdb.PNG?raw=true)
-I detta miniprojekt ska ni skapa en filmdatabas. Filmerna kommer ni få från ett Javascript objekt men de är i sin tur hämtade från ett api som man kan aktivera när projektet börja närma sig färdigställt. Vi kommer även ha någon funktion som har en koppling till en [Firestore databas](https://console.firebase.google.com/u/0/). Har man ett google konto så kan man gratis skapa ett antal projekt på Googles Firebase annars skapar man ett konto som heter något i stil med sina 3 först bokstäver i förnamn och samma i efternamn. Jag har gjort en exempelvideo nedan där jag redovisar mitt projekt och dess tillvägagångsätt, det jag gjorde i Firestore var att jag gjorde en kommentarsfunktion i sidan men ni kan göra annat som tex tummen upp knapp eller favoritlistor. Kika på min video, ta lärdom och gör sedan er egen plan enligt samma principer. Kom ihåg, exakt som i miniräknaren så är planering A-O!
+I detta miniprojekt ska ni skapa en filmdatabas. Filmerna kommer ni få från ett Javascript objekt men de är i sin tur hämtade från ett api som man kan aktivera när projektet börja närma sig färdigställt. Vi kommer även ha någon funktion som har en koppling till en [Firestore databas](https://console.firebase.google.com/u/0/). Har man ett google konto så kan man gratis skapa ett antal projekt på Googles Firebase annars skapar man ett konto som heter något i stil med sina tre första bokstäver i förnamn och samma i efternamn. Jag har gjort en exempelvideo nedan där jag redovisar mitt projekt och dess tillvägagångsätt, det jag gjorde i Firestore var att jag gjorde en kommentarsfunktion i sidan men ni kan göra annat som tex tummen upp knapp eller favoritlistor. Kika på min video, ta lärdom och gör sedan er egen plan enligt samma principer. Kom ihåg, exakt som i miniräknaren så är planering A-O!
 [Redovisning exempelprojekt](https://web.microsoftstream.com/video/ddec6312-ee1a-492a-9587-b9a3f5d1eb5b)
+I början rekomenderar jag att ni använder min [MoviePoster](https://raw.githubusercontent.com/abbjoafli/Programmering-1/master/2.Svelte/2.MoviesDB/src/store.js) js objekt men när det närmar sig färdigprodukt kan man använda ett riktigt api [api.themoviedb.org](https://api.themoviedb.org/3/discover/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb).
 
-Uppgiftens krav:
+## Uppgiftens krav:
 - Planering med diagram eller psuedokod
 - Wireframe
 - Komponentkarta
+- Databasöverblick
 - FireStore-databas (kommentarer,like, filmlistor eller annat)
 - Webbsida där man kan visa filminfo.
 - Redovisning i en liten video liknande min, försök hålla det kort och konsist till runt 5 minuter.
 - Kommenterad kod
 - Github med beskrivande readme
 
+## Resurser
+- [Svelte Realtime Todo with firebase](https://fireship.io/lessons/svelte-v3-overview-firebase/) (Exempel hur du skapar databas och lite intro, mitt tips är att inte använda rxfire utan istället använda Sveltefire nedan.)
+- [Sveltefire](https://github.com/codediodeio/sveltefire) (Bibliotek för att underlätta användning av firebase i Svelte)
+- CSS
+  - [Learn Box Aligment](https://ishadeed.com/article/learn-box-alignment/)
+  - [Everything About Auto in CSS](https://ishadeed.com/article/auto-css/)
+- [Smelte komponent Bibliotek](https://smeltejs.com)
+
+
 
 
 # 5. Uppkopplad Termometer
-[Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
+![uppkopplad](https://link)
+Nu är det dags för vårt första sammarbetsprojekt. Vi ska gemensamt med de andra teknikämnena skapa en uppkopplad termometer som ska skicka data från en mikrokontrol (Esp 8266) till en databas (Firebase RTDB) och sedan visa det på en hemsida med hjälp av Svelte. Du ska samarbeta med en grupp på två andra elever och alla era värden ska loggas på samma databas och kunna visas ihop både nuvarande värde samt tidigare värden i någon form av grafiskt diagram.
+
+## Uppgiftens krav:
+- Planering med diagram eller psuedokod
+- Wireframe
+- Komponentkarta
+- Databasöverblick
+- FireBase-RealTime Database (logga temperaturvärden för tre enheter, inloggning om man vill.)
+- Webbsida där värdena visas upp, både nuvarande och historiskt.
+- Använd något biblotek för att visa värden som diagram.
+- *Redovisning i en liten video liknande min, försök hålla det kort och konsist till runt 5 minuter.
+- Mikrokontroll som loggar värden från temperaturmätare och skickar upp dessa till databasen.
+- Kommenterad kod.
+- Github med beskrivande readme.
+
+* dessa delar ska varje elev göra indivudellt, man får sammarbeta men alla ska göra sin egen.
 Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
+[Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
+
+## Resurser
+- [Serverless IoTs with Firebase Realtime Database and ESP8266](https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-9937d98d1ae0)[( del 2)](https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-e624304c3197) (Exempel hur man skickar till Firebase RTDB from ESP)
+- [ESP8266 Sent Sensor Data to Firebase Realtime Database](http://microcontrollerkits.blogspot.com/2016/12/esp8266-firebase.html) (Exempel hur man skickar till Firebase RTDB from ESP)
+- [Github rep för Firebase ESP8266](https://github.com/mobizt/Firebase-ESP8266) (Repo för Firebase-ESP8266, mycket fin dokumentation om hur man kan göra.)
+
 
 Det är alltid bra att ha en plan innan man börjar därför skriver jag mitt tillvägagångsätt när jag gör ett sånt här projekt.
 ## Plan
-1. Skapa en plan i pseudokod
-2. Rita en snabb wireframe
-3. Skapa sidan
-   1. HTML - det man ser
-   2. Javascript - det som händer
-   3. CSS - så det ser fint ut
-4. Utvärderar och reflekterar, vad hade jag kunna gjort annorlunda nu i efterhand och vad har jag lärt mig.
-5. *Lägger ut mitt fina projekt på github med en tydlig readme så andra kan nyttja eller återskapa det jag skapat.
-
-Självklart så **kommenterar** jag alltid koden under projektets gång för att göra det enkelt för mig och andra att förstå vad allt gör.
+Nu har du blivit så berrest i programmeringens värld att du och din grupp får ansvara över planeringen själv. Be din lärare starta upp en Planner i Teams och lägg planeringen som ett lag! Ta med dig hur du gjort tidigare, vilka delar som är viktiga att ha med och i vilken ordning de ska göras.
 
 [Här](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/exempelkod/5.Calculator) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
 
 ## Frågor och svar
-### Vad är Pseudokod?
-Pseudokod är det som behöver göras för att skapa ett program fast det är skrivet utan kod. Jag kan skriva på ren svenska eller engelska för att enkelt få en överblick på vilka steg och i vilken ordning jag behöver göra delarna i projektet. [Här](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/exempelkod/5.Calculator/Psuedokod.txt) finns exempel på pseudokoden jag skrev till miniräknaren om man vill jämnföra sin pseudokod med min.
-### Vad är en Wireframe?
-En Wireframe är en snabb skiss över hur man vill att sin hemsida, app eller produkt ska se ut. Den ska inte ta lång tid och behöver inte ha texter eller färger, då blir den en skiss och är nästa steg om man ska skapa ett lite större projekt. Ett tips på hur man kan göra wireframe är via [wireframe.cc](https://wireframe.cc) och sedan använda snipping tool för att spara ner den. För att se min Wireframe klicka [här](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/exempelkod/5.Calculator/wireframe.PNG)
-### Vad är github?
-Github är en projekthanterings sida där man kan spara sina projekt, arbeta tillsammans med andra på dem och dela dem med världen. Har man tid över så är det alltid bra att lägga upp sina projekt där samt en liten readme som berättar vad projektet handlar om. Har man gjort det så svider det lite mindre om datorn skulle gå sönder.
+### Vad är komponentkarta?
+En komponentkarta är en karta över de olika komponenterna i ditt projekt och i vilka komponenter de används, detta för att kunna skapa en tydligare överblick över helheten och underlätta uppdelningen av arbetet om man arbetar i grupp.
+[Exempelbild](https://link)
 
-### Varför reflekterar man?
-"Jag tänker därför finns jag." sa filosofen René Descartes. Samma gäller med våran kod, om vi tar tid att tänka igenom den och komma fram till vad vi kan ha gjort annorlunda för samma eller bättre resultat så blir vi bättre programmerare och det är det som skiljer oss från djuren, våran förmåga att se på vad vi gjort och göra det bättre. För det ju det som är definitionen på galenskap enligt Einstein och han var ju ganska smart.
-Skriv ner dina reflektioner i readmen på din github så kommer du lättare ihåg dem till nästa projekt!
-![fun](https://inspiredbydotcom.files.wordpress.com/2010/12/citat.jpg?w=584)
-
-
+### Vad är Databasöverblick?
+En databasöverblick är en överblick över din databas, vilka olika kategorier finns det samt vilka värden som sparas på dem. När man går igenom databasöverblicken ska man gärna förtydliga vilka delar som kopplar ihop olika kategorier om det så görs. Ett exempel att resturangers id kan vara blåfärgad och då är kopplad för att länka ihop en maträtter med deras resturang om man har två kategorier, maträtter och resturanger.Då har man resturangens id i maträttens kategori.
+[Exempelbild](https://link)
