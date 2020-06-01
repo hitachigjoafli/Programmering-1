@@ -112,7 +112,7 @@ Nu är det dags för vårt första sammarbetsprojekt. Vi ska gemensamt med de an
 - Github med beskrivande readme.
 
 
-  * dessa delar ska varje elev göra individuellt, man får sammarbeta men alla ska göra sin egen.
+(  * dessa delar ska varje elev göra individuellt, man får sammarbeta men alla ska göra sin egen.)
 Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
 
 [Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
