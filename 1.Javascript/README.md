@@ -45,8 +45,10 @@ Självklart så **kommenterar** jag alltid koden under projektets gång för att
 
 ## Resurser
 - [Learn CSS Layout](https://learnlayout.com)
+- 
 
 
+[Livedemo](https://abbjoafli.github.io/Programmering-1/show/Calculator/index.html)
 
 ## Frågor och svar
 ### Vad är Pseudokod?

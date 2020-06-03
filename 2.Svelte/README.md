@@ -45,6 +45,7 @@ Med stor frihet kommer också stort ansvar och därmed så får **du** själv be
 Välj valfri resurs, arbeta efter den och lär känna Svelte och dett sättet att arbeta.
 ## 2. Följ videon och skapa ett Quiz
 [Videolänk](https://web.microsoftstream.com/video/2df723a1-f00a-41a1-9ff6-0a9f9c0ef8a7)
+[Livedemo](https://abbjoafli.github.io/Programmering-1/show/Quiz/index.html)
 [Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/2.QuizParty) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
 
 
@@ -78,6 +79,7 @@ I början rekomenderar jag att ni använder min [MoviePoster](https://raw.github
 
 [Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
 
+[Livedemo](https://abbjoafli.github.io/Programmering-1/show/MovieDB/index.html)
 [Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/4.MoviesDB) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
 
 
@@ -118,7 +120,7 @@ Nu är det dags för vårt första sammarbetsprojekt. Vi ska gemensamt med de an
 Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
 
 [Redovisning exempelprojekt](https://web.microsoftstream.com/video/0db5e655-500e-45b8-80bb-f7f900d4e134)
-
+[Livedemo](https://abbjoafli.github.io/Programmering-1/show/Termometer/index.html)
 [Här](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte/4.MoviesDB) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
 
 
