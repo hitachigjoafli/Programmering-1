@@ -8,6 +8,10 @@ Vi kommer använda Scrimba som är interaktiva videor där du som elev när som 
 
 Känner man att man är mer berest med kodning och Javascript kan man se på videorna mer överblickande, är det så att man är ny med programmering så kika mer noggrant, våga testa och fråga kompisar och lärare för att få bästa möjligheter till att utvecklas.
 
+## Övergripande resurser för denna modul:
+- [W3School HTML](https://www.w3schools.com/html/)
+- [W3School CSS](https://www.w3schools.com/css/default.asp)
+- [W3School Javascript](https://www.w3schools.com/js/default.asp)
 
 # 1.Variabler, if-satser, loopar och objekt
 [Scrimba länk](https://scrimba.com/p/pDyxbfd/cNDGqRTr)
@@ -19,11 +23,22 @@ Känner man att man är mer berest med kodning och Javascript kan man se på vid
 
 
 
-# 3.Arrayer och Metoder
+# 3.Arrayer och Funktioner
 [Scrimba länk](https://scrimba.com/c/crG7vRSK)
+
+## Resurser
+- [Mozilla Funktioner](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- [Mozilla Arrayer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [W3School Javascript Funktioner](https://www.w3schools.com/js/js_functions.asp)
+- [W3School Javascript Arrayer](https://www.w3schools.com/js/js_arrays.asp)
 
 # 4.HTML CSS
 [Scrimba länk](https://scrimba.com/c/cp37vkC9)
+
+## Resurser
+- [W3School HTML](https://www.w3schools.com/html/)
+- [W3School CSS](https://www.w3schools.com/css/default.asp)
+- [W3School Javascript](https://www.w3schools.com/js/default.asp)
 
 # 5.Miniprojekt - Miniräknare
 Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
