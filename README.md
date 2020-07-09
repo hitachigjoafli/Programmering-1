@@ -1,5 +1,5 @@
 # Programmering-1
-Välkommen till kursen Programmering 1 på ABB Industrigymnasium 2020.UJnder kursens gång kommer vi gå igenom tre olika språk/ramverk för att programmera på webben. Vi börjar med Javascript och går sedan in på javascriptramverken Svelte och Vue för att enklare och snabbare kunna göra stora och coola saker.
+Välkommen till kursen Programmering 1 på ABB Industrigymnasium 2020. Under kursens gång kommer vi gå igenom tre olika språk/ramverk för att programmera på webben. Vi börjar med Javascript och går sedan in på javascriptramverken Svelte och Vue för att enklare och snabbare kunna göra stora och coola saker.
 
 Dessa delas in i tre områden där varje område kommer bestå av en träningsdel med uppgifter där vi lär oss grunderna för just det ramverket och sedan ett litet kul projekt för att låta oss använda det vi lärt oss. I de två senare fallen kommer vi även samarbeta med andra kurser för att skapa en uppkopplad termometer samt smart belysning.
 
