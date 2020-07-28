@@ -7,7 +7,7 @@ De tre delarna:
 1. [Javascript](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript)
 2. [Svelte](https://github.com/abbjoafli/Programmering-1/tree/master/2.Svelte)
 3. [Vue](https://github.com/abbjoafli/Programmering-1/tree/master/3.Vue)
-![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/plankurs.PNG?raw=true)
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/plankurs.png?raw=true)
 
 [Alla större uppgifter i kursens gång kommer ha en livedemo här.](https://abbjoafli.github.io/Programmering-1/)
 
