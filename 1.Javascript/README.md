@@ -11,7 +11,10 @@ Känner man att man är mer berest med kodning och Javascript kan man se på vid
 ## Övergripande resurser för denna modul:
 - [W3School HTML](https://www.w3schools.com/html/)
 - [W3School CSS](https://www.w3schools.com/css/default.asp)
+- [HTML/CSS av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)
 - [W3School Javascript](https://www.w3schools.com/js/default.asp)
+- [Modern Javascript](https://javascript.info/)
+- [Modern Javascript av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 # 1.Variabler, if-satser, loopar och objekt
 [Scrimba länk](https://scrimba.com/p/pDyxbfd/cNDGqRTr)
