@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\PokemonList.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n  import { onMount } from \"svelte\";\r\n  let pokemons = []\r\n  let currentPokemon = null\r\n\r\n  onMount(async () => {\r\n    const res = await fetch('https://pokeapi.co/api/v2/pokemon')\r\n    const data = await res.json()\r\n    pokemons = data.results\r\n  })\r\n\r\n  async function showPokemonDetails(url) {\r\n    const res = await fetch(url)\r\n    currentPokemon = await res.json()\r\n    console.log(currentPokemon)\r\n  }\r\n</script>  \r\n  \r\n<ol>\r\n  {#each pokemons as pokemon}\r\n    <li><button on:click=\"{async () => await showPokemonDetails(pokemon.url)}\">{pokemon.name}</button></li>  \r\n  {/each}\r\n</ol>\r\n  \r\n{#if currentPokemon != null}  \r\n  <div class=\"card\">\r\n    <img src=\"{currentPokemon.sprites.front_default}\" alt=\"Avatar\" style=\"width:200px\">\r\n    <div class=\"container\">\r\n      <h4><b>{currentPokemon.name}</b></h4>\r\n      <p>Architect & Engineer</p>\r\n    </div>\r\n  </div>\r\n{/if}\r\n\r\n<style>\r\n  .card {\r\n    /* Add shadows to create the \"card\" effect */\r\n    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);\r\n    transition: 0.3s;\r\n  }\r\n\r\n  /* On mouse-over, add a deeper shadow */\r\n  .card:hover {\r\n    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\r\n  }\r\n\r\n  /* Add some padding inside the card container */\r\n  .container {\r\n    padding: 2px 16px;\r\n  }\r\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAmCE,KAAK,cAAC,CAAC,AAEL,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CACvC,UAAU,CAAE,IAAI,AAClB,CAAC,AAGD,mBAAK,MAAM,AAAC,CAAC,AACX,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,AAC1C,CAAC,AAGD,UAAU,cAAC,CAAC,AACV,OAAO,CAAE,GAAG,CAAC,IAAI,AACnB,CAAC"
+}
