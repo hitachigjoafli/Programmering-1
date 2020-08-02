@@ -55,7 +55,7 @@ Välj valfri resurs, arbeta efter den och lär känna Svelte och dett sättet at
 Här kommer Jeton Posta ett fint uppgift.
 
 ## Resurser
-- Grunderna i HTTP protokollet(http://www.steves-internet-guide.com/http-basics/)
+- [Grunderna i HTTP protokollet](http://www.steves-internet-guide.com/http-basics/)
 - [Consuming REST APIs in Svelte](https://blog.logrocket.com/consuming-rest-apis-in-svelte/)
 - [PokeAPi](https://pokeapi.co)
 - [superhero-api](https://akabab.github.io/superhero-api/)
