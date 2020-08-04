@@ -2,7 +2,7 @@
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/planjs.PNG?raw=true)
 ## Intro
-I detta första kapitel i våran resa i kursen programmering 1 så ska vi lära oss grunderna i Javascript. Javascript är ett webbbaserat kodspråk som får allt större uppmärksamhet varje dag på grund av att man kan göra mer saker via webben på grund av teknisk utveckling och framsteg med utbyggandet av uppkopling som möjligör större och mer avancerande saker genom webbläsaren.
+I detta första kapitel i våran resa i kursen programmering 1 så ska vi lära oss grunderna i HTML/CSS/Javascript. Javascript är ett webbbaserat kodspråk som får allt större uppmärksamhet varje dag på grund av att man kan göra mer saker via webben på grund av teknisk utveckling och framsteg med utbyggandet av uppkopling som möjligör större och mer avancerande saker genom webbläsaren.
 
 Vi kommer använda Scrimba som är interaktiva videor där du som elev när som helst under videons gång kan pausa och börja programmera rätt i videon. Exempelkod för dessa videor ligger även här i undermappen exempelkod.
 
