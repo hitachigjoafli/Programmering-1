@@ -27,7 +27,7 @@ Vi kommer använda oss av en kod-editor som heter Visual Studio Code. Så börja
 <https://code.visualstudio.com/download>
 
 För att kunna köra Javascript utanför webbläsaren så behöver vi något som förstår och kan köra (exekvera) javascript kod. För det kommer vi använda körningsprogrammet Node.js.
-Ladda ner och installera Node.js på den här länken:
+<br>Ladda ner och installera Node.js på den här länken:
 <https://nodejs.org/en/download>
 
 ## Övergripande resurser för denna modul:
