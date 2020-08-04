@@ -2,12 +2,19 @@
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/planjs.PNG?raw=true)
 ## Intro
-I detta första kapitel i våran resa i kursen programmering 1 så ska vi lära oss grunderna i HTML/CSS/Javascript. Javascript är ett webbbaserat kodspråk som får allt större uppmärksamhet varje dag på grund av att man kan göra mer saker via webben på grund av teknisk utveckling och framsteg med utbyggandet av uppkopling som möjligör större och mer avancerande saker genom webbläsaren.
+I detta första kapitel i våran resa i kursen programmering 1 så ska vi lära oss grunderna i Javascript/HTML/CSS. Javascript är programmeringsspråket som körs i webbapplikationer och används för att kontrollera webbläsaren vilket resulterar i mer interaktiva webbsidor.
+
+Det här är Wikipedias defintion på Javascript:
+
+>Javascript, i marknadsföringssyfte skrivet JavaScript och förkortat JS, är ett prototyp-baserat skriptspråk som är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt. Javascript används främst på klientsidan i webbtillämpningar, det vill säga exekveras i en webbläsares Javascriptmotor. Då Javascript används i webbläsare arbetar det mot ett gränssnitt som kallas Document Object Model (DOM). Vanligtvis inbäddas Javascript i, eller inkluderas från, HTML-sidor. Exempel på användningsområden är kontroll av ifyllda fält innan formulär skickas till en server, funktioner för att visa eller dölja delar av en sida och växling av annonsbilder med visst intervall. Javascript kan även användas för mer avancerade funktioner i en webbläsare såsom spel och bildbehandling.
+Skriptspråket kan implementeras i andra program än webbläsare. Ett numera vanligt exempel av implementation utanför webbläsaren är Node.js, som tillåter utvecklaren att använda Javascript på serversidan för att kunna arbeta med anslutningar till databaser, skicka e-post-meddelanden och så vidare.
 
 Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text, Youtube videor och interaktiva videor i Scrimba.
 Scrimba är interaktiva videor där du som elev när som helst under videons gång kan pausa och börja programmera rätt i videon. Exempelkod för dessa videor ligger även här i undermappen exempelkod.
 
-Känner man att man är mer berest med kodning och Javascript kan man se på videorna mer överblickande, är det så att man är ny med programmering så kika mer noggrant, våga testa och fråga kompisar och lärare för att få bästa möjligheter till att utvecklas.
+Våga testa och fråga kompisar och lärare för att få bästa möjligheter till att utvecklas.
+
+För at
 
 ## Övergripande resurser för denna modul:
 - [W3School HTML](https://www.w3schools.com/html/)
