@@ -21,12 +21,12 @@ Våga testa och fråga kompisar och lärare för att få bästa möjligheter til
 
 Till varje del så kommer det finnas lite övningsuppgifter.
 
-När vi skriver programmeringskod i oavsett vilket språk så behöver vi en kod-editor för att skriva koden på samma sätt som vi behöver Microsoft Word när vi vill skriva dokument.
+När vi skriver programmeringskod i oavsett vilket språk så behöver vi en kod-editor för att skriva koden i, på samma sätt som vi använder Microsoft Word när vi vill skriva dokument.
 
 Vi kommer använda oss av en kod-editor som heter Visual Studio Code. Så börja med att ladda ner och installera den på den här länken:
 <https://code.visualstudio.com/download>
 
-För att kunna köra Javascript utanför webbläsaren så behöver vi något som förstår och kan köra (exekvera) javascript kod. För det kommer vi använda körningsprogrammet Node.js.
+För att kunna köra Javascript utanför webbläsaren så behöver vi något som förstår och kan köra (exekvera) javascript koden. För det kommer vi använda körningsprogrammet Node.js.
 <br>Ladda ner och installera Node.js på den här länken:
 <https://nodejs.org/en/download>
 
