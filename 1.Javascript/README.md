@@ -2,19 +2,33 @@
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/planjs.PNG?raw=true)
 ## Intro
-I detta första kapitel i våran resa i kursen programmering 1 så ska vi lära oss grunderna i Javascript/HTML/CSS. Javascript är programmeringsspråket som körs i webbapplikationer och används för att kontrollera webbläsaren vilket resulterar i mer interaktiva webbsidor.
+I det här första kapitlet på våran resa i kursen programmering 1 så ska vi lära oss grunderna i Javascript/HTML/CSS. Javascript är programmeringsspråket som körs i webbapplikationer och används för att kontrollera webbläsaren vilket resulterar i mer interaktiva webbsidor. På senare tid använder man även Javascript utanför webbläsaren som t.ex. i mobilappar och serverapplikationer. Instagram och Facebook mobilapparna är exempel på appar som är utvecklade i Javascript.
 
 Det här är Wikipedias defintion på Javascript:
 
->Javascript, i marknadsföringssyfte skrivet JavaScript och förkortat JS, är ett prototyp-baserat skriptspråk som är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt. Javascript används främst på klientsidan i webbtillämpningar, det vill säga exekveras i en webbläsares Javascriptmotor. Då Javascript används i webbläsare arbetar det mot ett gränssnitt som kallas Document Object Model (DOM). Vanligtvis inbäddas Javascript i, eller inkluderas från, HTML-sidor. Exempel på användningsområden är kontroll av ifyllda fält innan formulär skickas till en server, funktioner för att visa eller dölja delar av en sida och växling av annonsbilder med visst intervall. Javascript kan även användas för mer avancerade funktioner i en webbläsare såsom spel och bildbehandling.
-Skriptspråket kan implementeras i andra program än webbläsare. Ett numera vanligt exempel av implementation utanför webbläsaren är Node.js, som tillåter utvecklaren att använda Javascript på serversidan för att kunna arbeta med anslutningar till databaser, skicka e-post-meddelanden och så vidare.
+>Javascript, i marknadsföringssyfte skrivet JavaScript och förkortat JS, är ett prototyp-baserat skriptspråk som är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt. Javascript används främst på klientsidan i webbtillämpningar, det vill säga exekveras i en webbläsares Javascriptmotor. Då Javascript används i webbläsare arbetar det mot ett gränssnitt som kallas Document Object Model (DOM). 
+>
+>Vanligtvis inbäddas Javascript i, eller inkluderas från, HTML-sidor. Exempel på användningsområden är kontroll av ifyllda fält innan formulär skickas till en server, funktioner för att visa eller dölja delar av en sida och växling av annonsbilder med visst intervall. Javascript kan även användas för mer avancerade funktioner i en webbläsare såsom spel och bildbehandling.
+>
+>Skriptspråket kan implementeras i andra program än webbläsare. Ett numera vanligt exempel av implementation utanför webbläsaren är Node.js, som tillåter utvecklaren att använda Javascript på serversidan för att kunna arbeta med anslutningar till databaser, skicka e-post-meddelanden och så vidare.
 
-Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text, Youtube videor och interaktiva videor i Scrimba.
+Detta är en mer teknisk beskrivning som vi kommer förstå bättre när vi är klara med javascript delen.
+
+Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text, Youtube-videor och interaktiva videor i Scrimba.
 Scrimba är interaktiva videor där du som elev när som helst under videons gång kan pausa och börja programmera rätt i videon. Exempelkod för dessa videor ligger även här i undermappen exempelkod.
 
 Våga testa och fråga kompisar och lärare för att få bästa möjligheter till att utvecklas.
 
-För at
+Till varje del så kommer det finnas lite övningsuppgifter.
+
+När vi skriver programmeringskod i oavsett vilket språk så behöver vi en kod-editor för att skriva koden på samma sätt som vi behöver Microsoft Word när vi vill skriva dokument.
+
+Vi kommer använda oss av en kod-editor som heter Visual Studio Code. Så börja med att ladda ner och installera den på den här länken:
+<https://code.visualstudio.com/download>
+
+För att kunna köra Javascript utanför webbläsaren så behöver vi något som förstår och kan köra (exekvera) javascript kod. För det kommer vi använda körningsprogrammet Node.js.
+Ladda ner och installera Node.js på den här länken:
+<https://nodejs.org/en/download>
 
 ## Övergripande resurser för denna modul:
 - [W3School HTML](https://www.w3schools.com/html/)
