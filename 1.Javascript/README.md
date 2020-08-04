@@ -4,7 +4,8 @@
 ## Intro
 I detta första kapitel i våran resa i kursen programmering 1 så ska vi lära oss grunderna i HTML/CSS/Javascript. Javascript är ett webbbaserat kodspråk som får allt större uppmärksamhet varje dag på grund av att man kan göra mer saker via webben på grund av teknisk utveckling och framsteg med utbyggandet av uppkopling som möjligör större och mer avancerande saker genom webbläsaren.
 
-Vi kommer använda Scrimba som är interaktiva videor där du som elev när som helst under videons gång kan pausa och börja programmera rätt i videon. Exempelkod för dessa videor ligger även här i undermappen exempelkod.
+Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text, Youtube videor och interaktiva videor i Scrimba.
+Scrimba är interaktiva videor där du som elev när som helst under videons gång kan pausa och börja programmera rätt i videon. Exempelkod för dessa videor ligger även här i undermappen exempelkod.
 
 Känner man att man är mer berest med kodning och Javascript kan man se på videorna mer överblickande, är det så att man är ny med programmering så kika mer noggrant, våga testa och fråga kompisar och lärare för att få bästa möjligheter till att utvecklas.
 
