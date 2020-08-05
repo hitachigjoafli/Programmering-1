@@ -45,6 +45,9 @@ Inne i Visual Studio Code skapa en javascript fil som heter *test.js*, i test.js
 `console.log("Mitt första javascript program!")`
 Öppna sedan terminal fönstret i Visual Studio Code finns under View -> Terminal och skriv in `node test`, då ska ni se följande utskrift:
 
+(https://github.com/abbjoafli/Programmering-1/blob/master/img/first_javascript_program.PNG?raw=true)
+
+Grattis du har skapat och kört ditt första javascript program!
 
 
 # 1. Variabler, if-satser, loopar och objekt
