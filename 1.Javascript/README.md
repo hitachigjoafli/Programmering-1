@@ -50,7 +50,7 @@ Inne i Visual Studio Code skapa en javascript fil som heter *test.js*, i test.js
 Grattis du har skapat och kört ditt första javascript program!
 
 
-# 1. Variabler, datatyper, if-satser, loopar och objekt
+# 1. Variabler, datatyper, jämförelser, if-satser, loopar och objekt
 [Scrimba länk](https://scrimba.com/p/pDyxbfd/cNDGqRTr)
 
 [Stega igenom koden](http://pythontutor.com/live.html#code=%0A//Numbers%0Alet%20number%3D431%3B%0Alet%20number2%3D45%3B%0Alet%20answer%3D%20number%2Bnumber2%3B%20//First%20and%20second%20number%20added%20together%0Aconsole.log%28answer%29%20//Print%20out%20the%20answer%0Aconsole.log%28answer-number2%29%20//Answer%20minus%20the%20second%20number%0Alet%20anotheranswer%3D%20answer*2/number2%3B%20//A%20more%20complicated%20answer%0Aconsole.log%28anotheranswer%29%20%0A%0A%0Alet%20fname%3D%20%22Joakim%22%20//First%20name%0Alet%20lname%3D%20%22Flink%22%20//Last%20name%0A%0Alet%20name%3D%20fname%2B%20lname%3B%20//First%20and%20lastname%0A%0Aname%3D%20fname%2B%22%20%22%2B%20lname%3B%20//Changed%20the%20the%20name%20variable%0A%0Aconsole.log%28name%29%20%0A%0A%0A//Boolean%20true%20or%20false%0Alet%20LivesAtHome%3D%20false%0Aconsole.log%28%22Lives%20at%20home%20%22%2BLivesAtHome%29%20//%20text%20%2B%20Boolean%20variable%0A%0A%0A//Array%20of%20cats%0Alet%20Cats%3D%20%5B%22Arvid%22,%22Andy%22,%22Vince%22%5D%0A%0Aconsole.log%28%22The%20cats%20%22%2BCats%29%0A//Foreach%20object%20in%20Cat%20array%0ACats.forEach%28Cat%20%3D%3E%20%7B%0A%20%20%20%20if%28Cat.length%3E4%29%0Aconsole.log%28%22The%20cat's%20name%20is%20%22%2BCat%29%0A%0A%7D%29%3B%0A%0A//Object%0Alet%20CatArvid%3D%7Bname%3A%22Arvid%22,%20weight%3A10,%20likes%3A%5B%22Eating%22,%20%22Sleeping%22,%22Chasing%20flies%22%5D,%20lazy%3Atrue%20%7D%0A%0Aconsole.log%28CatArvid%29%0Aconsole.log%28CatArvid.weight%29%0A%0Aconsole.log%28typeof%28CatArvid.weight%29%29%0Aconsole.log%28CatArvid.name%2B%22%20the%20cat%20weight%20is%20%22%2BCatArvid.weight%2B%22%20kg%22%29%0Aif%28CatArvid.lazy%3D%3Dtrue%29%0Aconsole.log%28CatArvid.name%2B%22%20%C3%A4r%20lat!%22%29%0Aelse%20if%28CatArvid.weight%3C%3D10%29%0Aconsole.log%28CatArvid.name%2B%22%20%20kan%20beh%C3%B6va%20tappa%20lite%20vikt!%22%29%0Aelse%0Aconsole.log%28CatArvid.name%2B%22%20%C3%A4r%20en%20liten%20katt%20som%20beh%C3%B6ver%20%C3%A4ta%20lite!%22%29%0A&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
@@ -128,6 +128,36 @@ Vad är resultatet av dessa uttryck?
 14. undefined + 1
 15. " \t \n" - 2
 ```
+
+### Jämförelser
+**Övning 1. Vad blir resultatet för dessa uttryck?
+``` 
+5 > 4
+"apple" > "pineapple"
+"2" > "12"
+undefined == null
+undefined === null
+null == "\n0\n"
+null === +"\n0\n"
+```
+
+### If-satser
+**Övning 1. If (en sträng med noll)<br>
+Kommer `Hejsan!` att visas?
+```
+if ("0") {
+  console.log( 'Hejsan!' );
+}
+```
+
+**Övning 2. Namnet Javascript**<br>
+Med if..else-konstruktionen, skriv koden som frågar: "Vad är det" officiella "namnet på JavaScript?"
+
+Om besökaren skriver in "ECMAScript", skickar du ut "Right!", Annars - output: "Visste inte det? ECMAScript!”
+![Första Javascript programmet!](https://github.com/abbjoafli/Programmering-1/blob/master/img/first_javascript_program.PNG?raw=true)
+**Övning 3.**
+**Övning 4.**
+
 
 # 2. Ifsatser och loopar fördjupning
 [Scrimba länk](https://scrimba.com/c/caZNqwcL)
