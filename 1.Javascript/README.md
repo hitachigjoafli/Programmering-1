@@ -154,7 +154,7 @@ if ("0") {
 Med if..else-konstruktionen, skriv koden som frågar: "Vad är det" officiella "namnet på JavaScript?"
 
 Om besökaren skriver in "ECMAScript", skickar du ut "Right!", Annars - output: "Visste inte det? ECMAScript!”
-![Första Javascript programmet!](https://github.com/abbjoafli/Programmering-1/blob/master/img/first_javascript_program.PNG?raw=true)
+![Första Javascript programmet!](https://github.com/abbjoafli/Programmering-1/blob/master/img/if_exercise_3.png?raw=true)
 **Övning 3.**
 **Övning 4.**
 
