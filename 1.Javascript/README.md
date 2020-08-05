@@ -95,11 +95,13 @@ Grattis du har skapat och kört ditt första javascript program!
 **Övning 1 - Postfix och prefix formerna**
 
 1. Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
-   let a = 1, b = 1;
-   
-   let c = ++a; // ?
-   let d = b++; // ?
-   
+```
+let a = 1, b = 1;
+
+let c = ++a; // ?
+let d = b++; // ?
+```
+
 # 2. Ifsatser och loopar fördjupning
 [Scrimba länk](https://scrimba.com/c/caZNqwcL)
 
