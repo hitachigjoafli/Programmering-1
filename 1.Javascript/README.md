@@ -60,9 +60,15 @@ Grattis du har skapat och kört ditt första javascript program!
 - [W3School Objects](https://www.w3schools.com/js/js_objects.asp)
 
 ## Övningsuppgifter
-- [Variabler](https://javascript.info/variables#tasks)
-- [Datatyper](https://javascript.info/types#tasks)
-- [Operatorer](https://javascript.info/types#tasks)
+### Variabler
+Övning 1.
+   1. Deklarera två variabler: `admin` och `name`.
+   2. Tilldela värdet `John` till `name`.
+   3. Kopiera värdet från `name` till `admin`.
+   4. Skriv ut värdet på `admin` i konsolen med `console.log()` (borde visa "John")
+### Datatyper
+### Operatorer
+
 # 2. Ifsatser och loopar fördjupning
 [Scrimba länk](https://scrimba.com/c/caZNqwcL)
 
