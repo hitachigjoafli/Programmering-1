@@ -77,7 +77,7 @@ Grattis du har skapat och kört ditt första javascript program!
    3. Skriv ut `pi` till konsolen, vad händer och varför?
 
 ### Datatyper
-**Övning 1 - Skriv ut datatyperna**
+**Övning 1 - Skriv ut datatyperna** <br>
   Skriv ut till konsolen typerna på följande datatyper med `typeof` konstruktionen
   1. `undefined`  
   2. `0`
@@ -89,8 +89,17 @@ Grattis du har skapat och kört ditt första javascript program!
   8. `null`
   9. `5 > 4`
   
+  Blev utskrifterna det du förväntade dig?
+  
 ### Operatorer
+**Övning 1 - Postfix och prefix formerna**
 
+1. Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
+   let a = 1, b = 1;
+   
+   let c = ++a; // ?
+   let d = b++; // ?
+   
 # 2. Ifsatser och loopar fördjupning
 [Scrimba länk](https://scrimba.com/c/caZNqwcL)
 
