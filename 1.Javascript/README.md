@@ -101,6 +101,33 @@ let a = 1, b = 1;
 let c = ++a; // ?
 let d = b++; // ?
 ```
+**Övning 2 - tilldelningsresultat**
+Vilka är värdena för a och x efter koden nedan?
+```
+let a = 2;
+
+let x = 1 + (a *= 2);
+```
+
+**Övning 3 - typkonverteringar** 
+Vad är resultatet av dessa uttryck?
+```
+1. "" + 1 + 0
+2. "" - 1 + 0
+3. true + false
+4. 6 / "3"
+5. "2" * "3"
+6. 4 + 5 + "px"
+7. "$" + 4 + 5
+8. "4" - 2
+9. "4px" - 2
+10. 7 / 0
+11. "  -9  " + 5
+12. "  -9  " - 5
+13. null + 1
+14. undefined + 1
+15. " \t \n" - 2
+```
 
 # 2. Ifsatser och loopar fördjupning
 [Scrimba länk](https://scrimba.com/c/caZNqwcL)
