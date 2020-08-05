@@ -101,7 +101,7 @@ let a = 1, b = 1;
 let c = ++a; // ?
 let d = b++; // ?
 ```
-**Övning 2 - tilldelningsresultat**
+**Övning 2 - tilldelningsresultat**<br>
 Vilka är värdena för a och x efter koden nedan?
 ```
 let a = 2;
@@ -109,7 +109,7 @@ let a = 2;
 let x = 1 + (a *= 2);
 ```
 
-**Övning 3 - typkonverteringar** 
+**Övning 3 - typkonverteringar**<br>
 Vad är resultatet av dessa uttryck?
 ```
 1. "" + 1 + 0
@@ -130,7 +130,7 @@ Vad är resultatet av dessa uttryck?
 ```
 
 ### Jämförelser
-**Övning 1. Vad blir resultatet för dessa uttryck?
+**Övning 1. Vad blir resultatet för dessa uttryck?**
 ``` 
 5 > 4
 "apple" > "pineapple"
@@ -142,7 +142,7 @@ null === +"\n0\n"
 ```
 
 ### If-satser
-**Övning 1. If (en sträng med noll)<br>
+**Övning 1. If (en sträng med noll)**<br>
 Kommer `Hejsan!` att visas?
 ```
 if ("0") {
@@ -151,13 +151,32 @@ if ("0") {
 ```
 
 **Övning 2. Namnet Javascript**<br>
-Med if..else-konstruktionen, skriv koden som frågar: "Vad är det" officiella "namnet på JavaScript?"
+Med `if..else`-konstruktionen, skriv koden som frågar: "Vad är det officiella namnet på JavaScript?"
 
-Om besökaren skriver in "ECMAScript", skickar du ut "Right!", Annars - output: "Visste inte det? ECMAScript!”
+Om besökaren skriver in "ECMAScript", skriver du ut "Korrekt!", Annars skriver du ut: "Du vet inte? ECMAScript!”
 ![Första Javascript programmet!](https://github.com/abbjoafli/Programmering-1/blob/master/img/if_exercise_3.png?raw=true)
-**Övning 3.**
-**Övning 4.**
+<br>
 
+**Övning 3. Visa tecknet**<br>
+Använd `if..else` och skriv koden som tar in ett nummer via konsolen och visar sedan i konsolen beroende på värdet:
+
+- `1`, om värdet är större än noll,
+- `-1`, om mindre än noll,
+- `0`, om det är lika med noll.
+
+I denna uppgift antar vi att vi alltid får ett nummer.
+
+**Övning 4. Skriv om 'if' med '?'**<br>
+Skriv om `if` så att vi istället använder `?` operatorn:
+```
+let result;
+
+if (a + b < 4) {
+  result = 'Below';
+} else {
+  result = 'Over';
+}
+```
 
 # 2. Ifsatser och loopar fördjupning
 [Scrimba länk](https://scrimba.com/c/caZNqwcL)
