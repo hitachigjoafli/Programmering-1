@@ -61,22 +61,34 @@ Grattis du har skapat och kört ditt första javascript program!
 
 ## Övningsuppgifter
 ### Variabler
-Övning 1 - Jobba med variabler
+**Övning 1 - Jobba med variabler**
    1. Deklarera två variabler: `admin` och `name`.
    2. Tilldela värdet `John` till `name`.
    3. Kopiera värdet från `name` till `admin`.
    4. Skriv ut värdet på `admin` i konsolen med `console.log()` (borde visa "John").
 
-Övning 2 - Rätt namngivning på variabler
+**Övning 2 - Rätt namngivning på variabler**
    1. Skapa en variabel med namnet på vår planet. Hur skulle du namnge en sådan variabel?
    2. Skapa en variabel för att lagra namnet på en aktuell besökare på en webbplats. Hur skulle du namnge den variabeln?
 
-Övning 3 - Jobba med konstanter
+**Övning 3 - Jobba med konstanter**
    1. Skapa en konstant `pi` med pi-värdet och 3 decimaler.
    2. Tilldela `pi` ett annat värde.
    3. Skriv ut `pi` till konsolen, vad händer och varför?
 
 ### Datatyper
+**Övning 1 - Skriv ut datatyperna**
+  Skriv ut till konsolen typerna på följande datatyper med `typeof` konstruktionen
+  1. `undefined`  
+  2. `0`
+  3. `3.14`
+  4. `"3.14"`
+  5. `true`
+  6. `"foo"`
+  7. `Math`
+  8. `null`
+  9. `5 > 4`
+  
 ### Operatorer
 
 # 2. Ifsatser och loopar fördjupning
