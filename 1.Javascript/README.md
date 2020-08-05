@@ -66,13 +66,16 @@ Grattis du har skapat och kört ditt första javascript program!
    2. Tilldela värdet `John` till `name`.
    3. Kopiera värdet från `name` till `admin`.
    4. Skriv ut värdet på `admin` i konsolen med `console.log()` (borde visa "John").
+
 Övning 2 - Rätt namngivning på variabler
    1. Skapa en variabel med namnet på vår planet. Hur skulle du namnge en sådan variabel?
    2. Skapa en variabel för att lagra namnet på en aktuell besökare på en webbplats. Hur skulle du namnge den variabeln?
+
 Övning 3 - Jobba med konstanter
    1. Skapa en konstant `pi` med pi-värdet och 3 decimaler.
    2. Tilldela `pi` ett annat värde.
    3. Skriv ut `pi` till konsolen, vad händer och varför?
+
 ### Datatyper
 ### Operatorer
 
