@@ -2,7 +2,7 @@
 1. [Variabler](##1.1-variabler)
 2. [Datatyper](##1.2-datatyper)
 
-##1.1 Variabler
+## 1.1 Variabler
 ### Övningsuppgifter
 **Övning 1 - Jobba med variabler**
    1. Deklarera två variabler: `admin` och `name`.
@@ -19,7 +19,7 @@
    2. Tilldela `pi` ett annat värde.
    3. Skriv ut `pi` till konsolen, vad händer och varför?
    
-##1.2 Datatyper
+## 1.2 Datatyper
 ### Övningsuppgifter
 **Övning 1 - Skriv ut datatyperna** <br>
   Skriv ut till konsolen typerna på följande datatyper med `typeof` konstruktionen
