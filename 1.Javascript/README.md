@@ -22,11 +22,13 @@ Våga testa och fråga kompisar och lärare för att få bästa möjligheter til
 Till varje del så kommer det finnas lite övningsuppgifter.
 
 ## Övergripande resurser för denna modul:
+- [Modern Javascript](https://javascript.info/)
+- [Scrimba länk - variabler, if-satser, loopar och object](https://scrimba.com/p/pDyxbfd/cNDGqRTr)
+- [Scrimba länk - If-satser och loopar fördjupning](https://scrimba.com/c/caZNqwcL)
 - [W3School HTML](https://www.w3schools.com/html/)
 - [W3School CSS](https://www.w3schools.com/css/default.asp)
 - [HTML/CSS av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)
 - [W3School Javascript](https://www.w3schools.com/js/default.asp)
-- [Modern Javascript](https://javascript.info/)
 - [Modern Javascript av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 # 0. Sätt upp utvecklingsmiljön
@@ -51,16 +53,16 @@ Grattis du har skapat och kört ditt första javascript program!
 
 
 # 1. Variabler, datatyper, jämförelser, if-satser, loopar och objekt
-[Scrimba länk](https://scrimba.com/p/pDyxbfd/cNDGqRTr)
 
-[Stega igenom koden](http://pythontutor.com/live.html#code=%0A//Numbers%0Alet%20number%3D431%3B%0Alet%20number2%3D45%3B%0Alet%20answer%3D%20number%2Bnumber2%3B%20//First%20and%20second%20number%20added%20together%0Aconsole.log%28answer%29%20//Print%20out%20the%20answer%0Aconsole.log%28answer-number2%29%20//Answer%20minus%20the%20second%20number%0Alet%20anotheranswer%3D%20answer*2/number2%3B%20//A%20more%20complicated%20answer%0Aconsole.log%28anotheranswer%29%20%0A%0A%0Alet%20fname%3D%20%22Joakim%22%20//First%20name%0Alet%20lname%3D%20%22Flink%22%20//Last%20name%0A%0Alet%20name%3D%20fname%2B%20lname%3B%20//First%20and%20lastname%0A%0Aname%3D%20fname%2B%22%20%22%2B%20lname%3B%20//Changed%20the%20the%20name%20variable%0A%0Aconsole.log%28name%29%20%0A%0A%0A//Boolean%20true%20or%20false%0Alet%20LivesAtHome%3D%20false%0Aconsole.log%28%22Lives%20at%20home%20%22%2BLivesAtHome%29%20//%20text%20%2B%20Boolean%20variable%0A%0A%0A//Array%20of%20cats%0Alet%20Cats%3D%20%5B%22Arvid%22,%22Andy%22,%22Vince%22%5D%0A%0Aconsole.log%28%22The%20cats%20%22%2BCats%29%0A//Foreach%20object%20in%20Cat%20array%0ACats.forEach%28Cat%20%3D%3E%20%7B%0A%20%20%20%20if%28Cat.length%3E4%29%0Aconsole.log%28%22The%20cat's%20name%20is%20%22%2BCat%29%0A%0A%7D%29%3B%0A%0A//Object%0Alet%20CatArvid%3D%7Bname%3A%22Arvid%22,%20weight%3A10,%20likes%3A%5B%22Eating%22,%20%22Sleeping%22,%22Chasing%20flies%22%5D,%20lazy%3Atrue%20%7D%0A%0Aconsole.log%28CatArvid%29%0Aconsole.log%28CatArvid.weight%29%0A%0Aconsole.log%28typeof%28CatArvid.weight%29%29%0Aconsole.log%28CatArvid.name%2B%22%20the%20cat%20weight%20is%20%22%2BCatArvid.weight%2B%22%20kg%22%29%0Aif%28CatArvid.lazy%3D%3Dtrue%29%0Aconsole.log%28CatArvid.name%2B%22%20%C3%A4r%20lat!%22%29%0Aelse%20if%28CatArvid.weight%3C%3D10%29%0Aconsole.log%28CatArvid.name%2B%22%20%20kan%20beh%C3%B6va%20tappa%20lite%20vikt!%22%29%0Aelse%0Aconsole.log%28CatArvid.name%2B%22%20%C3%A4r%20en%20liten%20katt%20som%20beh%C3%B6ver%20%C3%A4ta%20lite!%22%29%0A&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
+<!-- [Stega igenom koden](http://pythontutor.com/live.html#code=%0A//Numbers%0Alet%20number%3D431%3B%0Alet%20number2%3D45%3B%0Alet%20answer%3D%20number%2Bnumber2%3B%20//First%20and%20second%20number%20added%20together%0Aconsole.log%28answer%29%20//Print%20out%20the%20answer%0Aconsole.log%28answer-number2%29%20//Answer%20minus%20the%20second%20number%0Alet%20anotheranswer%3D%20answer*2/number2%3B%20//A%20more%20complicated%20answer%0Aconsole.log%28anotheranswer%29%20%0A%0A%0Alet%20fname%3D%20%22Joakim%22%20//First%20name%0Alet%20lname%3D%20%22Flink%22%20//Last%20name%0A%0Alet%20name%3D%20fname%2B%20lname%3B%20//First%20and%20lastname%0A%0Aname%3D%20fname%2B%22%20%22%2B%20lname%3B%20//Changed%20the%20the%20name%20variable%0A%0Aconsole.log%28name%29%20%0A%0A%0A//Boolean%20true%20or%20false%0Alet%20LivesAtHome%3D%20false%0Aconsole.log%28%22Lives%20at%20home%20%22%2BLivesAtHome%29%20//%20text%20%2B%20Boolean%20variable%0A%0A%0A//Array%20of%20cats%0Alet%20Cats%3D%20%5B%22Arvid%22,%22Andy%22,%22Vince%22%5D%0A%0Aconsole.log%28%22The%20cats%20%22%2BCats%29%0A//Foreach%20object%20in%20Cat%20array%0ACats.forEach%28Cat%20%3D%3E%20%7B%0A%20%20%20%20if%28Cat.length%3E4%29%0Aconsole.log%28%22The%20cat's%20name%20is%20%22%2BCat%29%0A%0A%7D%29%3B%0A%0A//Object%0Alet%20CatArvid%3D%7Bname%3A%22Arvid%22,%20weight%3A10,%20likes%3A%5B%22Eating%22,%20%22Sleeping%22,%22Chasing%20flies%22%5D,%20lazy%3Atrue%20%7D%0A%0Aconsole.log%28CatArvid%29%0Aconsole.log%28CatArvid.weight%29%0A%0Aconsole.log%28typeof%28CatArvid.weight%29%29%0Aconsole.log%28CatArvid.name%2B%22%20the%20cat%20weight%20is%20%22%2BCatArvid.weight%2B%22%20kg%22%29%0Aif%28CatArvid.lazy%3D%3Dtrue%29%0Aconsole.log%28CatArvid.name%2B%22%20%C3%A4r%20lat!%22%29%0Aelse%20if%28CatArvid.weight%3C%3D10%29%0Aconsole.log%28CatArvid.name%2B%22%20%20kan%20beh%C3%B6va%20tappa%20lite%20vikt!%22%29%0Aelse%0Aconsole.log%28CatArvid.name%2B%22%20%C3%A4r%20en%20liten%20katt%20som%20beh%C3%B6ver%20%C3%A4ta%20lite!%22%29%0A&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false) -->
 
-## Resurser
-- [W3School Variabels](https://www.w3schools.com/js/js_variables.asp)
-- [W3School Objects](https://www.w3schools.com/js/js_objects.asp)
+## 1.1 Variabler
+### Resurser
+<!-- - [W3School Variabels](https://www.w3schools.com/js/js_variables.asp) -->
+<!-- - [W3School Objects](https://www.w3schools.com/js/js_objects.asp) -->
+[JavaScript.Info Variabels](https://javascript.info/variables)
 
-## Övningsuppgifter
-### Variabler
+### Övningsuppgifter
 **Övning 1 - Jobba med variabler**
    1. Deklarera två variabler: `admin` och `name`.
    2. Tilldela värdet `John` till `name`.
@@ -76,7 +78,11 @@ Grattis du har skapat och kört ditt första javascript program!
    2. Tilldela `pi` ett annat värde.
    3. Skriv ut `pi` till konsolen, vad händer och varför?
 
-### Datatyper
+## 1.2 Datatyper
+### Resurser
+[JavaScript.Info Datatypes](https://javascript.info/types)
+
+### Övningsuppgifter
 **Övning 1 - Skriv ut datatyperna** <br>
   Skriv ut till konsolen typerna på följande datatyper med `typeof` konstruktionen
   1. `undefined`  
@@ -91,7 +97,11 @@ Grattis du har skapat och kört ditt första javascript program!
   
   Blev utskrifterna det du förväntade dig?
   
-### Operatorer
+## 1.3 Operatorer
+### Resurser
+[JavaScript.Info Operators](https://javascript.info/operators)
+
+### Övningsuppgifter
 **Övning 1 - Postfix och prefix formerna**
 
 1. Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
@@ -129,7 +139,11 @@ Vad är resultatet av dessa uttryck?
 15. " \t \n" - 2
 ```
 
-### Jämförelser
+### 1.4 Jämförelser
+### Resurser
+[JavaScript.Info Comparison](https://javascript.info/comparison)
+
+### Övningsuppgifter
 **Övning 1. Vad blir resultatet för dessa uttryck?**
 ``` 
 5 > 4
@@ -141,7 +155,11 @@ null == "\n0\n"
 null === +"\n0\n"
 ```
 
-### If-satser
+### 1.5 If-satser
+### Resurser
+[JavaScript.Info Comparison](https://javascript.info/ifelse)
+
+### Övningsuppgifter
 **Övning 1. If (en sträng med noll)**<br>
 Kommer `Hejsan!` att visas?
 ```
@@ -178,16 +196,68 @@ if (a + b < 4) {
 }
 ```
 
-# 2. Ifsatser och loopar fördjupning
-[Scrimba länk](https://scrimba.com/c/caZNqwcL)
+<!-- # 2. Ifsatser och loopar fördjupning -->
 
-[Stega igenom koden](http://pythontutor.com/live.html#code=let%20i%3D10%0A%20while%20%280%3Ci%29%20%7B%0A%20%20%20%20%20console.log%28i%29%0A%20%20%20%20%20i-%3D1%0A%20%7D%0A%0A%20while%20%28i%3C10%29%20%7B%0A%20%20%20%20console.log%28i%29%0A%20%20%20%20%20i%2B%3D1%0A%20%7D%0A%20i%3D0%3B%0A%20while%20%28i%3C10%29%20%7B%0A%20%20%20%20%20let%20output%3D%22%22%0A%20%20%20%20%20let%20p%3D0%3B%0A%20%20%20%20%20while%20%28p%3C10%29%20%7B%0A%20%20%20%20%20%20%20%20%20output%2B%3D%22X%22%0A%20%20%20%20%20%20%20%20%20p%2B%3D1%3B%0A%20%20%20%20%20%7D%0A%20%20%20%20console.log%28output%29%0A%20%20%20%20%20i%2B%3D1%0A%20%7D%0A%0A%0A%20for%20%28let%20i2%20%3D%200%3B%20i2%20%3C%20120%3B%20i2%2B%3D10%29%20%7B%0A%20%20%20%20%20console.log%28i2%29%20%20%20%0A%20%7D%0A%0Alet%20man%3D%20true%0Alet%20age%3D450%0A%0A%20if%28age%3C30%29%0A%20%7B%0Aif%20%28man%3D%3Dtrue%29%20%7B%0A%20%20%20%20console.log%28%22You%20like%20to%20bake%22%29%0A%7D%20else%20%7B%0A%20%20%20%20console.log%28%22You%20like%20to%20play%20video%20games%22%29%0A%7D%0A%20%7D%0A%20else%20if%28age%3E30%20%26%26%20age%3C50%29%0A%20%7B%0A%20%20%20%20if%20%28man%3D%3Dtrue%29%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20walk%20in%20the%20park%22%29%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20make%20wooden%20sculptures%22%29%0A%20%20%20%20%7D%0A%20%7D%0A%20else%7B%0A%20%20%20%20if%20%28man%3D%3Dtrue%20%7C%7C%20man%3D%3Dfalse%29%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20watch%20livestreams%20on%20youtube%22%29%0A%20%20%20%20%7D%0A%20%7D%0A%20%0A%20age%3D0%0A%20money%3D0%0A%20%0A%20while%20%28age%3C65%29%20%7B%0A%20%20%20%20%20if%28age%3C15%29%0A%20%20%20%20%20money%2B%3D1050%0A%20%20%20%20%20else%20if%28age%3C18%29%0A%20%20%20%20%20money%2B%3D1350%0A%20%20%20%20%20else%20if%28age%3C23%29%0A%20%20%20%20%20money%2B%3D3350%0A%20%20%20%20%20else%20if%28age%3C65%29%0A%20%20%20%20%20money%2B%3D%28age*1000%29*0.70%0A%20%20%20%20//%20%20else%0A%20%20%20%20//%20%20money%2B%3D%0A%20%7D&cumulative=false&curInstr=470&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
+<!-- [Stega igenom koden](http://pythontutor.com/live.html#code=let%20i%3D10%0A%20while%20%280%3Ci%29%20%7B%0A%20%20%20%20%20console.log%28i%29%0A%20%20%20%20%20i-%3D1%0A%20%7D%0A%0A%20while%20%28i%3C10%29%20%7B%0A%20%20%20%20console.log%28i%29%0A%20%20%20%20%20i%2B%3D1%0A%20%7D%0A%20i%3D0%3B%0A%20while%20%28i%3C10%29%20%7B%0A%20%20%20%20%20let%20output%3D%22%22%0A%20%20%20%20%20let%20p%3D0%3B%0A%20%20%20%20%20while%20%28p%3C10%29%20%7B%0A%20%20%20%20%20%20%20%20%20output%2B%3D%22X%22%0A%20%20%20%20%20%20%20%20%20p%2B%3D1%3B%0A%20%20%20%20%20%7D%0A%20%20%20%20console.log%28output%29%0A%20%20%20%20%20i%2B%3D1%0A%20%7D%0A%0A%0A%20for%20%28let%20i2%20%3D%200%3B%20i2%20%3C%20120%3B%20i2%2B%3D10%29%20%7B%0A%20%20%20%20%20console.log%28i2%29%20%20%20%0A%20%7D%0A%0Alet%20man%3D%20true%0Alet%20age%3D450%0A%0A%20if%28age%3C30%29%0A%20%7B%0Aif%20%28man%3D%3Dtrue%29%20%7B%0A%20%20%20%20console.log%28%22You%20like%20to%20bake%22%29%0A%7D%20else%20%7B%0A%20%20%20%20console.log%28%22You%20like%20to%20play%20video%20games%22%29%0A%7D%0A%20%7D%0A%20else%20if%28age%3E30%20%26%26%20age%3C50%29%0A%20%7B%0A%20%20%20%20if%20%28man%3D%3Dtrue%29%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20walk%20in%20the%20park%22%29%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20make%20wooden%20sculptures%22%29%0A%20%20%20%20%7D%0A%20%7D%0A%20else%7B%0A%20%20%20%20if%20%28man%3D%3Dtrue%20%7C%7C%20man%3D%3Dfalse%29%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20watch%20livestreams%20on%20youtube%22%29%0A%20%20%20%20%7D%0A%20%7D%0A%20%0A%20age%3D0%0A%20money%3D0%0A%20%0A%20while%20%28age%3C65%29%20%7B%0A%20%20%20%20%20if%28age%3C15%29%0A%20%20%20%20%20money%2B%3D1050%0A%20%20%20%20%20else%20if%28age%3C18%29%0A%20%20%20%20%20money%2B%3D1350%0A%20%20%20%20%20else%20if%28age%3C23%29%0A%20%20%20%20%20money%2B%3D3350%0A%20%20%20%20%20else%20if%28age%3C65%29%0A%20%20%20%20%20money%2B%3D%28age*1000%29*0.70%0A%20%20%20%20//%20%20else%0A%20%20%20%20//%20%20money%2B%3D%0A%20%7D&cumulative=false&curInstr=470&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false) -->
 
-## Resurser
+<!-- ## Resurser
 - [Mozilla Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 - [Mozilla IF statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#if...else_statement)
-- [W3School Comparisions (IF || && <> != ..)](https://www.w3schools.com/js/js_comparisons.asp)
+- [W3School Comparisions (IF || && <> != ..)](https://www.w3schools.com/js/js_comparisons.asp) -->
 
+### 1.6 Loopar: while och for
+### Resurser
+[JavaScript.Info Comparison](https://javascript.info/while-for)
+
+### Övningsuppgifter
+**Övning 1. Sista loop värdet**<br>
+Vad är det sista värdet som skrivs till konsolen med den här koden? Varför?
+```
+let i = 3;
+
+while (i) {
+  console.log( i-- );
+}
+```
+
+**Övning 2. Vilka värden visas av while-loopen?**<br>
+För varje loop-iteration, skriv ner vilket värde det matar ut och jämför sedan det med lösningen.
+
+Båda looparna skriver ut samma värden eller inte?
+1. prefix formen `++i`:
+```
+let i = 0;
+while (++i < 5) console.log( i );
+```
+2. postfix formen `i++`:
+```
+let i = 0;
+while (i++ < 5) console.log( i );
+```
+
+**Övning 3. Vilka värden visas av for-loopen?**<br>
+För varje loop ska du skriva ner vilka värden den ska visa. Jämför sedan med svaret.
+
+Båda looparna skriver ut samma värden eller inte?
+1. postfix formen:
+```
+for (let i = 0; i < 5; i++) console.log( i );
+```
+2. prefix formen:
+```
+for (let i = 0; i < 5; ++i) console.log( i );
+```
+
+**Övning 4. Skriv ut jämna siffror i slingan**<br>
+Använd `for`-loopen för att skriva ut jämna siffror från `2` till `10`.
+
+**Övning 5. Ersätt "for"-loopen med "while"-loopen**<br>
+Skriv om koden som ändrar `for`-loopen till `while`-loopen utan att ändra dess beteende (utgången ska förbli densamma).
+```
+for (let i = 0; i < 3; i++) {
+  console.log( `number ${i}!` );
+}
+```
 
 # 3. Arrayer och Funktioner
 [Scrimba länk](https://scrimba.com/c/crG7vRSK)
