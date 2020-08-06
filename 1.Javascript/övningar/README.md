@@ -1,5 +1,8 @@
 # Övningar
-## 1.1 Variabler
+1. [Variabler](#1.1-variabler)
+2. [Datatyper](#1.2-datatyper)
+
+##1.1 Variabler
 ### Övningsuppgifter
 **Övning 1 - Jobba med variabler**
    1. Deklarera två variabler: `admin` och `name`.
@@ -16,7 +19,7 @@
    2. Tilldela `pi` ett annat värde.
    3. Skriv ut `pi` till konsolen, vad händer och varför?
    
-## 1.2 Datatyper
+##1.2 Datatyper
 ### Övningsuppgifter
 **Övning 1 - Skriv ut datatyperna** <br>
   Skriv ut till konsolen typerna på följande datatyper med `typeof` konstruktionen
@@ -122,3 +125,225 @@ if (a + b < 4) {
   result = 'Over';
 }
 ```
+
+## 1.6 Loopar: while och for
+### Övningsuppgifter
+**Övning 1. Sista loop värdet**<br>
+Vad är det sista värdet som skrivs till konsolen med den här koden? Varför?
+```
+let i = 3;
+
+while (i) {
+  console.log( i-- );
+}
+```
+
+**Övning 2. Vilka värden visas av while-loopen?**<br>
+För varje loop-iteration, skriv ner vilket värde det matar ut och jämför sedan det med lösningen.
+
+Båda looparna skriver ut samma värden eller inte?
+1. prefix formen `++i`:
+```
+let i = 0;
+while (++i < 5) console.log( i );
+```
+2. postfix formen `i++`:
+```
+let i = 0;
+while (i++ < 5) console.log( i );
+```
+
+**Övning 3. Vilka värden visas av for-loopen?**<br>
+För varje loop ska du skriva ner vilka värden den ska visa. Jämför sedan med svaret.
+
+Båda looparna skriver ut samma värden eller inte?
+1. postfix formen:
+```
+for (let i = 0; i < 5; i++) console.log( i );
+```
+2. prefix formen:
+```
+for (let i = 0; i < 5; ++i) console.log( i );
+```
+
+**Övning 4. Skriv ut jämna siffror i slingan**<br>
+Använd `for`-loopen för att skriva ut jämna siffror från `2` till `10`.
+
+**Övning 5. Ersätt "for"-loopen med "while"-loopen**<br>
+Skriv om koden som ändrar `for`-loopen till `while`-loopen utan att ändra dess beteende (utgången ska förbli densamma).
+```
+for (let i = 0; i < 3; i++) {
+  console.log( `number ${i}!` );
+}
+```
+
+## 1.7 Switch-satsen
+### Övningsuppgifter
+**Övning 1. Skriv om "switch"-satsen till "if"-satser**<br>
+Skriv koden med `if..else` som motsvarar följande switch:
+```
+switch (browser) {
+  case 'Edge':
+    console.log( "You've got the Edge!" );
+    break;
+
+  case 'Chrome':
+  case 'Firefox':
+  case 'Safari':
+  case 'Opera':
+    console.log( 'Okay we support these browsers too' );
+    break;
+
+  default:
+    console.log( 'We hope that this page looks ok!' );
+}
+```
+
+**Övning 2. Skriv om "if"-satserna till "switch"-satsen**<br>
+Skriv im koden nedan med hjälp av ett enda `switch`-sats:
+```
+let a = +prompt('a?', '');
+
+if (a == 0) {
+  console.log( 0 );
+}
+if (a == 1) {
+  console.log( 1 );
+}
+
+if (a == 2 || a == 3) {
+  console.log( '2,3' );
+}
+```
+
+## 1.7 Funktioner
+### Övningsuppgifter
+**Övning 1. Skriv om "switch"-satsen till "if"-satser**<br>
+Följande funktion returnerar sant om parametern `age` är högre än 18.
+Annars skriver den ut "Du är för ung tyvärr!":
+```
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  } else {
+    // ...
+    console.log('Du är för ung tyvärr!');
+  }
+}
+```
+Fungerar funktionen annorlunda om `else` delen tas bort?
+```
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  }
+  // ...
+  console.log('Du är för ung tyvärr!');
+}
+```
+
+
+**Övning 2. Skriv om funktionen med '?' eller '||'**<br>
+Följande funktion returnerar sant om parametern `age` är högre än 18.
+Annars skriver den ut "Du är för ung tyvärr!":
+```
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  } else {
+    // ...
+    console.log('Du är för ung tyvärr!');
+  }
+}
+```
+
+**Övning 3. Funktionen min(a, b)**<br>
+Skriv en funktion `min(a, b)` som returnerar det minsta av två siffror `a` och `b`.
+Till exempel:
+```
+min(2, 5) == 2
+min(3, -1) == -1
+min(1, 1) == 1
+```
+
+
+**Övning 4. Fuktionen pow(x, n)**<br>
+Skriv en funktion `pow(x, n)` som returnerar `x` i potens `n`. Eller med andra ord multiplicerar `x` med sig `n` gånger och returnerar resultatet. Funktionen behöver bara stödja positiva värden 1, 2, 3...
+```
+min(2, 5) == 2
+min(3, -1) == -1
+min(1, 1) == 1
+```
+
+## 1.8 Arrow functions (pil-funktioner)
+### Övningsuppgifter
+**Övning 1. Funktionen max(a, b)**<br>
+Skriv en funktion `max(a, b)` med arrow-function som returnerar det största av två siffror `a` och `b`.
+Till exempel:
+```
+max(2, 5) == 2
+max(3, -1) == -1
+max(1, 1) == 1
+```
+
+## 1.9 Objekt
+### Övningsuppgifter
+**Övning 1. Hello Objekt**<br>
+Skriv koden, en rad för varje åtgärd:
+
+1. Skapa en tom objekt `user`.
+2. Lägg till egenskapen `name` med värdet `John`.
+3. Lägg till egenskapen `surname` med värdet `Smith`.
+4. Ändra på värdet av `name` till `Pete`.
+5. Ta bort egenskapens `namn` från objektet.
+
+**Övning 2. Kolla efter tomhet**<br>
+Skriv funktionen `isEmpty(obj)` som returnerar `true` om objektet inte har några egenskaper, `false` annars.
+Bör fungera så här:
+```
+let schedule = {};
+
+console.log( isEmpty(schedule) ); // true
+
+schedule["8:30"] = "get up";
+
+console.log( isEmpty(schedule) ); // false
+```
+
+**Övning 3.Summera objekt egenskaper**<br>
+Vi har ett objekt som lagrar löner för vårt team:
+```
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+```
+Skriv koden för att summera alla löner och lagra den variabelb `sum`. Bör vara `390` i exemplet ovan.
+
+Om `salaries` är tomma, måste resultatet vara `0`.
+
+**Övning 4. Multiplicera numeriska egenskaper med 2**<br>
+Skapa en funktion `multiplyNumeric(obj)` som multiplicerar alla numeriska egenskaper för `obj` med `2`.
+
+Till exempel:
+```
+// before the call
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+
+multiplyNumeric(menu);
+
+// after the call
+menu = {
+  width: 400,
+  height: 600,
+  title: "My menu"
+};
+```
+Observera att `multiplyNumeric` inte behöver returnera någonting. Det bör ändra objektet på plats.
+
+P.S. Använd `typeof` för att kontrollera ifall det är ett nummer.
