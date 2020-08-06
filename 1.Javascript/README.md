@@ -104,13 +104,14 @@ Grattis du har skapat och kört ditt första javascript program!
 ### Övningsuppgifter
 **Övning 1 - Postfix och prefix formerna**
 
-1. Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
+Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
 ```
 let a = 1, b = 1;
 
 let c = ++a; // ?
 let d = b++; // ?
 ```
+
 **Övning 2 - tilldelningsresultat**<br>
 Vilka är värdena för a och x efter koden nedan?
 ```
@@ -207,7 +208,7 @@ if (a + b < 4) {
 
 ### 1.6 Loopar: while och for
 ### Resurser
-[JavaScript.Info Comparison](https://javascript.info/while-for)
+[JavaScript.Info Loops: while and for](https://javascript.info/while-for)
 
 ### Övningsuppgifter
 **Övning 1. Sista loop värdet**<br>
@@ -256,6 +257,48 @@ Skriv om koden som ändrar `for`-loopen till `while`-loopen utan att ändra dess
 ```
 for (let i = 0; i < 3; i++) {
   console.log( `number ${i}!` );
+}
+```
+
+### 1.7 Switch-satsen
+### Resurser
+[JavaScript.Info The "Switch" statement](https://javascript.info/switch)
+
+### Övningsuppgifter
+**Övning 1. Skriv om "switch"-satsen till "if"-satser**<br>
+Skriv koden med `if..else` som motsvarar följande switch:
+```
+switch (browser) {
+  case 'Edge':
+    console.log( "You've got the Edge!" );
+    break;
+
+  case 'Chrome':
+  case 'Firefox':
+  case 'Safari':
+  case 'Opera':
+    console.log( 'Okay we support these browsers too' );
+    break;
+
+  default:
+    console.log( 'We hope that this page looks ok!' );
+}
+```
+
+**Övning 1. Skriv om "if"-satserna till "switch"-satsen**<br>
+Skriv im koden nedan med hjälp av ett enda `switch`-sats:
+```
+let a = +prompt('a?', '');
+
+if (a == 0) {
+  console.log( 0 );
+}
+if (a == 1) {
+  console.log( 1 );
+}
+
+if (a == 2 || a == 3) {
+  console.log( '2,3' );
 }
 ```
 
