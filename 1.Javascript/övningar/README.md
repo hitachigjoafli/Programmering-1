@@ -1,6 +1,6 @@
 # Övningar
-1. [Variabler](#1.1-variabler)
-2. [Datatyper](#1.2-datatyper)
+1. [Variabler](##1.1-variabler)
+2. [Datatyper](##1.2-datatyper)
 
 ##1.1 Variabler
 ### Övningsuppgifter
