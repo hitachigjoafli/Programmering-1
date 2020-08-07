@@ -66,13 +66,15 @@ Grattis du har skapat och kört ditt första javascript program!
 <!-- - [W3School Objects](https://www.w3schools.com/js/js_objects.asp) -->
 [JavaScript.Info Variabels](https://javascript.info/variables)
 
-### [Övningsuppgifter Variabler](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#11-variabler)
+### Övningsuppgifter
+[Variabler](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#11-variabler)
 
 ## 1.2 Datatyper
 ### Resurser
 [JavaScript.Info Datatypes](https://javascript.info/types)
 
-### [Övningsuppgifter Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
+### Övningsuppgifter
+[Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
   
 ## 1.3 Operatorer
 ### Resurser
@@ -84,13 +86,15 @@ Grattis du har skapat och kört ditt första javascript program!
 ### Resurser
 [JavaScript.Info Comparison](https://javascript.info/comparison)
 
-### [Övningsuppgifter Jämförelser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#14-j%C3%A4mf%C3%B6relser)
+### Övningsuppgifter
+[Jämförelser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#14-j%C3%A4mf%C3%B6relser)
 
 ## 1.5 If-satser
 ### Resurser
 [JavaScript.Info Comparison](https://javascript.info/ifelse)
 
-### [Övningsuppgifter](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#15-if-satser)
+### Övningsuppgifter
+[If-satser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#15-if-satser)
 
 <!-- # 2. Ifsatser och loopar fördjupning -->
 
@@ -105,14 +109,16 @@ Grattis du har skapat och kört ditt första javascript program!
 ### Resurser
 [JavaScript.Info Loops: while and for](https://javascript.info/while-for)
 
-### [Övningsuppgifter](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#16-loopar-while-och-for)
+### Övningsuppgifter
+[Loopar: while och for](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#16-loopar-while-och-for)
 
 ## 1.7 Switch-satsen
 
 ### Resurser
 [JavaScript.Info The "Switch" statement](https://javascript.info/switch)
 
-### [Övningsuppgifter](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-switch-satsen)
+### Övningsuppgifter
+[Switch-satsen](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-switch-satsen)
 
 <!-- # 3. Arrayer och Funktioner
 [Scrimba länk](https://scrimba.com/c/crG7vRSK) -->
@@ -127,27 +133,30 @@ Grattis du har skapat och kört ditt första javascript program!
 - [W3School Javascript Arrayer](https://www.w3schools.com/js/js_arrays.asp) -->
 [JavaScript.Info Functions](https://javascript.info/function-basics)
 
-### [Övningsuppgifter Fuktioner](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-funktioner)
-
+### Övningsuppgifter
+[Fuktioner](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-funktioner)
 
 ## 1.8 Arrow functions (pil-funktioner)
 ### Resurser
 [JavaScript.Info Arrow-functions](https://javascript.info/arrow-functions-basics)
 
-### [Övningsuppgifter Arrow functions](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#18-arrow-functions-pil-funktioner)
+### Övningsuppgifter
+[Arrow functions](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#18-arrow-functions-pil-funktioner)
 
 
 ## 1.9 Objekt
 ### Resurser
 [JavaScript.Info Objects](https://javascript.info/object)
 
-### [Övningsuppgifter Objekt](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#19-objekt)
+### Övningsuppgifter
+[Objekt](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#19-objekt)
 
 ## 1.10 Listor (Arrays)
 ### Resurser
 [JavaScript.Info Arrays](https://javascript.info/array)
 
-### [Övningsuppgifter Arrays](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/README.md#110-listor-array)
+### Övningsuppgifter
+[Arrays](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/README.md#110-listor-array)
 
 # 4. HTML CSS
 [Scrimba länk](https://scrimba.com/c/cp37vkC9)
