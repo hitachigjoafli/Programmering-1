@@ -344,3 +344,65 @@ menu = {
 Observera att `multiplyNumeric` inte behöver returnera någonting. Det bör ändra objektet på plats.
 
 P.S. Använd `typeof` för att kontrollera ifall det är ett nummer.
+
+## 1.10 Listor (Array)
+### Övningsuppgifter
+**Övning 1. Hello Objekt**<br>
+Skriv koden, en rad för varje åtgärd:
+
+1. Skapa en tom objekt `user`.
+2. Lägg till egenskapen `name` med värdet `John`.
+3. Lägg till egenskapen `surname` med värdet `Smith`.
+4. Ändra på värdet av `name` till `Pete`.
+5. Ta bort egenskapens `namn` från objektet.
+
+**Övning 2. Kolla efter tomhet**<br>
+Skriv funktionen `isEmpty(obj)` som returnerar `true` om objektet inte har några egenskaper, `false` annars.
+Bör fungera så här:
+```
+let schedule = {};
+
+console.log( isEmpty(schedule) ); // true
+
+schedule["8:30"] = "get up";
+
+console.log( isEmpty(schedule) ); // false
+```
+
+**Övning 3.Summera objekt egenskaper**<br>
+Vi har ett objekt som lagrar löner för vårt team:
+```
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+```
+Skriv koden för att summera alla löner och lagra den variabelb `sum`. Bör vara `390` i exemplet ovan.
+
+Om `salaries` är tomma, måste resultatet vara `0`.
+
+**Övning 4. Multiplicera numeriska egenskaper med 2**<br>
+Skapa en funktion `multiplyNumeric(obj)` som multiplicerar alla numeriska egenskaper för `obj` med `2`.
+
+Till exempel:
+```
+// before the call
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+
+multiplyNumeric(menu);
+
+// after the call
+menu = {
+  width: 400,
+  height: 600,
+  title: "My menu"
+};
+```
+Observera att `multiplyNumeric` inte behöver returnera någonting. Det bör ändra objektet på plats.
+
+P.S. Använd `typeof` för att kontrollera ifall det är ett nummer.
