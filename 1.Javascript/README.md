@@ -80,7 +80,8 @@ Grattis du har skapat och kört ditt första javascript program!
 ### Resurser
 [JavaScript.Info Operators](https://javascript.info/operators)
 
-### [Övningsuppgifter Operatorer](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#13-operatorer)
+### Övningsuppgifter
+[Övningar Operatorer](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#13-operatorer)
 
 ## 1.4 Jämförelser
 ### Resurser
@@ -149,14 +150,14 @@ Grattis du har skapat och kört ditt första javascript program!
 [JavaScript.Info Objects](https://javascript.info/object)
 
 ### Övningsuppgifter
-[Objekt](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#19-objekt)
+[Övningar Objekt](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#19-objekt)
 
 ## 1.10 Listor (Arrays)
 ### Resurser
 [JavaScript.Info Arrays](https://javascript.info/array)
 
 ### Övningsuppgifter
-[Arrays](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/README.md#110-listor-array)
+[Övningar Arrays](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/README.md#110-listor-array)
 
 # 4. HTML CSS
 [Scrimba länk](https://scrimba.com/c/cp37vkC9)
