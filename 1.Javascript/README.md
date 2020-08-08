@@ -67,14 +67,14 @@ Grattis du har skapat och kört ditt första javascript program!
 [JavaScript.Info Variabels](https://javascript.info/variables)
 
 ### Övningsuppgifter
-[Variabler](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#11-variabler)
+[Övningar Variabler](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#11-variabler)
 
 ## 1.2 Datatyper
 ### Resurser
 [JavaScript.Info Datatypes](https://javascript.info/types)
 
 ### Övningsuppgifter
-[Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
+[Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
   
 ## 1.3 Operatorer
 ### Resurser
@@ -87,14 +87,14 @@ Grattis du har skapat och kört ditt första javascript program!
 [JavaScript.Info Comparison](https://javascript.info/comparison)
 
 ### Övningsuppgifter
-[Jämförelser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#14-j%C3%A4mf%C3%B6relser)
+[Övningar Jämförelser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#14-j%C3%A4mf%C3%B6relser)
 
 ## 1.5 If-satser
 ### Resurser
 [JavaScript.Info Comparison](https://javascript.info/ifelse)
 
 ### Övningsuppgifter
-[If-satser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#15-if-satser)
+[Övningar If-satser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#15-if-satser)
 
 <!-- # 2. Ifsatser och loopar fördjupning -->
 
@@ -110,7 +110,7 @@ Grattis du har skapat och kört ditt första javascript program!
 [JavaScript.Info Loops: while and for](https://javascript.info/while-for)
 
 ### Övningsuppgifter
-[Loopar: while och for](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#16-loopar-while-och-for)
+[Övningar Loopar: while och for](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#16-loopar-while-och-for)
 
 ## 1.7 Switch-satsen
 
@@ -118,7 +118,7 @@ Grattis du har skapat och kört ditt första javascript program!
 [JavaScript.Info The "Switch" statement](https://javascript.info/switch)
 
 ### Övningsuppgifter
-[Switch-satsen](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-switch-satsen)
+[Övningar Switch-satsen](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-switch-satsen)
 
 <!-- # 3. Arrayer och Funktioner
 [Scrimba länk](https://scrimba.com/c/crG7vRSK) -->
@@ -134,14 +134,14 @@ Grattis du har skapat och kört ditt första javascript program!
 [JavaScript.Info Functions](https://javascript.info/function-basics)
 
 ### Övningsuppgifter
-[Fuktioner](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-funktioner)
+[Övningar Fuktioner](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-funktioner)
 
 ## 1.8 Arrow functions (pil-funktioner)
 ### Resurser
 [JavaScript.Info Arrow-functions](https://javascript.info/arrow-functions-basics)
 
 ### Övningsuppgifter
-[Arrow functions](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#18-arrow-functions-pil-funktioner)
+[Övningar Arrow functions](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#18-arrow-functions-pil-funktioner)
 
 
 ## 1.9 Objekt
