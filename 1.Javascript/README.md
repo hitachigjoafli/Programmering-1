@@ -1,6 +1,6 @@
 # Javascript
 
-![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/planjs.jpg?raw=true)
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/planjs.png?raw=true)
 ## Intro
 
 I det här första kapitlet på våran resa i kursen programmering 1 så ska vi lära oss grunderna i Javascript/HTML/CSS. Javascript är programmeringsspråket som körs i webbapplikationer och används för att kontrollera webbläsaren vilket resulterar i mer interaktiva webbsidor. På senare tid använder man även Javascript utanför webbläsaren som t.ex. mobilappar och serverapplikationer. Instagram och Facebook är exempel på mobilappar som är utvecklade i Javascript.
