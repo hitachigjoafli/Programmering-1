@@ -62,8 +62,8 @@ Inne i Visual Studio Code skapa en javascript fil som heter *test.js*, i test.js
 <!--
 ![Första Javascript programmet!](https://github.com/abbjoafli/Programmering-1/blob/master/img/first_javascript_program.PNG?raw=true)
 -->
-<!---
-Grattis du har skapat och kört ditt första javascript program! -->
+<!--
+Grattis du har skapat och kört ditt första javascript program! 
 -->
 
 # 1. Variabler, datatyper, jämförelser, if-satser, loopar, objekt och listor
