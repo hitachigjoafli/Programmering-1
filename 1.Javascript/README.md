@@ -33,27 +33,38 @@ Till varje del så kommer det finnas lite övningsuppgifter.
 - [W3School Javascript](https://www.w3schools.com/js/default.asp)
 - [Modern Javascript av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
-# 0. Sätt upp utvecklingsmiljön
+# 0. Testmiljö
 
+När vi testar våran JavaScript kod så kommer vi börja med att göra det i Plunker som är en online miljö för att testa webbtekniker.
+
+Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnAVyIK7Tk1cP6d>
+
+
+<!--
 När vi skriver programmeringskod i oavsett vilket språk så behöver vi en kod-editor för att skriva koden i, på samma sätt som vi använder Microsoft Word när vi vill skriva dokument.
-
+-->
+<!--
 1. Vi kommer använda oss av en kod-editor som heter Visual Studio Code. Så börja med att ladda ner och installera den på den här länken:
 <https://code.visualstudio.com/download>
-
+-->
+<!--
 2. För att kunna köra Javascript utanför webbläsaren så behöver vi något som förstår och kan köra (exekvera) javascript koden. För det kommer vi använda körningsprogrammet Node.js.
 <br>Ladda ner och installera Node.js på den här länken:
 <https://nodejs.org/en/download>
-
+-->
+<!--
 3. När det är gjort så kan ni skapa en mapp under C: disken som heter Programmering1 och en ytterligare mapp under den som heter Test -> *C:\Programmering1\Test*
 Öppna sedan mappen i Visual Studio Code.
 Inne i Visual Studio Code skapa en javascript fil som heter *test.js*, i test.js filen skriv in följande kod:
 `console.log("Mitt första javascript program!")`
 Öppna sedan terminal fönstret i Visual Studio Code finns under View -> Terminal och skriv in `node test`, då ska ni se följande utskrift:
-
+-->
+<!--
 ![Första Javascript programmet!](https://github.com/abbjoafli/Programmering-1/blob/master/img/first_javascript_program.PNG?raw=true)
-
-Grattis du har skapat och kört ditt första javascript program!
-
+-->
+<!---
+Grattis du har skapat och kört ditt första javascript program! -->
+-->
 
 # 1. Variabler, datatyper, jämförelser, if-satser, loopar, objekt och listor
 
