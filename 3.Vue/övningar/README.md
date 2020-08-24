@@ -11,7 +11,7 @@
 Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.<br>
 Det du behöver göra:
 
-1. Skapa komponenten **EventComponent** eller lägg koden direkt i **App** komponenten.
+1. Skapa komponenten **EventDetailsComponent** eller lägg koden direkt i **App** komponenten.
 Du kan antigen skapa ett CLI Vue projekt eller göra det genom att länka in Vue som i övning 1. 
 HTML koden (utan data-bindningar) finns **_nedan_**.
 
