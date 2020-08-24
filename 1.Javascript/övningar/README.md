@@ -5,7 +5,7 @@
    1. Deklarera två variabler: `admin` och `name`.
    2. Tilldela värdet `John` till `name`.
    3. Kopiera värdet från `name` till `admin`.
-   4. Skriv ut värdet på `admin` i konsolen med `console.log()` (borde visa "John").
+   4. Skriv ut värdet på `admin` med `alert()` (borde visa "John").
 
 **Övning 2 - Rätt namngivning på variabler**
    1. Skapa en variabel med namnet på vår planet. Hur skulle du namnge en sådan variabel?
@@ -14,23 +14,25 @@
 **Övning 3 - Jobba med konstanter**
    1. Skapa en konstant `pi` med pi-värdet och 3 decimaler.
    2. Tilldela `pi` ett annat värde.
-   3. Skriv ut `pi` till konsolen, vad händer och varför?
+   3. Skriv ut `pi` med `alert()`, vad händer och varför?
    
 ## 1.2 Datatyper
 ### Övningsuppgifter
 **Övning 1 - Skriv ut datatyperna** <br>
-  Skriv ut till konsolen typerna på följande datatyper med `typeof` konstruktionen
-  1. `undefined`  
-  2. `0`
-  3. `3.14`
-  4. `"3.14"`
-  5. `true`
-  6. `"foo"`
-  7. `Math`
-  8. `null`
-  9. `5 > 4`
-  
-  Blev utskrifterna det du förväntade dig?
+Fundera över vad du tror följande har för datatyper, skriv det på ett papper 
+
+1. `undefined`  
+2. `0`
+3. `3.14`
+4. `"3.14"`
+5. `true`
+6. `"foo"`
+7. `Math`
+8. `null`
+9. `5 > 4`
+
+Skriv sedan ut med `alert()` typerna med `typeof()` konstruktionen.
+Blev utskrifterna det du förväntade dig?
   
 ## 1.3 Operatorer
 ### Övningsuppgifter
@@ -44,6 +46,8 @@ let c = ++a; // ?
 let d = b++; // ?
 ```
 
+Bekräfta det sedan genom att skriva ut `c` och `d` med `alert()`.
+
 **Övning 2 - tilldelningsresultat**<br>
 Vilka är värdena för a och x efter koden nedan?
 ```
@@ -51,6 +55,8 @@ let a = 2;
 
 let x = 1 + (a *= 2);
 ```
+
+Bekräfta det sedan genom att skriva ut `a` och `x` med `alert()`.
 
 **Övning 3 - typkonverteringar**<br>
 Vad är resultatet av dessa uttryck?
@@ -71,19 +77,21 @@ Vad är resultatet av dessa uttryck?
 14. undefined + 1
 15. " \t \n" - 2
 ```
+Bekfräfta det med `alert()`.
 
 ## 1.4 Jämförelser
 ### Övningsuppgifter
 **Övning 1. Vad blir resultatet för dessa uttryck?**
 ``` 
-5 > 4
-"apple" > "pineapple"
-"2" > "12"
-undefined == null
-undefined === null
-null == "\n0\n"
-null === +"\n0\n"
+1. 5 > 4
+2. "apple" > "pineapple"
+3. "2" > "12"
+4. undefined == null
+5. undefined === null
+6. null == "\n0\n"
+7. null === +"\n0\n"
 ```
+Bekfräfta det med `alert()`.
 
 ## 1.5 If-satser
 ### Övningsuppgifter
@@ -91,12 +99,15 @@ null === +"\n0\n"
 Kommer `Hejsan!` att visas?
 ```
 if ("0") {
-  console.log( 'Hejsan!' );
+  alert( 'Hejsan!' );
 }
 ```
+Testa koden genom att bekfräfta.
 
 **Övning 2. Namnet Javascript**<br>
 Med `if..else`-konstruktionen, skriv koden som frågar: "Vad är det officiella namnet på JavaScript?"
+
+Använd `prompt()` för att läsa in ett värde från användaren.
 
 Om besökaren skriver in "ECMAScript", skriver du ut "Korrekt!", Annars skriver du ut: "Du vet inte? ECMAScript!”
 ![Första Javascript programmet!](https://github.com/abbjoafli/Programmering-1/blob/master/img/if_exercise_3.png?raw=true)
