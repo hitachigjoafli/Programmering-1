@@ -21,8 +21,14 @@ Datat för komponenten finns **_nedan_**.
 3. Lägg till de nödvändiga data-bindningarna (med interpolation) till komponentens template del.
   
 
-4. Add the component to the app module (app/app.module.ts)
+4. Importera komponenten till App-komponenten och lägg till den i template delen för att visas.
 
+### Resultatet
+
+## Event: Smarta System 2020
+**Date:** 24/8/2020 
+**Time:** 13:00
+**Address:** robotvägen 4, 721 36 Västerås, Sverige
 
 
 ####_Här är start html för template:_####
