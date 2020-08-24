@@ -8,11 +8,11 @@
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
 
 ### Övning2 - Skapa en data-bunden komponent
-Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.
+Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.<br>
 Det du behöver göra:
 
-1. Skapa komponenten EventComponent eller gör det direkt i App komponenten.
-Du kan antigen skapa ett CLI Vue projekt eller göra det genom att länka Vue som i övning 1. 
+1. Skapa komponenten **EventComponent** eller lägg koden direkt i **App** komponenten.
+Du kan antigen skapa ett CLI Vue projekt eller göra det genom att länka in Vue som i övning 1. 
 HTML koden (utan data-bindningar) finns **_nedan_**.
 
 2. Skapa en variabel i data-sektionen för att hålla datat. 
@@ -23,53 +23,49 @@ Datat för komponenten finns **_nedan_**.
 
 4. Add the component to the app module (app/app.module.ts)
 
-  
-
-1. Load the component from the app component's template (app/app.component.ts)
 
 
-
-####_Here is the starting html for the template:_####
+####_Här är start html för template:_####
 
 ```
 
 <div>
-
-<div style="margin-top:30px">
-
-Event:
-
-</div>
-
-<div>
-
-Date:
-
-</div>
-
-<div>
-
-Time:
-
-</div>
-
-<div>
-
-Address:
-
-</div>
-
+  <h1>
+    Event:
+  </h1>
+  
+  <div>
+    Date:
+  </div>
+  
+  <div>
+    Time:
+  </div>
+  
+  <div>
+    Address:
+  </div>
 </div>
 
 ```
 
   
 
-####_Here is the data:_####
+####_Här är datat:_####
 
 ```
 
-{name:'ngConf 2025', date: '3/1/2025', time: '8am', location: {address: '123 Main St', city: 'Salt Lake City, UT', country: 'USA'}}
+{
+  name:'Smarta System 2020', 
+  date: '24/8/2020', 
+  time: '13:00', 
+  location: { 
+    address: 'robotvägen 4', 
+    zipcode: '721 36', 
+    city: 'Västerås', 
+    country: 'Sverige'
+  }
+}
 
 ```
 
