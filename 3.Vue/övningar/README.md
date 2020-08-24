@@ -74,3 +74,20 @@ Datat för komponenten finns **_nedan_**.
 
 ```
 
+### Övning3 - Kommunikation mellan komponenter Parent -> Child
+**_Instruktioner_**: **EventDetailsComponent**:en visar information om ett lektions-event, där adress är inkluderad.
+Skapa en ny child komponent som ska hantera att adressen visas och skicka eventets adress in till den nya komponenten från EventDetailsComponenten.<br>
+Det du behöver göra:
+
+_HINT:_ Namnge inte din komponent `<address>`. `<address>` är redan ett HTML5 element.
+
+1. Skapa en ny adress komponent som tar in adress data som **prop** 
+
+2. Updatera event-details komponenten att inkludera adress komponenten och skicka in adress-delen av event-datat.
+
+### Resultatet
+---
+Samma som i övning 2.
+
+### Övning4 - Kommunikation mellan komponenter Child -> Parent
+
