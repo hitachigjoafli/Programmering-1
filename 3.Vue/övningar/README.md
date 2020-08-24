@@ -91,3 +91,4 @@ Samma som i övning 2.
 
 ### Övning4 - Kommunikation mellan komponenter Child -> Parent
 
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/SmartaSystemExercise4.PNG)
