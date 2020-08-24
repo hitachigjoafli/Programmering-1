@@ -20,15 +20,14 @@ Datat för komponenten finns **_nedan_**.
 
 3. Lägg till de nödvändiga data-bindningarna (med interpolation) till komponentens template del.
   
-
 4. Importera komponenten till App-komponenten och lägg till den i template delen för att visas.
 
 ### Resultatet
-
-## Event: Smarta System 2020
-**Date:** 24/8/2020 
-**Time:** 13:00
-**Address:** robotvägen 4, 721 36 Västerås, Sverige
+---
+### Event: Smarta System 2020
+**Date:** 24/8/2020 <br>
+**Time:** 13:00 <br>
+**Address:** Robotvägen 4, 721 36 Västerås, Sverige <br>
 
 
 ####_Här är start html för template:_####
@@ -66,7 +65,7 @@ Datat för komponenten finns **_nedan_**.
   date: '24/8/2020', 
   time: '13:00', 
   location: { 
-    address: 'robotvägen 4', 
+    address: 'Robotvägen 4', 
     zipcode: '721 36', 
     city: 'Västerås', 
     country: 'Sverige'
