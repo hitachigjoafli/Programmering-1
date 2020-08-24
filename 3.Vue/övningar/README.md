@@ -7,41 +7,27 @@
 3. Inkludera Vue.js i filen och skriv ut rubriken "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
 
-### Övning2 - Creating a Data-Bound Component
-Add a new
-component to display a list of upcoming events using the html and data below. Then load that
-component from the inline template in the app component (app/app.component.ts). To do this,
-you will need to:
+### Övning2 - Skapa en data-bunden komponent
+Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.
+Det du behöver göra:
 
-1. Create the component
+1. Skapa komponenten EventComponent eller gör det direkt i App komponenten.
+Du kan antigen skapa ett CLI Vue projekt eller göra det genom att länka Vue som i övning 1. 
+HTML koden (utan data-bindningar) finns **_nedan_**.
 
+2. Skapa en variabel i data-sektionen för att hålla datat. 
+Datat för komponenten finns **_nedan_**.
+
+3. Lägg till de nödvändiga data-bindningarna (med interpolation) till komponentens template del.
   
 
-You can use either an inline template or a separate template file. The html (without
-
-data-bindings) for the template is **_below_**.
-
-1. Add a property on the component to hold the data.
-
-  
-
-The data for the component is also **_below_**.
-
-  
-
-1. Add the necessary data-bindings (using interpolation) to your component's template
-
-  
-
-1. Add the component to the app module (app/app.module.ts)
+4. Add the component to the app module (app/app.module.ts)
 
   
 
 1. Load the component from the app component's template (app/app.component.ts)
 
-  
 
-**_When you're done, be sure to run the Plunk and you should see a congratulations message._**
 
 ####_Here is the starting html for the template:_####
 
