@@ -28,7 +28,7 @@ Datat för komponenten finns **_nedan_**.
 **Date:** 24/8/2020 <br>
 **Time:** 13:00 <br>
 **Address:** Robotvägen 4, 721 36 Västerås, Sverige <br>
-
+---
 
 ####_Här är start html för template:_####
 
