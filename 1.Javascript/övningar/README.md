@@ -114,18 +114,20 @@ Om besökaren skriver in "ECMAScript", skriver du ut "Korrekt!", Annars skriver 
 <br>
 
 **Övning 3. Visa tecknet**<br>
-Använd `if..else` och skriv koden som tar in ett nummer via konsolen och visar sedan i konsolen beroende på värdet:
+Använd `if..else` och skriv koden som tar in ett nummer med `prompt()` och visar sedan med `alert()` beroende på värdet:
 
 - `1`, om värdet är större än noll,
 - `-1`, om mindre än noll,
 - `0`, om det är lika med noll.
 
-I denna uppgift antar vi att vi alltid får ett nummer.
+I denna uppgift antar vi att vi alltid får in ett nummer.
 
 **Övning 4. Skriv om 'if' med '?'**<br>
 Skriv om `if` så att vi istället använder `?` operatorn:
 ```
 let result;
+let a = 1;
+let b = 2;
 
 if (a + b < 4) {
   result = 'Below';
@@ -142,7 +144,7 @@ Vad är det sista värdet som skrivs till konsolen med den här koden? Varför?
 let i = 3;
 
 while (i) {
-  console.log( i-- );
+  alert( i-- );
 }
 ```
 
@@ -153,12 +155,12 @@ Båda looparna skriver ut samma värden eller inte?
 1. prefix formen `++i`:
 ```
 let i = 0;
-while (++i < 5) console.log( i );
+while (++i < 5) alert( i );
 ```
 2. postfix formen `i++`:
 ```
 let i = 0;
-while (i++ < 5) console.log( i );
+while (i++ < 5) alert( i );
 ```
 
 **Övning 3. Vilka värden visas av for-loopen?**<br>
@@ -167,21 +169,21 @@ För varje loop ska du skriva ner vilka värden den ska visa. Jämför sedan med
 Båda looparna skriver ut samma värden eller inte?
 1. postfix formen:
 ```
-for (let i = 0; i < 5; i++) console.log( i );
+for (let i = 0; i < 5; i++) alert( i );
 ```
 2. prefix formen:
 ```
-for (let i = 0; i < 5; ++i) console.log( i );
+for (let i = 0; i < 5; ++i) alert( i );
 ```
 
-**Övning 4. Skriv ut jämna siffror i slingan**<br>
+**Övning 4. Skriv ut jämna siffror i loopen**<br>
 Använd `for`-loopen för att skriva ut jämna siffror från `2` till `10`.
 
 **Övning 5. Ersätt "for"-loopen med "while"-loopen**<br>
 Skriv om koden som ändrar `for`-loopen till `while`-loopen utan att ändra dess beteende (utgången ska förbli densamma).
 ```
 for (let i = 0; i < 3; i++) {
-  console.log( `number ${i}!` );
+  alert( `number ${i}!` );
 }
 ```
 
@@ -192,18 +194,18 @@ Skriv koden med `if..else` som motsvarar följande switch:
 ```
 switch (browser) {
   case 'Edge':
-    console.log( "You've got the Edge!" );
+    alert( "You've got the Edge!" );
     break;
 
   case 'Chrome':
   case 'Firefox':
   case 'Safari':
   case 'Opera':
-    console.log( 'Okay we support these browsers too' );
+    alert( 'Okay we support these browsers too' );
     break;
 
   default:
-    console.log( 'We hope that this page looks ok!' );
+    alert( 'We hope that this page looks ok!' );
 }
 ```
 
@@ -213,14 +215,14 @@ Skriv im koden nedan med hjälp av ett enda `switch`-sats:
 let a = +prompt('a?', '');
 
 if (a == 0) {
-  console.log( 0 );
+  alert( 0 );
 }
 if (a == 1) {
-  console.log( 1 );
+  alert( 1 );
 }
 
 if (a == 2 || a == 3) {
-  console.log( '2,3' );
+  alert( '2,3' );
 }
 ```
 
@@ -235,7 +237,7 @@ function checkAge(age) {
     return true;
   } else {
     // ...
-    console.log('Du är för ung tyvärr!');
+    alert('Du är för ung tyvärr!');
   }
 }
 ```
@@ -246,7 +248,7 @@ function checkAge(age) {
     return true;
   }
   // ...
-  console.log('Du är för ung tyvärr!');
+  alert('Du är för ung tyvärr!');
 }
 ```
 
@@ -260,7 +262,7 @@ function checkAge(age) {
     return true;
   } else {
     // ...
-    console.log('Du är för ung tyvärr!');
+    alert('Du är för ung tyvärr!');
   }
 }
 ```
@@ -311,11 +313,11 @@ Bör fungera så här:
 ```
 let schedule = {};
 
-console.log( isEmpty(schedule) ); // true
+alert( isEmpty(schedule) ); // true
 
 schedule["8:30"] = "get up";
 
-console.log( isEmpty(schedule) ); // false
+alert( isEmpty(schedule) ); // false
 ```
 
 **Övning 3.Summera objekt egenskaper**<br>
@@ -354,7 +356,7 @@ menu = {
 ```
 Observera att `multiplyNumeric` inte behöver returnera någonting. Det bör ändra objektet på plats.
 
-P.S. Använd `typeof` för att kontrollera ifall det är ett nummer.
+P.S. Använd `typeof()` för att kontrollera ifall det är ett nummer.
 
 ## 1.10 Listor (Array)
 ### Övningsuppgifter
