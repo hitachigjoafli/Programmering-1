@@ -28,46 +28,46 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 ## 1.1 Interpolation
 
 ### Resurser
-[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Text)
+[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Text) <br>
 [Youtube - Net Ninja Interpolation](https://www.youtube.com/watch?v=3ROjxrSa5pk&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=3&t=0s)
 
 ## 1.2 Attribute Binding
 ### Resurser
-[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Attributes)
+[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Attributes) <br>
 [Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
 
 ### Övningsuppgifter
-[Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
+[Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper) <br>
 [Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
 
 ## 1.3 Conditional Rendering
 ### Resurser
-[Vue.js Conditions](https://vuejs.org/v2/guide/conditional.html)
+[Vue.js Conditions](https://vuejs.org/v2/guide/conditional.html) <br>
 [Youtube - Net Ninja Conditions](https://www.youtube.com/watch?v=0EJqZLcwVLY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=12)
 
 ## 1.4 List Rendering - Loopar
 ### Resurser
-[Vue.js List & Loops](https://vuejs.org/v2/guide/list.html)
+[Vue.js List & Loops](https://vuejs.org/v2/guide/list.html) <br>
 [Youtube - Net Ninja Loops](https://www.youtube.com/watch?v=9Hcswbo0nCY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=13)
 
 ## 1.5 Events
 ### Resurser
-[Vue.js Events](https://vuejs.org/v2/guide/events.html)
+[Vue.js Events](https://vuejs.org/v2/guide/events.html) <br>
 [Youtube - Net Ninja Events](https://www.youtube.com/watch?v=DCwOPBxsXDs&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=6)
 
 ## 1.6 Two-way Data Binding
 ### Resurser
-[Vue.js v-model](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components)
+[Vue.js v-model](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components) <br>
 [Youtube - Net Ninja Two-way data binding](https://www.youtube.com/watch?v=FgvjjYBP2A0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=9)
 
 ## 1.7 Components
 ### Resurser
-[Vue.js Components](https://vuejs.org/v2/guide/components.html)
+[Vue.js Components](https://vuejs.org/v2/guide/components.html) <br>
 [Youtube - Net Ninja Components](https://www.youtube.com/watch?v=EAONyIKrZN0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=16)
 
 ## 1.7 Computed Properties
 ### Resurser
-[Vue.js Computed](https://vuejs.org/v2/guide/computed.html)
+[Vue.js Computed](https://vuejs.org/v2/guide/computed.html) <br>
 [Youtube - Net Ninja Computed](https://www.youtube.com/watch?v=O14qJr5sKXo&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=10)
 
 ## 1.8 Watchers
@@ -76,7 +76,7 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 ## 1.9 Class Binding
 ### Resurser
-[Vue.js Class Binding](https://vuejs.org/v2/guide/class-and-style.html)
+[Vue.js Class Binding](https://vuejs.org/v2/guide/class-and-style.html) <br>
 [Youtube - Net Ninja Class Binding](https://www.youtube.com/watch?v=4Gh5YcvGDjI&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=11)
 
 ## 1.10 Style Binding
