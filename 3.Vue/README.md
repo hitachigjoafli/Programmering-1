@@ -29,89 +29,69 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 ### Resurser
 [Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Text)
-
 [Youtube - Net Ninja Interpolation](https://www.youtube.com/watch?v=3ROjxrSa5pk&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=3&t=0s)
 
 ## 1.2 Attribute Binding
 ### Resurser
 [Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Attributes)
-
 [Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
 
 ### Övningsuppgifter
 [Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
-
 [Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
 
 ## 1.3 Conditional Rendering
 ### Resurser
 [Vue.js Conditions](https://vuejs.org/v2/guide/conditional.html)
-
 [Youtube - Net Ninja Conditions](https://www.youtube.com/watch?v=0EJqZLcwVLY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=12)
 
 ## 1.4 List Rendering - Loopar
 ### Resurser
 [Vue.js List & Loops](https://vuejs.org/v2/guide/list.html)
-
 [Youtube - Net Ninja Loops](https://www.youtube.com/watch?v=9Hcswbo0nCY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=13)
 
 ## 1.5 Events
 ### Resurser
 [Vue.js Events](https://vuejs.org/v2/guide/events.html)
-
 [Youtube - Net Ninja Events](https://www.youtube.com/watch?v=DCwOPBxsXDs&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=6)
 
 ## 1.6 Two-way Data Binding
 ### Resurser
 [Vue.js v-model](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components)
-
 [Youtube - Net Ninja Two-way data binding](https://www.youtube.com/watch?v=FgvjjYBP2A0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=9)
 
-## 1.7 Switch-satsen
-
+## 1.7 Components
 ### Resurser
-[JavaScript.Info The "Switch" statement](https://javascript.info/switch)
+[Vue.js Components](https://vuejs.org/v2/guide/components.html)
+[Youtube - Net Ninja Components](https://www.youtube.com/watch?v=EAONyIKrZN0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=16)
 
-### Övningsuppgifter
-[Övningar Switch-satsen](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-switch-satsen)
-
-<!-- # 3. Arrayer och Funktioner
-[Scrimba länk](https://scrimba.com/c/crG7vRSK) -->
-
-<!-- [Stega igenom koden](http://pythontutor.com/live.html#code=let%20Fotbollslag%3D%5B%22DIF%22,%22MALM%C3%96%20FF%22,%22Kungs%C3%B6rs%20BK%22%5D%0Aconsole.log%28Fotbollslag%29%0Alet%20Taut%3D%20Fotbollslag.pop%28%29%0Aconsole.log%28Fotbollslag%29%0Aconsole.log%28Taut%29%0AFotbollslag.push%28%22R%C3%B6nnby%20FC%22%29%0Aconsole.log%28Fotbollslag%29%0Aconsole.log%28Fotbollslag.shift%28%29%29%0AFotbollslag.unshift%28%22AIK%22,%22Hammarby%22%29%0Aconsole.log%28Fotbollslag%29%0A//%20console.log%28Fotbollslag.reverse%28%29%29%0AFotbollslag%3DFotbollslag.sort%28%29%0Aconsole.log%28Fotbollslag.reverse%28%29%29%0A%0Alet%20%C3%96nskelista%3D%5B%22Matta%22,%22Gungh%C3%A4st%22,%22Tandborste%22%5D%0Aconsole.log%28%C3%96nskelista.findIndex%28sak%20%3D%3E%20sak%3D%3D%22Tandborste%22%20%29%29%0Aif%28%C3%96nskelista.findIndex%28sak%20%3D%3E%20sak%3D%3D%22Tandborste%22%20%29%20!%3D%20-1%29%0A%7B%0A%20%20%20%20console.log%28%22det%20%C3%A4r%20en%20tandborste%20h%C3%A4r.%20En%20vuxen%20har%20gjort%20listan.%22%29%0A%7D%0Aelse%7B%0A%20%20%20%20console.log%28%22Godk%C3%A4nd%20lista!%22%29%0A%7D%0A%0A%C3%96nskelista%3D%5B%7B%C3%84gare%3A%22Joakim%22,%20%C3%85lder%3A26,VillHaSaker%3A%5B%22Matta%22,%22Tandborste%22,%22Gungh%C3%A4st%22%5D%7D,%7B%C3%84gare%3A%22Ada%22,%20%C3%85lder%3A1,VillHaSaker%3A%5B%22Boll%22,%22Kanin%22,%22Racerbil%22%5D%7D%5D%0Alet%20Vuxen%20%3D%20%C3%96nskelista.find%28sak%20%3D%3E%20sak.VillHaSaker.includes%28%22Tandborste%22%29%29%0Aif%28Vuxen%20!%3D%20null%29%0A%7B%0A%20%20%20%20console.log%28%22Det%20finns%20en%20tandborste%20i%20listan,%20den%20som%20%C3%A4ger%20listan%20heter%20%22%2B%20Vuxen.%C3%84gare%2B%22%20och%20han%20%C3%A4r%20%22%2BVuxen.%C3%85lder%2B%22%20gammal%22%29%0A%7D%0A%0Alet%20Saker%3D%5B%22Boll%22,%22Kanin%22,%22Racerbil%22,%22Matta%22,%22Tandborste%22%5D%0Alet%20Priser%3D%5B100,280,120000,1200,20%5D%0Aconsole.log%28%22Priser%20%22%2B%20Priser%29%0APriser%3D%20Priser.map%28Pris%20%3D%3E%20Pris*0.74%29%0Aconsole.log%28%22Mappad%20%22%2B%20Priser%29%0APriser%3D%20Priser.filter%28Pris%20%3D%3E%20Pris%3C900%29%0Aconsole.log%28%22Filtrerad%20%22%2B%20Priser%29%0A%0Alet%20TomtensSaker%3D%5B%7BSak%3A%22Boll%22,Pris%3A%20100%7D,%7BSak%3A%22Kanin%22,Pris%3A%20280%7D,%7BSak%3A%22Racerbil%22,Pris%3A%20120000%7D,%7BSak%3A%22Matta%22,Pris%3A%201200%7D,%7BSak%3A%22Tandborste%22,Pris%3A%2020%7D,%7BSak%3A%22Gungh%C3%A4st%22,Pris%3A%20454%7D%5D%0Aconsole.log%28TomtensSaker%29%0A%0ATomtensSaker%20%3D%20TomtensSaker.filter%28Pryl%20%3D%3E%7B%0A%20%20%20%20if%28Pryl.Pris%3C500%29%0A%20%20%20%20return%20Pryl%0A%7D%29%0ATomtensSaker%20%3D%20TomtensSaker.sort%28function%28a,b%29%7B%0A%20%20%20%20return%20b.Pris-a.Pris%0A%7D%29%0A%0Aconsole.log%28%22Tomtens%20%C3%B6nskelista%20%22%2B%20TomtensSaker.map%28function%28elem%29%7B%0A%20%20%20%20return%20elem.Sak%3B%0A%7D%29.join%28%22%7C%22%29%29%0A%0ASayHello%28%22pocke%22%29%3B%0ASayHello%28%22Jocke%22%29%3B%0Afunction%20SayHello%28name%29%7B%0A%20%20%20%20console.log%28%22ello%20%22%2B%20name%2B%22!%22%29%0A%20%20%20%0A%7D%0A%20Addera%281,2%29%0A%0Afunction%20Addera%28nummer1,nummer2%29%0A%7B%0A%20%20%20%20console.log%28nummer1%2Bnummer2%29%0A%20%20%20%20return%20nummer1%2Bnummer2%3B%0A%7D%0A//%20Efterskatt%28R%C3%A4knautL%C3%B6n%28%22joakim%22,25000%29%29%0Alet%20MinL%C3%B6n%3D%20R%C3%A4knautL%C3%B6n%28%22joakim%22,25000%29%0AEfterskatt%28MinL%C3%B6n%29%0Afunction%20R%C3%A4knautL%C3%B6n%28namn,l%C3%B6n%29%0A%7B%0A%20%20%20%20let%20%C3%85rsl%C3%B6n%3D%2012*l%C3%B6n%3B%0A%20%20%20%20console.log%28%22%C3%84rsl%C3%B6nen%20%C3%A4r%20%22%2B%20%C3%85rsl%C3%B6n%2B%22%20f%C3%B6r%20%22%2Bnamn%29%0A%20%20%20%20return%20%C3%85rsl%C3%B6n%0A%7D%0A%0Afunction%20Efterskatt%28%C3%85rsl%C3%B6n%29%7B%0A%20%20%20%20let%20L%C3%B6nefteskatt%3D%20%C3%85rsl%C3%B6n*%200.70%0A%20%20%20%20%0A%20%20%20%20console.log%28%22och%20efterskatt%20%C3%A4r%20den%20%22%2B%20L%C3%B6nefteskatt%2B%22%20kronor%22%29%0A%7D&cumulative=false&curInstr=1&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false) -->
-
-## 1.7 Funktioner
+## 1.7 Computed Properties
 ### Resurser
-<!-- - [Mozilla Funktioner](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-- [Mozilla Arrayer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [W3School Javascript Funktioner](https://www.w3schools.com/js/js_functions.asp)
-- [W3School Javascript Arrayer](https://www.w3schools.com/js/js_arrays.asp) -->
-[JavaScript.Info Functions](https://javascript.info/function-basics)
+[Vue.js Computed](https://vuejs.org/v2/guide/computed.html)
+[Youtube - Net Ninja Computed](https://www.youtube.com/watch?v=O14qJr5sKXo&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=10)
 
-### Övningsuppgifter
-[Övningar Fuktioner](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-funktioner)
-
-## 1.8 Arrow functions (pil-funktioner)
+## 1.8 Watchers
 ### Resurser
-[JavaScript.Info Arrow-functions](https://javascript.info/arrow-functions-basics)
+[Vue.js Watchers](https://vuejs.org/v2/guide/computed.html#Computed-vs-Watched-Property)
 
-### Övningsuppgifter
-[Övningar Arrow functions](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#18-arrow-functions-pil-funktioner)
-
-
-## 1.9 Objekt
+## 1.9 Class Binding
 ### Resurser
-[JavaScript.Info Objects](https://javascript.info/object)
+[Vue.js Class Binding](https://vuejs.org/v2/guide/class-and-style.html)
+[Youtube - Net Ninja Class Binding](https://www.youtube.com/watch?v=4Gh5YcvGDjI&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=11)
 
-### Övningsuppgifter
-[Övningar Objekt](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#19-objekt)
+## 1.10 Style Binding
+### Resurser
+[Vue.js Style Binding](https://vuejs.org/v2/guide/class-and-style.html)
 
-## 1.10 Listor (Arrays)
+## 1.12 Life-cycle hooks
 ### Resurser
 [JavaScript.Info Arrays](https://javascript.info/array)
 
-### Övningsuppgifter
-[Övningar Arrays](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/README.md#110-listor-array)
+
+## 1.12 Component Communication - Props
+### Resurser
+[Vue.js Props](https://vuejs.org/v2/guide/components-props.html)
+[Youtube - Net Ninja Props(https://www.youtube.com/watch?v=9qqFH60isFc&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=23)
 
 # 4. HTML CSS
 [Scrimba länk](https://scrimba.com/c/cp37vkC9)
