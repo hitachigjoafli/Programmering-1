@@ -17,6 +17,8 @@ Till varje del så kommer det finnas lite övningsuppgifter.
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/Vue2.jpg)
 
+![överblick](https://miro.medium.com/max/8604/1*C4A0g1KYpa_olbSJcxAEBA.png)
+
 ## 1.1 Interpolation
 
 ### Resurser
@@ -24,14 +26,16 @@ Till varje del så kommer det finnas lite övningsuppgifter.
 
 [Youtube - Net Ninja Interpolation](https://www.youtube.com/watch?v=3ROjxrSa5pk&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=3&t=0s)
 
-## 1.2 Datatyper
+## 1.2 Attribute Binding
 ### Resurser
-[JavaScript.Info Datatypes](https://javascript.info/types)
+[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Attributes)
+
+[Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
 
 ### Övningsuppgifter
 [Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
   
-## 1.3 Operatorer
+## 1.3 Conditional Rendering
 ### Resurser
 [JavaScript.Info Operators](https://javascript.info/operators)
 
