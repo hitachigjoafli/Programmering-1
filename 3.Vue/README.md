@@ -1,12 +1,18 @@
 # VUE
 ## Intro
+Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare och snabbare kunna utveckla applikationer.
 
-Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text, Youtube-videor och interaktiva videor i Scrimba.
-Scrimba är interaktiva videor där du som elev när som helst under videons gång kan pausa och börja programmera rätt i videon. Exempelkod för dessa videor ligger även här i undermappen exempelkod.
+* Vue är ett progressivt open-source ramverk för att bygga användargränssnitt, till en början utvecklad av en Google avhoppare som heter Evan You, men underhålls idag av ett team.
 
-Våga testa och fråga kompisar och lärare för att få bästa möjligheter till att utvecklas.
+* Core delen av ramverket är endast fokuserat på visningsskiktet och är enkelt att komma igång med
 
-Till varje del så kommer det finnas lite övningsuppgifter.
+* Vue är också fullt kapabelt att bygga sofistikerade applikationer (Single Page Applications)
+
+* Vue är flexibelt och enkelt
+
+* Vue tillåter dig att använde det i en del av en befintlig applikation (plugin) eller hantera hela applikationen från start (CLI)
+
+* Vue-Directives är den del av Vue.js som lägger speciell betydelse och beteende till vanliga html-element på sidan.
 
 ## Övergripande resurser för denna modul:
 
