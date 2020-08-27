@@ -1,8 +1,4 @@
 # VUE
-
-![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/Vue1.jpg)
-
-![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/Vue2.jpg)
 ## Intro
 
 Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text, Youtube-videor och interaktiva videor i Scrimba.
@@ -16,18 +12,17 @@ Till varje del så kommer det finnas lite övningsuppgifter.
 
 - [Vue](https://vuejs.org/v2/guide/)
 - [Youtube - Net Ninja Vue](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
+pppo
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/Vue1.jpg)
 
-# 1. Variabler, datatyper, jämförelser, if-satser, loopar, objekt och listor
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/Vue2.jpg)
 
-## 1.1 Variabler
+## 1.1 Interpolation
 
 ### Resurser
-<!-- - [W3School Variabels](https://www.w3schools.com/js/js_variables.asp) -->
-<!-- - [W3School Objects](https://www.w3schools.com/js/js_objects.asp) -->
-[JavaScript.Info Variabels](https://javascript.info/variables)
+[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Text)
 
-### Övningsuppgifter
-[Övningar Variabler](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#11-variabler)
+[Youtube - Net Ninja Interpolation](https://www.youtube.com/watch?v=3ROjxrSa5pk&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=3&t=0s)
 
 ## 1.2 Datatyper
 ### Resurser
