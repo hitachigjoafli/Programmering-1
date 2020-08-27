@@ -91,7 +91,7 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 ## 1.12 Component Communication - Props
 ### Resurser
 [Vue.js Props](https://vuejs.org/v2/guide/components-props.html)
-[Youtube - Net Ninja Props(https://www.youtube.com/watch?v=9qqFH60isFc&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=23)
+[Youtube - Net Ninja Props](https://www.youtube.com/watch?v=9qqFH60isFc&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=23)
 
 # 4. HTML CSS
 [Scrimba länk](https://scrimba.com/c/cp37vkC9)
