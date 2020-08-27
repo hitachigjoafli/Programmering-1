@@ -4,13 +4,13 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 * Vue är ett progressivt open-source ramverk för att bygga användargränssnitt, till en början utvecklad av en Google avhoppare som heter Evan You, men underhålls idag av ett team.
 
-* Core delen av ramverket är endast fokuserat på visningsskiktet och är enkelt att komma igång med
+* Core delen av ramverket är endast fokuserat på visningsskiktet och är enkelt att komma igång med.
 
-* Vue är också fullt kapabelt att bygga sofistikerade applikationer (Single Page Applications)
+* Vue är också fullt kapabelt att bygga sofistikerade applikationer (Single Page Applications).
 
-* Vue är flexibelt och enkelt
+* Vue är flexibelt och enkelt.
 
-* Vue tillåter dig att använde det i en del av en befintlig applikation (plugin) eller hantera hela applikationen från start (CLI)
+* Vue tillåter dig att använde det i en del av en befintlig applikation (plugin) eller hantera hela applikationen från start (CLI).
 
 * Vue-Directives är den del av Vue.js som lägger speciell betydelse och beteende till vanliga html-element på sidan.
 
