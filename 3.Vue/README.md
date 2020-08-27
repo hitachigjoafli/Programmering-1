@@ -19,6 +19,8 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 - [Vue](https://vuejs.org/v2/guide/)
 - [Youtube - Net Ninja Vue](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
 
+Även om den delmängd av alla videor har plockats ut rekommenderas att man går igenom alla.
+
 ## 1.1 Interpolation
 
 ### Resurser
@@ -28,10 +30,6 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 ## 1.2 Attribute Binding
 ### Resurser
 [Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Attributes) <br>
-[Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
-
-### Övningsuppgifter
-[Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper) <br>
 [Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
 
 ## 1.3 Conditional Rendering
