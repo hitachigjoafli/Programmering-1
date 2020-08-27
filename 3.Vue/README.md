@@ -40,43 +40,32 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 ### Övningsuppgifter
 [Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
-  
+
+[Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
+
 ## 1.3 Conditional Rendering
 ### Resurser
-[JavaScript.Info Operators](https://javascript.info/operators)
+[Vue.js Conditions](https://vuejs.org/v2/guide/conditional.html)
 
-### Övningsuppgifter
-[Övningar Operatorer](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#13-operatorer)
+[Youtube - Net Ninja Conditions](https://www.youtube.com/watch?v=0EJqZLcwVLY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=12)
 
-## 1.4 Jämförelser
+## 1.4 List Rendering - Loopar
 ### Resurser
-[JavaScript.Info Comparison](https://javascript.info/comparison)
+[Vue.js List & Loops](https://vuejs.org/v2/guide/list.html)
 
-### Övningsuppgifter
-[Övningar Jämförelser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#14-j%C3%A4mf%C3%B6relser)
+[Youtube - Net Ninja Loops](https://www.youtube.com/watch?v=9Hcswbo0nCY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=13)
 
-## 1.5 If-satser
+## 1.5 Events
 ### Resurser
-[JavaScript.Info Comparison](https://javascript.info/ifelse)
+[Vue.js Events](https://vuejs.org/v2/guide/events.html)
 
-### Övningsuppgifter
-[Övningar If-satser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#15-if-satser)
+[Youtube - Net Ninja Events](https://www.youtube.com/watch?v=DCwOPBxsXDs&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=6)
 
-<!-- # 2. Ifsatser och loopar fördjupning -->
-
-<!-- [Stega igenom koden](http://pythontutor.com/live.html#code=let%20i%3D10%0A%20while%20%280%3Ci%29%20%7B%0A%20%20%20%20%20console.log%28i%29%0A%20%20%20%20%20i-%3D1%0A%20%7D%0A%0A%20while%20%28i%3C10%29%20%7B%0A%20%20%20%20console.log%28i%29%0A%20%20%20%20%20i%2B%3D1%0A%20%7D%0A%20i%3D0%3B%0A%20while%20%28i%3C10%29%20%7B%0A%20%20%20%20%20let%20output%3D%22%22%0A%20%20%20%20%20let%20p%3D0%3B%0A%20%20%20%20%20while%20%28p%3C10%29%20%7B%0A%20%20%20%20%20%20%20%20%20output%2B%3D%22X%22%0A%20%20%20%20%20%20%20%20%20p%2B%3D1%3B%0A%20%20%20%20%20%7D%0A%20%20%20%20console.log%28output%29%0A%20%20%20%20%20i%2B%3D1%0A%20%7D%0A%0A%0A%20for%20%28let%20i2%20%3D%200%3B%20i2%20%3C%20120%3B%20i2%2B%3D10%29%20%7B%0A%20%20%20%20%20console.log%28i2%29%20%20%20%0A%20%7D%0A%0Alet%20man%3D%20true%0Alet%20age%3D450%0A%0A%20if%28age%3C30%29%0A%20%7B%0Aif%20%28man%3D%3Dtrue%29%20%7B%0A%20%20%20%20console.log%28%22You%20like%20to%20bake%22%29%0A%7D%20else%20%7B%0A%20%20%20%20console.log%28%22You%20like%20to%20play%20video%20games%22%29%0A%7D%0A%20%7D%0A%20else%20if%28age%3E30%20%26%26%20age%3C50%29%0A%20%7B%0A%20%20%20%20if%20%28man%3D%3Dtrue%29%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20walk%20in%20the%20park%22%29%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20make%20wooden%20sculptures%22%29%0A%20%20%20%20%7D%0A%20%7D%0A%20else%7B%0A%20%20%20%20if%20%28man%3D%3Dtrue%20%7C%7C%20man%3D%3Dfalse%29%20%7B%0A%20%20%20%20%20%20%20%20console.log%28%22You%20like%20to%20watch%20livestreams%20on%20youtube%22%29%0A%20%20%20%20%7D%0A%20%7D%0A%20%0A%20age%3D0%0A%20money%3D0%0A%20%0A%20while%20%28age%3C65%29%20%7B%0A%20%20%20%20%20if%28age%3C15%29%0A%20%20%20%20%20money%2B%3D1050%0A%20%20%20%20%20else%20if%28age%3C18%29%0A%20%20%20%20%20money%2B%3D1350%0A%20%20%20%20%20else%20if%28age%3C23%29%0A%20%20%20%20%20money%2B%3D3350%0A%20%20%20%20%20else%20if%28age%3C65%29%0A%20%20%20%20%20money%2B%3D%28age*1000%29*0.70%0A%20%20%20%20//%20%20else%0A%20%20%20%20//%20%20money%2B%3D%0A%20%7D&cumulative=false&curInstr=470&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false) -->
-
-<!-- ## Resurser
-- [Mozilla Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
-- [Mozilla IF statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#if...else_statement)
-- [W3School Comparisions (IF || && <> != ..)](https://www.w3schools.com/js/js_comparisons.asp) -->
-
-## 1.6 Loopar: while och for
+## 1.6 Two-way Data Binding
 ### Resurser
-[JavaScript.Info Loops: while and for](https://javascript.info/while-for)
+[Vue.js v-model](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components)
 
-### Övningsuppgifter
-[Övningar Loopar: while och for](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#16-loopar-while-och-for)
+[Youtube - Net Ninja Two-way data binding](https://www.youtube.com/watch?v=FgvjjYBP2A0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=9)
 
 ## 1.7 Switch-satsen
 
