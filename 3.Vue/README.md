@@ -12,7 +12,7 @@ Till varje del så kommer det finnas lite övningsuppgifter.
 
 - [Vue](https://vuejs.org/v2/guide/)
 - [Youtube - Net Ninja Vue](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
-pppo
+
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/Vue1.jpg)
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/Vue2.jpg)
