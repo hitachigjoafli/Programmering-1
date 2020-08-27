@@ -1,6 +1,6 @@
 # VUE
 
-![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/img/planjs.png?raw=true)
+![överblick](https://miro.medium.com/max/3824/1*apBcw3f1BE8vJWAWG-k6gw.jpeg)
 ## Intro
 
 Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text, Youtube-videor och interaktiva videor i Scrimba.
