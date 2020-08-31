@@ -52,11 +52,6 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 [Vue.js v-model](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components) <br>
 [Youtube - Net Ninja Two-way data binding](https://www.youtube.com/watch?v=FgvjjYBP2A0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=9)
 
-## 1.7 Components
-### Resurser
-[Vue.js Components](https://vuejs.org/v2/guide/components.html) <br>
-[Youtube - Net Ninja Components](https://www.youtube.com/watch?v=EAONyIKrZN0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=16)
-
 ## 1.7 Computed Properties
 ### Resurser
 [Vue.js Computed](https://vuejs.org/v2/guide/computed.html) <br>
@@ -75,12 +70,22 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 ### Resurser
 [Vue.js Style Binding](https://vuejs.org/v2/guide/class-and-style.html)
 
-## 1.12 Life-cycle hooks
+## 1.10 Components
 ### Resurser
-[JavaScript.Info Arrays](https://javascript.info/array)
-
+[Vue.js Components](https://vuejs.org/v2/guide/components.html) <br>
+[Youtube - Net Ninja Components](https://www.youtube.com/watch?v=EAONyIKrZN0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=16)
 
 ## 1.12 Component Communication - Props
 ### Resurser
 [Vue.js Props](https://vuejs.org/v2/guide/components-props.html)
-[Youtube - Net Ninja Props](https://www.youtube.com/watch?v=9qqFH60isFc&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=23)
+[Youtube - Net Ninja Props parent->child](https://www.youtube.com/watch?v=9qqFH60isFc&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=23)
+
+## 1.13 Component Communication - Emit Events
+### Resurser
+[Vue.js Emit Events](https://vuejs.org/v2/guide/components-custom-events.html)
+[Youtube - Net Ninja Emit events child->parent](https://www.youtube.com/watch?v=5pvG6fzkdFM&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=25)
+
+## 1.14 Life-cycle hooks
+### Resurser
+[Vue.js Hooks](https://vuejs.org/v2/guide/instance.html)
+[Youtube - Net Ninja Life-cycle hooks](https://www.youtube.com/watch?v=8rn3SK4N8Go&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=27)
