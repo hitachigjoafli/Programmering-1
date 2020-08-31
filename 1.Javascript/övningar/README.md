@@ -360,7 +360,12 @@ P.S. Använd `typeof()` för att kontrollera ifall det är ett nummer.
 
 ## 1.10 Listor (Array)
 ### Övningsuppgifter
-**Övning 1. Blir listan (arrray) kopierad**<br>
+**Övning 1. Loopa igenom array med namnen i er grupp**<br>
+1. Skapa en array med namn på alla gruppmedlemmar.
+2. Använd en for-loop och loopa igenom alla gruppmedlemmar i arrayen/listan.
+3. För varje medlem skriv ut namnet med `alert()`.
+
+**Övning 2. Blir listan (arrray) kopierad**<br>
 
 Vad kommer den här koden att visa?
 
@@ -375,7 +380,7 @@ shoppingCart.push("Banana");
 alert( fruits.length ); // ?
 ```
 
-**Övning 2. Array operationer**<br>
+**Övning 3. Array operationer**<br>
 
 Låt oss prova 5 arrayoperationer.
 
