@@ -92,3 +92,19 @@ Samma som i övning 2.
 ### Övning4 - Kommunikation mellan komponenter Child -> Parent
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/SmartaSystemExercise4.PNG)
+
+### Övning5 - Styles Bindning
+
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/style-binding.PNG)
+
+### Övning6 - Watcher
+
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/watcher.PNG)
+
+### Övning7 - v-if direktivet
+
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/v-if-brown.PNG)
+
+### Övning8 - Class Bindning & Computed Property
+
+![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/isBrown.PNG)
