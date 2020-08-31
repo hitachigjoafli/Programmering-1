@@ -92,15 +92,27 @@ Samma som i övning 2.
 ### Övning4 - Kommunikation mellan komponenter Child -> Parent
 **_Instruktioner_**: 
 
-1. Skapa 4 **input**-element och 4 **button**-element.  
+1. Skapa 4 **input**-element och 4 **button**-element i adress-komponenten.  
 
-2. Fixa så att genom Parent -> Child kommunikation så att när man fyllt i ett fält och klickar på motsvarande knapp ska adressen uppdateras för den delen.
+2. Fixa så att genom **Parent -> Child** kommunikation så att när man fyllt i ett fält och klickar på motsvarande knapp ska adressen uppdateras för den delen i EventDetailsComponenten.
 
+### Resultatet
+---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/SmartaSystemExercise4.PNG)
 
 ### Övning5 - Styles Bindning
+**_Instruktioner_**: 
 
+1. Skapa en **input**-element brevid titeln på sidan.  
+
+2. Använd two-way-binding med **v-model** för att koppla värdet från fältet till en data-variabel kanske **titleColor**.
+
+3. Använd sedan **style-binding** så att titelns färg ändras till den färgen man matat in.
+
+### Resultatet
+---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/style-binding.PNG)
+
 
 ### Övning6 - Watcher
 
