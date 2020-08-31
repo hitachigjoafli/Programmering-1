@@ -115,13 +115,30 @@ Samma som i övning 2.
 
 
 ### Övning6 - Watcher
+**_Instruktioner_**: 
 
+1. Skapa en **watcher** på **titleColor** data-variabeln som skriver ut "Jippy min favoritfärg!"
+
+### Resultatet
+---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/watcher.PNG)
 
 ### Övning7 - v-if direktivet
+**_Instruktioner_**: 
 
+1. Applicera **v-if**-direktivet så att titeln inte syns ifall färgen är **brown**.  
+
+### Resultatet
+---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/v-if-brown.PNG)
 
 ### Övning8 - Class Bindning & Computed Property
+**_Instruktioner_**: 
 
+1. Använd en **computed property** för att hålla koll på ifall färgen är **brown** tex **isBrown**.
+
+2. Applicera **Class**-bindning med hjälp av **isBrown** så att all text blir brun. Hint: måste skapa en css class i styles.
+
+### Resultatet
+---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/isBrown.PNG)
