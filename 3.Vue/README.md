@@ -70,7 +70,7 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 ### Resurser
 [Vue.js Style Binding](https://vuejs.org/v2/guide/class-and-style.html)
 
-## 1.10 Components
+## 1.11 Components
 ### Resurser
 [Vue.js Components](https://vuejs.org/v2/guide/components.html) <br>
 [Youtube - Net Ninja Components](https://www.youtube.com/watch?v=EAONyIKrZN0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=16)
