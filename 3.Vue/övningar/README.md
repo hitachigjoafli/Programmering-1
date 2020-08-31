@@ -90,6 +90,11 @@ _HINT:_ Namnge inte din komponent `<address>`. `<address>` är redan ett HTML5 e
 Samma som i övning 2.
 
 ### Övning4 - Kommunikation mellan komponenter Child -> Parent
+**_Instruktioner_**: 
+
+1. Skapa 4 **input**-element och 4 **button**-element.  
+
+2. Fixa så att genom Parent -> Child kommunikation så att när man fyllt i ett fält och klickar på motsvarande knapp ska adressen uppdateras för den delen.
 
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/SmartaSystemExercise4.PNG)
 
