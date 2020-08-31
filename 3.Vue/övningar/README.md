@@ -1,13 +1,13 @@
 # Övningar
 
-### Övning1 - Hello From GroupX
+### Övning 1 - Hello From GroupX
 0. Skapa en mapp på valfri plats och öppna den med Visual Studio Code.
 1. Skapa en `index.html` fil i mappen.
 2. Lägg till html-kod för ett standard html dokument med `<head>` och `<body>` osv.
 3. Inkludera Vue.js i filen och skriv ut rubriken "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
 
-### Övning2 - Skapa en data-bunden komponent
+### Övning 2 - Skapa en data-bunden komponent
 Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.<br>
 Det du behöver göra:
 
@@ -74,7 +74,7 @@ Datat för komponenten finns **_nedan_**.
 
 ```
 
-### Övning3 - Kommunikation mellan komponenter Parent -> Child
+### Övning 3 - Kommunikation mellan komponenter Parent -> Child
 **_Instruktioner_**: **EventDetailsComponent**:en visar information om ett lektions-event, där adress är inkluderad.
 Skapa en ny child komponent som ska hantera att adressen visas och skicka eventets adress in till den nya komponenten från EventDetailsComponenten.<br>
 Det du behöver göra:
@@ -89,7 +89,7 @@ _HINT:_ Namnge inte din komponent `<address>`. `<address>` är redan ett HTML5 e
 ---
 Samma som i övning 2.
 
-### Övning4 - Kommunikation mellan komponenter Child -> Parent
+### Övning 4 - Kommunikation mellan komponenter Child -> Parent
 **_Instruktioner_**: 
 
 1. Skapa 4 **input**-element och 4 **button**-element i adress-komponenten.  
@@ -100,7 +100,7 @@ Samma som i övning 2.
 ---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/SmartaSystemExercise4.PNG)
 
-### Övning5 - Styles Bindning
+### Övning 5 - Styles Bindning
 **_Instruktioner_**: 
 
 1. Skapa en **input**-element brevid titeln på sidan.  
@@ -114,7 +114,7 @@ Samma som i övning 2.
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/style-binding.PNG)
 
 
-### Övning6 - Watcher
+### Övning 6 - Watcher
 **_Instruktioner_**: 
 
 1. Skapa en **watcher** på **titleColor** data-variabeln som skriver ut "Jippy min favoritfärg!"
@@ -123,7 +123,7 @@ Samma som i övning 2.
 ---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/watcher.PNG)
 
-### Övning7 - v-if direktivet
+### Övning 7 - v-if direktivet
 **_Instruktioner_**: 
 
 1. Applicera **v-if**-direktivet så att titeln inte syns ifall färgen är **brown**.  
@@ -132,7 +132,7 @@ Samma som i övning 2.
 ---
 ![överblick](https://github.com/abbjoafli/Programmering-1/blob/master/3.Vue/%C3%B6vningar/v-if-brown.PNG)
 
-### Övning8 - Class Bindning & Computed Property
+### Övning 8 - Class Bindning & Computed Property
 **_Instruktioner_**: 
 
 1. Använd en **computed property** för att hålla koll på ifall färgen är **brown** tex **isBrown**.
