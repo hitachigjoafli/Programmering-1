@@ -77,15 +77,15 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 ## 1.12 Component Communication - Props
 ### Resurser
-[Vue.js Props](https://vuejs.org/v2/guide/components-props.html)
+[Vue.js Props](https://vuejs.org/v2/guide/components-props.html) <br>
 [Youtube - Net Ninja Props parent->child](https://www.youtube.com/watch?v=9qqFH60isFc&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=23)
 
 ## 1.13 Component Communication - Emit Events
 ### Resurser
-[Vue.js Emit Events](https://vuejs.org/v2/guide/components-custom-events.html)
+[Vue.js Emit Events](https://vuejs.org/v2/guide/components-custom-events.html) <br>
 [Youtube - Net Ninja Emit events child->parent](https://www.youtube.com/watch?v=5pvG6fzkdFM&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=25)
 
 ## 1.14 Life-cycle hooks
 ### Resurser
-[Vue.js Hooks](https://vuejs.org/v2/guide/instance.html)
+[Vue.js Hooks](https://vuejs.org/v2/guide/instance.html) <br>
 [Youtube - Net Ninja Life-cycle hooks](https://www.youtube.com/watch?v=8rn3SK4N8Go&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=27)
