@@ -94,7 +94,7 @@ Samma som i övning 2.
 
 1. Skapa 4 **input**-element och 4 **button**-element i adress-komponenten.  
 
-2. Fixa så att genom **Parent -> Child** kommunikation så att när man fyllt i ett fält och klickar på motsvarande knapp ska adressen uppdateras för den delen i EventDetailsComponenten.
+2. Fixa så att genom **Child -> Parent** kommunikation så att när man fyllt i ett fält och klickar på motsvarande knapp ska adressen uppdateras för den delen i EventDetailsComponenten.
 
 ### Resultatet
 ---
