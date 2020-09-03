@@ -89,3 +89,8 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 ### Resurser
 [Vue.js Hooks](https://vuejs.org/v2/guide/instance.html) <br>
 [Youtube - Net Ninja Life-cycle hooks](https://www.youtube.com/watch?v=8rn3SK4N8Go&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=27)
+
+## 1.15 Slots
+### Resurser
+[Vue.js Slots](https://vuejs.org/v2/guide/components-slots.html) <br>
+[Youtube - Net Ninja Life-cycle hooks](https://www.youtube.com/watch?v=F44OoFk8spg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=29&t=0s)
