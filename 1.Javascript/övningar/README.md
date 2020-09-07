@@ -1,4 +1,8 @@
 # Övningar
+
+## W3Schools - Javascript Övningar
+Gör all övningar på den här länken <https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1/>
+
 ## 1.1 Variabler
 ### Övningsuppgifter
 **Övning 1 - Jobba med variabler**
