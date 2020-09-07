@@ -3,8 +3,7 @@
 
 CSS är det som ger en hemsida en design och färger.
 
-
-
+[CSS Example](https://github.com/abbjoafli/Programmering-1/blob/master/CSS/CSS_Example.png)
 
 1. CSS står för Cascading Style Sheets
 2. CSS beskriver hur HTML-element ska visas på skärmen, på papper eller i andra media.
