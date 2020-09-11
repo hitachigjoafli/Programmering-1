@@ -178,11 +178,15 @@ Grattis du har skapat och kört ditt första javascript program!
 - [W3School CSS](https://www.w3schools.com/css/default.asp)
 - [W3School Javascript](https://www.w3schools.com/js/default.asp)
 
-# 5. Miniprojekt - Miniräknare
-Nu är det dags för vårat första miniprojekt, pirrigt va? Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction division och multiplikation.
+# 5. Miniprojekt
+Ni har två projekt att välja mellan beroende på era programmeringskunskaper och hur bekväma ni känner er med teknikerna vi har gått igenom.
+Tycker man att det varit ganska svårt så rekommenderas att man gör projektet **Miniräknare**. Tycker man att det vi gått igenom har varit alldeles för enkelt och vill ha lite mer utmaning så rekommenderas att man gör ett valfritt spel och projektet **Spel**.
+
+## Miniräknare
+Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction, division och multiplikation.
 
 Det är alltid bra att ha en plan innan man börjar därför skriver jag mitt tillvägagångsätt när jag gör ett sånt här projekt.
-## Plan
+### Plan
 1. Skapa en plan i pseudokod
 2. Rita en snabb wireframe
 3. Skapa sidan
@@ -196,12 +200,15 @@ Självklart så **kommenterar** jag alltid koden under projektets gång för att
 
 [Här](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/exempelkod/5.Calculator) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
 
-## Resurser
+### Resurser
 - [Learn CSS Layout](https://learnlayout.com)
 
-
-
 [Livedemo](https://abbjoafli.github.io/Programmering-1/show/Calculator/index.html)
+
+## Spel
+1. Bestäm dig för vilket spel du vill bygga och meddela det till mig (Jeton) för godkännande.
+Exempel på spel kan vara Snake, Minesweeper, Tetris, Pacman, Space Invaders, Ping Pong, Flappy Bird osv.
+2. Man kan följa liknande plan som för miniräknaren och börja utveckla spelet.
 
 ## Frågor och svar
 ### Vad är Pseudokod?
