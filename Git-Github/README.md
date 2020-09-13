@@ -49,3 +49,5 @@ När man börjar jobba med Git och GitHub kommer man stöta på vissa begrepp so
 
 ## Kom igång med GitHub
 Det första Du bör göra är att skapa dig ett konto på GitHub. Här är det viktigt att du registrar dig med din studentmejl från LNU. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna skapa vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du och de du väljer att samarbeta med kan se. Välj ett användarnamn som är eller innehåller ditt användarnamn här på LNU.
+
+![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
