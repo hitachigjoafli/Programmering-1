@@ -48,6 +48,18 @@ När man börjar jobba med Git och GitHub kommer man stöta på vissa begrepp so
 * **Branch/Branching** - Du kommer att använda "branching" eller förgreningar i ditt repro för att undvika att ändra i projektets huvudgren. Detta är extra viktigt då man är flera personer som samarbetar i samma repro då man enklare kan jobba utan att skriva över varandras filer.
 
 ## Kom igång med GitHub
-Det första Du bör göra är att skapa dig ett konto på GitHub. Här är det viktigt att du registrar dig med din studentmejl från LNU. Detta för att du ska kunna registrera ett education-konto och på så sätt kunna skapa vad man kallar privata repositorier, alltså kodprojekt som ingen annan än du och de du väljer att samarbeta med kan se. Välj ett användarnamn som är eller innehåller ditt användarnamn här på LNU.
+Det första Du bör göra är att skapa dig ett konto på GitHub. Här är det viktigt att du registrar dig med din studentmejl från ABB Industrigymnasium.
+
+Fyll i formuläret som nedan fast med ditt eget användarnamn och e-post.
+![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
+
+### Skapa ett repositorie
+Nu är det dags att skapa ditt första repositorie. Det gör du från din startsida på GitHub när du loggat in.
 
 ![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
+
+Klicka på knappen "New" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till. Var noga med detta!
+
+![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
+
+Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer.
