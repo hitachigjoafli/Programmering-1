@@ -86,7 +86,7 @@ Har du installerat Git från installationsfilen bör du i din startmeny fått et
 Börja med att testa att din installation är korrekt genom att skriva:<br>
 `git --version`
 <br>
-Du bör då få upp en bild liknande denna (skärmdumpen är tagin i windows)
+Du bör då få upp en bild liknande denna (skärmdumpen är tagin i windows)<br>
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_version.png)
 Forsätt genom att ange dina uppgifter i konfigurationen för Git. Använd såklart ditt namn och e-postadress (din studentaddress)
 <br>
@@ -97,6 +97,7 @@ Forsätt genom att ange dina uppgifter i konfigurationen för Git. Använd såkl
 Kontrollera dina inställningar via:
 <br>
 `git config --list`
+<br>
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png)
 ## Att skapa ett repositorie
 Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
