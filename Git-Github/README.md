@@ -63,3 +63,21 @@ Klicka på knappen "New" och fyll i dina uppgifter. Går du en kurs har du säke
 ![Github New](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_LoggedIn.PNG)
 
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer.
+
+# Fortsättning på Git & Github
+
+## Git
+Git är ett versionssystem medans GitHub är en tjänst som använder sig av git för att bygga en webbplats.
+
+Vi ska nu börja titta på hur vi arbetar med Git. Denna guide har valt att koncentrera sig på hur man arbetar med Git via ett terminalfönster. Det finns grafiska klienter att använda men dessa får du själv upptäcka när du väl lärt dig grunderna i Git-kommandon. Du kommer arbeta med terminalfönster mycket under din utbildning så att bli van vid detta är viktigt.
+
+## Installera Git på din dator
+Om du arbetar på en egen dator är det en bra start att börja med att installera Git. Använder du skolans datorer bör det redan vara installerat på dessa. Att installera Git är inte svårare än att installera något annat program. Du laddar ner och installerar en körbar fil. Mer information hittar du på Git:s officiella sida. Välj sätt att installera på beroende på ditt operativsystem. Om du vill kan du välja de standardalternativ som följe rmed installationsguiden.
+
+### Konfigurera Git
+För att på ett enkelt sätt komma igång kan vi börja med att konfiguera Git genom att tala om vem vi är.
+
+#### Windows
+Har du installerat Git från installationsfilen bör du i din startmeny fått ett alternativ "Git". Du öppnar ett terminalfönster för Git i Windows genom att du går via startmeny --> "Git" --> "Git bash".
+
+![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_bash.png)
