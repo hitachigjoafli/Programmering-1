@@ -58,8 +58,8 @@ Nu är det dags att skapa ditt första repositorie. Det gör du från din starts
 
 ![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
 
-Klicka på knappen "New" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till. Var noga med detta!
+Klicka på knappen "New" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till.
 
-![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
+![Github New](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_LoggedIn.PNG)
 
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer.
