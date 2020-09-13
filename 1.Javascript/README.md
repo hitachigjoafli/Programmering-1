@@ -180,7 +180,7 @@ Grattis du har skapat och kört ditt första javascript program!
 
 # 5. Miniprojekt
 Ni har två projekt att välja mellan beroende på era programmeringskunskaper och hur bekväma ni känner er med teknikerna vi har gått igenom.
-Tycker man att det varit ganska svårt så rekommenderas att man gör projektet **Miniräknare**. Tycker man att det vi gått igenom har varit alldeles för enkelt och vill ha lite mer utmaning så rekommenderas att man gör ett valfritt spel och projektet **Spel**.
+Tycker man att det varit medel eller svårt så rekommenderas att man gör projektet **Miniräknare**. Tycker man att det vi gått igenom har varit alldeles för enkelt och vill ha lite mer utmaning så rekommenderas att man gör ett valfritt spel och projektet **Spel**. Man får vara två och två om man väljer att göra ett spel, men det är inte ett måste. 
 
 ## Miniräknare
 Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction, division och multiplikation.
@@ -206,7 +206,11 @@ Självklart så **kommenterar** jag alltid koden under projektets gång för att
 [Livedemo](https://abbjoafli.github.io/Programmering-1/show/Calculator/index.html)
 
 ## Spel
-1. Bestäm dig för vilket spel du vill bygga och meddela det till mig (Jeton) för godkännande.
+Jag föreslår att man använder en spel-motor när man utvecklar sitt spel och en populär JavaScript spel-motor är <https://phaser.io/>.
+För att komma igång med det kan man börja med gå igenom deras tutorial och bygga ett exempel spel med Phaser: <https://phaser.io/tutorials/making-your-first-phaser-3-game/part1>
+Kom ihåg att det kräver att nu sätter er in i hur Phaser fungerar osv.
+
+1. Bestäm dig/er för vilket spel du/ni vill bygga och meddela det till mig (Jeton) för godkännande.
 Exempel på spel kan vara Snake, Minesweeper, Tetris, Pacman, Space Invaders, Ping Pong, Flappy Bird osv.
 2. Man kan följa liknande plan som för miniräknaren och börja utveckla spelet.
 
