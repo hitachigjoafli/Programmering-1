@@ -103,3 +103,25 @@ Kontrollera dina inställningar via:
 <br>
 ## Att skapa ett repositorie
 Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
+### Skapa ett nytt lokalt repositorie
+Börja med att använda kommandot cd i terminalen för att bege dig till någon lämplig katalog där du vill skapa ditt repositorie. Har du ingen erfarenhet av dessa typer av kommandon (UNIX-kommandon) kan vi rekommendera Ubuntu-manualens korta introduktion till de vanligaste. Väl i hemkatalogen skapar du en ny mapp genom att skriva:
+<br>
+`mkdir my-application`
+</br>
+Detta skapar en katalog med namnet my-application. För att skapa ett repositorie i denna mapp navigerar du dig in i mappen och där skriver
+<br>
+`git init`
+<br>
+Du har nu skapat ett helt eget lokalt repositorie och har förmodligen fått en mapp som heter ".git" (kan vara dold i filhanteraren). Den mappen innehåller all information om detta repositorie och de versionsförändringar vi kommer göra. Denna mapp ska du alltså inte bry dig om så mycket utan bara låta Git sköta om. Du kan nu testa statusen på ditt repo genom att skriva:
+<br>
+`git status`
+<br>
+Vi har ännu inte lagt till några filer i vår versionshanterade katalog (vårt repo). Så skapa en fil index.html och spara i katalogen du nyss skapade. Kontrollera nu statusen igen med `git status` och observera nu skillnaden.
+
+Git har alltså upptäckt att vi lagt till en ny fil i mappen och talar om att denna inte är versionshanterad. Varje fil i en mapp som är Git-hanterad kan antingen vara "tracked" eller "untracked". För att lägga till filen index.html vi nyss skapade skriver du:
+<br>
+`git add index.html`
+<br>
+Ovanstående kommando lägger till just filen index.html. Har man skapat flera filer samtidigt som vill lägga till använder man:
+<br>
+`git add .`
