@@ -56,13 +56,22 @@ Fyll i formuläret som nedan fast med ditt eget användarnamn och e-post.
 ### Skapa ett repositorie
 Nu är det dags att skapa ditt första repositorie. Det gör du från din startsida på GitHub när du loggat in.
 
-![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
+![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_LoggedIn.PNG)
 
 Klicka på knappen "New" och fyll i dina uppgifter. Går du en kurs har du säkert fått information om vad du ska döpa detta repositorie till.
 
-![Github New](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_LoggedIn.PNG)
+![Github New](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/My_Website_Github.PNG)
 
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer.
+
+### Github Pages
+Ni ska få skapa ett repo där ni presenterar er själva eller egentligen vad ni vill så länge det är inom skolramen, och så kan ni också lista projekten som ni gör under utbildningens gång om ni vill.
+
+Repot som man skapar med namnet *"username.github.io"* blir kontots hemsida kan man säga.
+
+Här är en länk som beskriver det mer i detalj som ni kan följa:
+
+<https://medium.com/@anilemrah/how-to-publish-your-html-with-github-pages-8f3f854e7d4>
 
 # Fortsättning på Git & Github
 
@@ -83,24 +92,26 @@ Har du installerat Git från installationsfilen bör du i din startmeny fått et
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_bash.png)
 
 #### De första inställningarna
-Börja med att testa att din installation är korrekt genom att skriva:<br>
+Börja med att testa att din installation är korrekt genom att skriva:
+<br><br>
 `git --version`
+<br><br>
+Du bör då få upp en bild liknande denna
 <br>
-Du bör då få upp en bild liknande denna (skärmdumpen är tagin i windows)<br>
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_version.png)
 <br>
 Forsätt genom att ange dina uppgifter i konfigurationen för Git. Använd såklart ditt namn och e-postadress (din studentaddress)
-<br>
+<br><br>
 `git config --global user.name "John Doe"`
-<br>
+<br><br>
 ```git config --global user.email johndoe@example.com```
-<br>
+<br><br>
 Kontrollera dina inställningar via:
-<br>
+<br><br>
 `git config --list`
-<br>
+<br><br>
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png)
-<br>
+<br><br>
 ## Att skapa ett repositorie
 Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
 ### Skapa ett nytt lokalt repositorie
