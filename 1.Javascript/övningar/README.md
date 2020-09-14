@@ -505,8 +505,11 @@ Skriv koden för att välja elementet med attributet 'data-widget-name' från do
 ## Övning 2.4
 Gör alla externa länkar orange genom att sätta/ändra deras `style`-egenskap.<br>
 En länk är extern om:<br>
-Dess `href` har :// i den.
-
+Dess `href` har :// i den. <br>
+1. Dvs ni ska hämta alla `<a>`-taggar
+2. Loopa igenom dem med for-loop
+3. Kolla ifall attributet `href` innehåller ://, kan göras med methoden `includes()` google upp den i W3Schools
+4. Sätta färgen `orange` i så fall.
 ```
 <a name="list">the list</a>
 <ul>
@@ -524,4 +527,4 @@ Dess `href` har :// i den.
   link.style.color = 'orange';
 </script>
 ```
-
+![DOM 2.4](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/DOM_2_4.PNG)
