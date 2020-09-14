@@ -170,15 +170,26 @@ Grattis du har skapat och kört ditt första javascript program!
 ### Övningsuppgifter
 [Övningar Arrays](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/README.md#110-listor-array)
 
-# 4. HTML CSS
-[Scrimba länk](https://scrimba.com/c/cp37vkC9)
-
+# 4. HTML - CSS
 ## Resurser
 - [W3School HTML](https://www.w3schools.com/html/)
 - [W3School CSS](https://www.w3schools.com/css/default.asp)
-- [W3School Javascript](https://www.w3schools.com/js/default.asp)
+- [Scrimba länk](https://scrimba.com/c/cp37vkC9)
 
-# 5. Miniprojekt
+# 5. Webbläsaren - DOM (Document Object Model) - BOM (Browser Object Model) - Events
+## Resurser
+[JavaScript.Info UI](https://javascript.info/ui)
+[W3Schools JS-HTML-DOM](https://www.w3schools.com/js/js_htmldom.asp)
+[W3Schools JS-Browser-BOM](https://www.w3schools.com/js/js_window.asp)
+
+
+## 5.1 - DOM
+[Webbläsarens miljö](https://javascript.info/browser-environment)
+[DOM Noder](https://javascript.info/dom-nodes)
+[DOM Navigering](https://javascript.info/dom-navigation)
+
+
+# 6. Miniprojekt
 Ni har två projekt att välja mellan beroende på era programmeringskunskaper och hur bekväma ni känner er med teknikerna vi har gått igenom.
 Tycker man att det varit medel eller svårt så rekommenderas att man gör projektet **Miniräknare**. Tycker man att det vi gått igenom har varit alldeles för enkelt och vill ha lite mer utmaning så rekommenderas att man gör ett valfritt spel och projektet **Spel**. Man får vara två och två om man väljer att göra ett spel, men det är inte ett måste. 
 
