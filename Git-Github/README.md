@@ -125,3 +125,72 @@ Git har alltså upptäckt att vi lagt till en ny fil i mappen och talar om att d
 Ovanstående kommando lägger till just filen index.html. Har man skapat flera filer samtidigt som vill lägga till använder man:
 <br>
 `git add .`
+<br><br>
+Vilket också är det vanligaste fallet. Kolla nu status på ditt repositorie igen med `git status`.
+Filen är nu tillagd i vad man kallar "staging area" men den är fortfarande inte helt versionshanterad. Vi måste också göra en så kallad "commit" för att få till detta. En "commit" gör man när man suttit och jobbat ett tag med något, kanske skrivit en deluppgift, implementerat en funktion i sin applikation eller kanske bara tar en paus och vill spara undan det man gjort hittils. Man brukar säga att man ska "commit:a" sin kod ofta men inte så att det blir absurt. En "commit" ska också innehålla en bra kommentar som beskriver för andra vad du gjort sedan sist. Även om du kommer jobba ensam i vissa repositorier så var noga med att skriva bra och förklarande kommentarer till dina commit:s. För att göra en commit skriver du i terminalfönstret:
+<br><br>
+`git commit -m "I have created the file index.html, but it is still empty"`
+<br><br>
+Du bör såklart byta ut kommentaren innanför citattecknen mot en kommentar som passar i ditt fall. Det kan vara bra att skriva kommentarerna på engelska då man ibland stöter på problem med svenska tecken. Kontrollera nu ditt repositories status
+<br><br>
+`git status`
+<br><br>
+Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg i mappen. Kolla status, lägg till den nya filen med
+<br><br>
+git add .
+<br><br>
+och gör en ny commit. Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två stycken "commits".
+### Skapa ett repositorie på GitHub och klona ner lokalt
+Men om man har ett repositorie på GitHub och vill utveckla lokalt på sin dator och sedan skicka upp förändringarna. Hur gör man då?
+
+Börja med att skapa ett repositorie på ditt konto på GitHub. På ditt nya repositories första sida, nere till höger, kommer du se något som heter "HTTPS clone URL". Kopiera den sökväg som finns där. Den ska vi nu använda via terminalfönstret klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
+
+Gå till terminalfönstret och navigera dig till den mapp där du vill kopiera ner repositoriet och skriv:
+<br><br>
+`git clone https://github.com/xx222xx/myRepo.git`
+<br><br>
+där den sista delen är den address du kopierade. Du har nu sparat ner en exakt kopia av det som låg på GitHub. Alla filerna bör ha hamnat i en mapp som om man tittar på addressen ovan borde heta "myRepo". Du har nu ett lokalt skapat repositorie och kan jobba vidare med "add" och "commit" under arbetets gång. Observera dock att dessa förändringar bara sker lokalt än så länge.
+
+## Skicka upp förändringar till GitHub
+Vi har nu arbetat på ett tag men som sagt har vi bara gjort våra förändringar lokalt på den dator vi arbetar på för tillfället. Vi vill ju gärna spara dem centralt på GitHubs server så vi kan komma åt dem från vilken dator som helst eller kanske är vi flera som jobbar i samma projekt. Kanske ör det så att du nu suttit i skolan och jobbat och vill nu gå hem och arbeta vidare på din dator hemma. Naturligtvis måste vi skicka upp förändringarna till GitHub så vi kan komma åt dem från en annan dator. För att göra detta skriver du i terminalfönstret:
+<br><br>
+`git push`
+<br><br>
+Man kan nu kontrollera att förändringarna finns på GitHub och man kan nu klona ner dessa på liknande särr till en annan dator man vill jobba vidare på.
+
+## Övning
+Nu ska du få testa lite själv. Din uppgift blir nu följande.
+
+1. Logga in på ditt GitHubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet. Läs mer om ignore-filer.
+2. Skapa en katalog med namnet "projects", via terminalfönstret, på lämplig plats i ditt filsystem.
+3. Klona nu ut repositoriet till din lokala dator till den mapp du nyss skapade.
+4. Skapa en ny fil, index.html, och lägg till den i repositoriet och skicka sedan upp till GitHub. Besök sidan för ditt GitHub-repositorie och kontrollera att filen finns där.
+5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på GitHub.
+6. Skapa en ny mapp, "projects_simulate" för att simulera att vi nu satt oss och jobba vid en ny dator. Klona nu ner repositoriet på nytt till denna mapp och kontrollera att det har alla de uppdaterade filerna med sig.
+7. Gör en förändring i någon av filerna och gör en commit på detta. Skicka sedan upp det till GitHub igen. Kontrollera att förändringen kom med.
+8. Gå nu tillbaka till den första mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på GitHub inte finns där ännu. Vi måste på något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot: git pull Det bör ladda ner de förändringar som gjorts och vi får samma version som finns på GitHub. Vi kan nu fortsätta jobba med filerna.
+
+Här hittar du två filmer där vi visar hur man kan lösa uppgiften ovan.
+
+## Branching
+Ytterligare ett begrepp vi måste känna till är Branch eller Branching. Det är en finess som är oumbärlig när man börja jobba flera personer inom samma projekt. Med en branch menar man att man skapar en förgrening i aktuellt projekt. Det är vanligt förekommande att man t.ex. skapar en ny branch när man ska införa en ny funktion i en applikation. Man skapar då en branch där man jobbar med koden till denna funktion utan att påverka själva huvudspåret. Man kan alltså säga att en branch är en tillfällig kopia som används under tiden en ny funktion implementeras för att sedan slås ihop (genom en så kallad "merge") med själva huvudspåret (som alltid kallas master). För att få en tydligare bild av vad branchning är rekommenderas vidare läsning i git-boken.
+
+OK, säg då att vi vill jobba med en branch. Kanske är det en funktion eller webbsida som vi ska skapa i ett gemmensamt projekt som vi vill se till att vi har i en egen branch under tiden vi jobbar med den. För att sedan slå ihop med själva huvudspåret när vi anser oss klara med funktionen.
+
+Vi ser till att vi i vårt terminalfönster befinner oss i vår versionshanterade mapp och kör kommandot
+<br><br>
+git checkout -b my-new-branch
+<br><br>
+Där my-new-branch är det namn du ger din branch. Kör nu `git status` så ser du att du nu befinner dig i din skapade branch. Alla add och commit kommer nu endast att påverka denna nya branch. Så under tiden du jobbar med funktionen gör du dina förändringar bara till denna förgrening av koden. När vi sedan känner oss klara med funktionen vi utvecklat vill vi såklart slå ihop våra förändringar med huvudspåret (som egentligen är en branch som kallas "master"). Detta gör vi genom en så kallad megre. Detta gör man i två steg. Först måste vi förflytta oss tillbaka till vår master-branch och sedan tala om att vi vill göra en merge från vår egna branch. Kör följande kommandon:
+<br><br>
+`git checkout master git merge my-new-branch`
+<br><br>
+Sen bör man naturligtvis köra en `git push` för att skicka upp våra förändringar. Detta brukar vara ett vanligt arbetsflöde när man jobbar med git. Vi kan rekommendera att skriva ut följande bild för att ha som stöd när man jobbar med Git och Branches.
+<br>
+Detta ska förhoppningsvis gett lite information kring hur du kommer igång med Git och GitHub. Vi kan vidare rekommendera att du tittar upp följande länkar för ytterligare information:
+
+* Den interaktiva guiden som GitHub har. Den tar upp fler saker än vad vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
+
+* Du bör också skaffa dig förståelse för taggning och hur man går tillbaka i historiken av sina commits.
+
+* Ett så kallat Cheat Sheet som tar upp de vanligaste Git-kommandona samt även en enklare referens till dessa kommandon
