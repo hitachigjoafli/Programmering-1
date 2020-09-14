@@ -404,9 +404,31 @@ Classics, Rock-n-Roll
 Rap, Reggae, Classics, Rock-n-Roll
 ```
 
-# DOM - Document Object Model
-Skapa en HTML sida med innehållet nedan.
+# 2. DOM (Document Object Model) - BOM (Browser Object Model) - Events
+## DOM
 
+### Övning 2.1
+Skapa en html sida med följande innehåll. Lägg till javascript antingen i en separat fil eller i en script-tagg.
+Använd `document.getElementById()`, `document.getElementsByTagName()` och `document.getElementsByClassName()` för att hämta och skriva ut `div`-taggen, `li`-taggen och `h4 och p`-taggarna.
+Skriv ut med `alert()` och använd egenskapen `.nodeName`. 
+
+```
+<html>
+<body>
+  <div id="myDiv">Users:</div>
+  <ul>
+    <li>John</li>
+    <li>Pete</li>
+  </ul>
+  <h4 class="myClass">These where all the users</h4>
+  <p class="myClass">Thanks for checking in</p>
+</body>
+</html>
+```
+
+### Övning 2.2
+Skapa en HTML sida med innehållet nedan. Och lägg till javascript enligt uppgift 2.1.
+Svara sedan på frågorna efter koden.
 
 ```
 <!DOCTYPE HTML>
@@ -453,9 +475,9 @@ Skapa en HTML sida med innehållet nedan.
 </html>
 ```
 
-Here’s the document with the table and form.
+Html dokumentet visar en tabell (table) och ett formulär (form).
 
-How to find?…
+Använd rätt metod för att hämta ut följande med javascript.
 
 1. The table with id="age-table".
 2. All label elements inside that table (there should be 3 of them).
