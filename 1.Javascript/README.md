@@ -178,16 +178,16 @@ Grattis du har skapat och kört ditt första javascript program!
 
 # 5. Webbläsaren - DOM (Document Object Model) - BOM (Browser Object Model) - Events
 ## Resurser
-[JavaScript.Info UI](https://javascript.info/ui)
-[W3Schools JS-HTML-DOM](https://www.w3schools.com/js/js_htmldom.asp)
-[W3Schools JS-Browser-BOM](https://www.w3schools.com/js/js_window.asp)
-
+* [JavaScript.Info UI](https://javascript.info/ui)
+* [W3Schools JS-HTML-DOM](https://www.w3schools.com/js/js_htmldom.asp)
+* [W3Schools JS-Browser-BOM](https://www.w3schools.com/js/js_window.asp)
 
 ## 5.1 - DOM
-[Webbläsarens miljö](https://javascript.info/browser-environment)
-[DOM Noder](https://javascript.info/dom-nodes)
-[DOM Navigering](https://javascript.info/dom-navigation)
-
+* [Webbläsarens miljö](https://javascript.info/browser-environment)
+* [DOM Noder](https://javascript.info/dom-nodes)
+* [DOM Navigering](https://javascript.info/dom-navigation)
+* [DOM Nod-Egenskaper](https://javascript.info/basic-dom-node-properties)
+* [Modifiera Dokumentet DOMen](https://javascript.info/modifying-document)
 
 # 6. Miniprojekt
 Ni har två projekt att välja mellan beroende på era programmeringskunskaper och hur bekväma ni känner er med teknikerna vi har gått igenom.
