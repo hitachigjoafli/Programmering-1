@@ -522,9 +522,7 @@ Dess `href` har :// i den. <br>
 </ul>
 
 <script>
-  // setting style for a single link
-  let link = document.querySelector('a');
-  link.style.color = 'orange';
+  // your code goes here.
 </script>
 ```
 ![DOM 2.4](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/DOM_2_4.PNG)
