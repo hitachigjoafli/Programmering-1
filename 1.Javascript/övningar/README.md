@@ -485,3 +485,43 @@ Använd rätt metod för att hämta ut följande med javascript.
 4. The form with name="search".
 5. The first input in that form.
 6. The last input in that form.
+
+## Övning 2.3
+Skriv koden för att välja elementet med attributet 'data-widget-name' från dokumentet och skriv ut dess värde.
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+  <div data-widget-name="menu">Choose the genre</div>
+
+  <script>
+    /* your code */
+  </script>
+</body>
+</html>
+```
+
+## Övning 2.4
+Gör alla externa länkar orange genom att sätta/ändra deras `style`-egenskap.<br>
+En länk är extern om:<br>
+Dess `href` har :// i den.
+
+```
+<a name="list">the list</a>
+<ul>
+  <li><a href="http://google.com">http://google.com</a></li>
+  <li><a href="/tutorial">/tutorial.html</a></li>
+  <li><a href="local/path">local/path</a></li>
+  <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+  <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+  <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+</ul>
+
+<script>
+  // setting style for a single link
+  let link = document.querySelector('a');
+  link.style.color = 'orange';
+</script>
+```
+
