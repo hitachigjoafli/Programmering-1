@@ -64,7 +64,7 @@ Klicka på knappen "New" och fyll i dina uppgifter. Går du en kurs har du säke
 
 Du kan här välja om du vill skapa ditt repositorie public (alla kan se din kod) eller private. Bara du och de du delar ditt repositorie med kan se dina filer.
 
-### Github Pages
+### Övning - Github Pages
 Ni ska få skapa ett repo där ni presenterar er själva eller egentligen vad ni vill så länge det är inom skolramen, och så kan ni också lista projekten som ni gör under utbildningens gång om ni vill.
 
 Repot som man skapar med namnet *"username.github.io"* blir kontots hemsida kan man säga.
