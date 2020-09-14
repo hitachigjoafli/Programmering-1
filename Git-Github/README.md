@@ -81,7 +81,7 @@ Git är ett versionssystem medans GitHub är en tjänst som använder sig av git
 Vi ska nu börja titta på hur vi arbetar med Git. Denna guide har valt att koncentrera sig på hur man arbetar med Git via ett terminalfönster. Det finns grafiska klienter att använda men dessa får du själv upptäcka när du väl lärt dig grunderna i Git-kommandon. Terminalfönster är mycket kraftfullare arbetssätt medans grafiska klienter är enklare att arbeta med, som den som finns inbyggd i Visual Studio Code.
 
 ## Installera Git på din dator
-Om du arbetar på en egen dator är det en bra start att börja med att installera Git. Använder du skolans datorer bör det redan vara installerat på dessa. Att installera Git är inte svårare än att installera något annat program. Du laddar ner och installerar en körbar fil. Mer information hittar du på Git:s officiella sida. Välj sätt att installera på beroende på ditt operativsystem. Om du vill kan du välja de standardalternativ som följe rmed installationsguiden.
+Om du arbetar på en egen dator är det en bra start att börja med att installera Git. Att installera Git är inte svårare än att installera något annat program. Du laddar ner och installerar en körbar fil. [Mer information hittar du på Git:s officiella sida](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Välj sätt att installera på beroende på ditt operativsystem.
 
 ### Konfigurera Git
 För att på ett enkelt sätt komma igång kan vi börja med att konfiguera Git genom att tala om vem vi är.
@@ -112,29 +112,31 @@ Kontrollera dina inställningar via:
 <br><br>
 ![Git](https://raw.github.com/LNU-CoursePress/info/master/manualer/images/git_config.png)
 <br><br>
+
 ## Att skapa ett repositorie
-Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
+Ett centralt begrepp inom Git är repositorie (repository) eller ofta förkortat som "repo". Detta kan förklaras som ett versionshanterat projekt. Du skapar oftast ett repositorie per kurs eller per applikation. Ett repositorie kan du skapa på olika sätt. Antingen via att skapa ett helt nytt repo på din lokala dator eller genom att ladda ner ett redan påbörjat repo från t.ex. GitHub.
+
 ### Skapa ett nytt lokalt repositorie
-Börja med att använda kommandot cd i terminalen för att bege dig till någon lämplig katalog där du vill skapa ditt repositorie. Har du ingen erfarenhet av dessa typer av kommandon (UNIX-kommandon) kan vi rekommendera Ubuntu-manualens korta introduktion till de vanligaste. Väl i hemkatalogen skapar du en ny mapp genom att skriva:
-<br>
+Börja med att använda kommandot cd i terminalen för att bege dig till någon lämplig katalog där du vill skapa ditt repositorie. Har du ingen erfarenhet av dessa typer av kommandon (UNIX-kommandon) kan vi rekommendera [Ubuntu-manualens korta introduktion till de vanligaste](https://www.guru99.com/must-know-linux-commands.html). Väl i hemkatalogen skapar du en ny mapp genom att skriva:
+<br><br>
 `mkdir my-application`
-</br>
+<br><br>
 Detta skapar en katalog med namnet my-application. För att skapa ett repositorie i denna mapp navigerar du dig in i mappen och där skriver
-<br>
+<br><br>
 `git init`
-<br>
-Du har nu skapat ett helt eget lokalt repositorie och har förmodligen fått en mapp som heter ".git" (kan vara dold i filhanteraren). Den mappen innehåller all information om detta repositorie och de versionsförändringar vi kommer göra. Denna mapp ska du alltså inte bry dig om så mycket utan bara låta Git sköta om. Du kan nu testa statusen på ditt repo genom att skriva:
-<br>
+<br><br>
+Du har nu skapat ett helt eget lokalt repositorie och har förmodligen fått en mapp som heter *".git"* (kan vara dold i filhanteraren). Den mappen innehåller all information om detta repositorie och de versionsförändringar vi kommer göra. Denna mapp ska du alltså inte bry dig om så mycket utan bara låta Git sköta om. Du kan nu testa statusen på ditt repo genom att skriva:
+<br><br>
 `git status`
-<br>
+<br><br>
 Vi har ännu inte lagt till några filer i vår versionshanterade katalog (vårt repo). Så skapa en fil index.html och spara i katalogen du nyss skapade. Kontrollera nu statusen igen med `git status` och observera nu skillnaden.
 
-Git har alltså upptäckt att vi lagt till en ny fil i mappen och talar om att denna inte är versionshanterad. Varje fil i en mapp som är Git-hanterad kan antingen vara "tracked" eller "untracked". För att lägga till filen index.html vi nyss skapade skriver du:
-<br>
+Git har alltså upptäckt att vi lagt till en ny fil i mappen och talar om att denna inte är versionshanterad. Varje fil i en mapp som är Git-hanterad kan antingen vara *"tracked"* eller *"untracked"*. För att lägga till filen index.html vi nyss skapade skriver du:
+<br><br>
 `git add index.html`
-<br>
+<br><br>
 Ovanstående kommando lägger till just filen index.html. Har man skapat flera filer samtidigt som vill lägga till använder man:
-<br>
+<br><br>
 `git add .`
 <br><br>
 Vilket också är det vanligaste fallet. Kolla nu status på ditt repositorie igen med `git status`.
@@ -151,10 +153,11 @@ Testa nu att göra en ändring i filen index.html samt skapa en ny fil och lägg
 git add .
 <br><br>
 och gör en ny commit. Du bör nu ha ett lokalt repositorie med två versionshanterade filer och två stycken "commits".
+
 ### Skapa ett repositorie på GitHub och klona ner lokalt
 Men om man har ett repositorie på GitHub och vill utveckla lokalt på sin dator och sedan skicka upp förändringarna. Hur gör man då?
 
-Börja med att skapa ett repositorie på ditt konto på GitHub. På ditt nya repositories första sida, nere till höger, kommer du se något som heter "HTTPS clone URL". Kopiera den sökväg som finns där. Den ska vi nu använda via terminalfönstret klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
+Börja med att skapa ett repositorie på ditt konto på GitHub. På ditt nya repositories första sida, nere till höger, kommer du se något som heter "HTTPS clone URL". Kopiera den sökväg som finns där. Den ska vi nu använda via terminalfönstret och klona ner en kopia av repositoriet och få en koppling så vi kan skicka upp våra förändringar.
 
 Gå till terminalfönstret och navigera dig till den mapp där du vill kopiera ner repositoriet och skriv:
 <br><br>
@@ -167,21 +170,22 @@ Vi har nu arbetat på ett tag men som sagt har vi bara gjort våra förändringa
 <br><br>
 `git push`
 <br><br>
-Man kan nu kontrollera att förändringarna finns på GitHub och man kan nu klona ner dessa på liknande särr till en annan dator man vill jobba vidare på.
+Man kan nu kontrollera att förändringarna finns på GitHub och man kan nu klona ner dessa på liknande sätt till en annan dator man vill jobba vidare på.
 
 ## Övning
 Nu ska du få testa lite själv. Din uppgift blir nu följande.
 
-1. Logga in på ditt GitHubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet. Läs mer om ignore-filer.
+1. Logga in på ditt GitHubkonto och skapa ett nytt repositorie där. Skapa en readme-fil och en ignore-fil i repositoriet. [Läs mer om ignore-filer](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files).
 2. Skapa en katalog med namnet "projects", via terminalfönstret, på lämplig plats i ditt filsystem.
 3. Klona nu ut repositoriet till din lokala dator till den mapp du nyss skapade.
 4. Skapa en ny fil, index.html, och lägg till den i repositoriet och skicka sedan upp till GitHub. Besök sidan för ditt GitHub-repositorie och kontrollera att filen finns där.
 5. Gör en mindre förändring i index.html samt skapa en ny fil, contacts.html. Se nu till att den nya filen och den nya förändringen hamnar i en ny commit upp på GitHub.
 6. Skapa en ny mapp, "projects_simulate" för att simulera att vi nu satt oss och jobba vid en ny dator. Klona nu ner repositoriet på nytt till denna mapp och kontrollera att det har alla de uppdaterade filerna med sig.
 7. Gör en förändring i någon av filerna och gör en commit på detta. Skicka sedan upp det till GitHub igen. Kontrollera att förändringen kom med.
-8. Gå nu tillbaka till den första mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på GitHub inte finns där ännu. Vi måste på något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot: git pull Det bör ladda ner de förändringar som gjorts och vi får samma version som finns på GitHub. Vi kan nu fortsätta jobba med filerna.
+8. Gå nu tillbaka till den första mappen "projects". Kontrollera statusen. Du bör där se att den senaste förändringen som finns på GitHub inte finns där ännu. Vi måste på något sätt ladda ner den innan vi kan fortsätta jobba. Annars kommer vi hamna i osynk och det vill vi inte. Det är därför viktigt att via terminalfönstret ställer oss i mappen och kör kommandot: `git pull` Det bör ladda ner de förändringar som gjorts och vi får samma version som finns på GitHub. Vi kan nu fortsätta jobba med filerna.
 
-Här hittar du två filmer där vi visar hur man kan lösa uppgiften ovan.
+Här hittar du en filmer där vi visar hur man kan lösa uppgiften ovan.
+<http://orion.lnu.se/pub/information/coursepress/info/video/git/git_win.mp4>
 
 ## Branching
 Ytterligare ett begrepp vi måste känna till är Branch eller Branching. Det är en finess som är oumbärlig när man börja jobba flera personer inom samma projekt. Med en branch menar man att man skapar en förgrening i aktuellt projekt. Det är vanligt förekommande att man t.ex. skapar en ny branch när man ska införa en ny funktion i en applikation. Man skapar då en branch där man jobbar med koden till denna funktion utan att påverka själva huvudspåret. Man kan alltså säga att en branch är en tillfällig kopia som används under tiden en ny funktion implementeras för att sedan slås ihop (genom en så kallad "merge") med själva huvudspåret (som alltid kallas master). För att få en tydligare bild av vad branchning är rekommenderas vidare läsning i git-boken.
@@ -200,8 +204,8 @@ Sen bör man naturligtvis köra en `git push` för att skicka upp våra föränd
 <br>
 Detta ska förhoppningsvis gett lite information kring hur du kommer igång med Git och GitHub. Vi kan vidare rekommendera att du tittar upp följande länkar för ytterligare information:
 
-* Den interaktiva guiden som GitHub har. Den tar upp fler saker än vad vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
+* [Den interaktiva guiden som GitHub har](https://try.github.io/). Den tar upp fler saker än vad vi lärt oss hittils men det kan ändå vara ett bra läge att köra den nu
 
-* Du bör också skaffa dig förståelse för taggning och hur man går tillbaka i historiken av sina commits.
+* Du bör också skaffa dig förståelse för [taggning](https://git-scm.com/book/en/v2/Git-Basics-Tagging) och hur man går [tillbaka i historiken](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things) av sina commits.
 
-* Ett så kallat Cheat Sheet som tar upp de vanligaste Git-kommandona samt även en enklare referens till dessa kommandon
+* [Ett så kallat Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/) som tar upp de vanligaste Git-kommandona samt även en enklare referens till dessa kommandon
