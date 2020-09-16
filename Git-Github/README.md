@@ -47,6 +47,9 @@ När man börjar jobba med Git och GitHub kommer man stöta på vissa begrepp so
 
 * **Branch/Branching** - Du kommer att använda "branching" eller förgreningar i ditt repro för att undvika att ändra i projektets huvudgren. Detta är extra viktigt då man är flera personer som samarbetar i samma repro då man enklare kan jobba utan att skriva över varandras filer.
 
+## Kort video serie som beskriver hur man jobbar med Visual Studio Code och Github (Rekommenderas starkt!).
+<https://www.youtube.com/playlist?list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi>
+
 ## Kom igång med GitHub
 Det första Du bör göra är att skapa dig ett konto på GitHub. Här är det viktigt att du registrar dig med din studentmejl från ABB Industrigymnasium.
 
