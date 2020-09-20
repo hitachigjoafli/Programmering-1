@@ -209,7 +209,7 @@ Det är alltid bra att ha en plan innan man börjar därför skriver jag mitt ti
 
 Självklart så **kommenterar** jag alltid koden under projektets gång för att göra det enkelt för mig och andra att förstå vad allt gör.
 
-[Här](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/exempelkod/5.Calculator) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!
+<!--[Här](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/exempelkod/5.Calculator) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!-->
 
 ### Resurser
 - [Learn CSS Layout](https://learnlayout.com)
