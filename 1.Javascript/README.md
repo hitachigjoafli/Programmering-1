@@ -193,7 +193,7 @@ Grattis du har skapat och kört ditt första javascript program!
 Ni har två projekt att välja mellan beroende på era programmeringskunskaper och hur bekväma ni känner er med teknikerna vi har gått igenom.
 Tycker man att det varit medel eller svårt så rekommenderas att man gör projektet **Miniräknare**. Tycker man att det vi gått igenom har varit alldeles för enkelt och vill ha lite mer utmaning så rekommenderas att man gör ett valfritt spel och projektet **Spel**. Man får vara två och två om man väljer att göra ett spel, men det är inte ett måste. 
 
-## Miniräknare
+## Miniräknare - Deadline 2020-09-29
 Uppgiften är klassisk och i teorin simpel, skapa en miniräknare som kan räkna addition, subtraction, division och multiplikation.
 
 Det är alltid bra att ha en plan innan man börjar därför skriver jag mitt tillvägagångsätt när jag gör ett sånt här projekt.
