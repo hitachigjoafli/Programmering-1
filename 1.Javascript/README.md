@@ -211,10 +211,14 @@ Självklart så **kommenterar** jag alltid koden under projektets gång för att
 
 <!--[Här](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/exempelkod/5.Calculator) finns mitt projekt om man vill ladda ner det för att testa eller kika på för inspiration!-->
 
+### Krav
+* Miniräknaren ska kunna **addera**, **subtrahera**, **multiplicera** och **dividera** mellan två tal.
+* Den behöver inte kunna jobba med fler än två tal samtidigt dvs **3+5**, **7-9**, **12*/4**, **12/4**.
+
 ### Resurser
 - [Learn CSS Layout](https://learnlayout.com)
 
-[Livedemo](https://abbjoafli.github.io/Programmering-1/show/Calculator/index.html)
+- [Livedemo](https://abbjoafli.github.io/Programmering-1/show/Calculator/index.html)
 
 ## Spel
 Jag föreslår att man använder en spel-motor när man utvecklar sitt spel och en populär JavaScript spel-motor är <https://phaser.io/>.
