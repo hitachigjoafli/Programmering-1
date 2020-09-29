@@ -19,7 +19,11 @@ Länken nedan visar hur man kopplar upp sitt Firebase projekt med ESP8266, alter
 <br>
 <br>
 ## Firebase Realtime Database
-
-<https://firebase.google.com/docs/database>
+Firebase är en backend-plattform för att bygga webb-, Android- och IOS-applikationer. Den erbjuder databas i realtid, olika API: er, flera autentiseringstyper och en plats att hosta sin applikation.<br>
+Det här är en introduktionshandledning som behandlar grunderna för Firebase-plattformen och förklarar hur man hanterar dess olika komponenter och underkomponenter.
 <br>
 <https://www.tutorialspoint.com/firebase/index.htm>
+<br>
+<br>
+Här nedan är dokumentation från Firebase egna hemsida om hur man använder produkten.<br>
+<https://firebase.google.com/docs/database>
