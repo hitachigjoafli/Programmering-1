@@ -10,10 +10,10 @@ Där finns beskrivning på vilken funktionalitet som det stöder och hur man anv
 <https://github.com/mobizt/Firebase-ESP8266>
 <br>
 <br>
-Länken nedan visar hur man sätter upp ett Firebase projekt.
+Länken nedan visar hur man sätter upp ett Firebase projekt.<br>
 <https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-9937d98d1ae0>
 <br>
-Länken nedan visar hur man kopplar upp sitt Firebase projekt med ESP8266, alternativt kan man kolla på mitt exempel där jag tänder och släcker lysdioden.
+Länken nedan visar hur man kopplar upp sitt Firebase projekt med ESP8266, alternativt kan man kolla på mitt exempel där jag tänder och släcker lysdioden.<br>
 <https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-e624304c3197>
 
 ## Firebase Realtime Database
