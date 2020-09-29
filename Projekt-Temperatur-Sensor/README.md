@@ -6,24 +6,31 @@ Som micro-controller ska vi använda **ESP8266**, den ska läsa av temperaturer 
 
 ## ESP8266 -> Firebase kommunikation
 Första länken nedan visar biblioteket som används för att kommunicera mellan eran micro-kontroller och Firebase.<br>
-Där finns beskrivning på vilken funktionalitet som det stöder och hur man använder det, viktigt att man spenderar lite tid och studerar informationen.<br>
+Där finns beskrivning på vilken funktionalitet som det stöder och hur man använder det, viktigt att man spenderar lite tid och studerar informationen.
+<br>
+<br>
 <https://github.com/mobizt/Firebase-ESP8266>
 <br>
 <br>
-Länken nedan visar hur man sätter upp ett Firebase projekt.<br>
+<br>
+Länken nedan visar hur man sätter upp ett Firebase projekt.
+<br><br>
 <https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-9937d98d1ae0>
 <br>
 <br>
-Länken nedan visar hur man kopplar upp sitt Firebase projekt med ESP8266, alternativt kan man kolla på mitt exempel där jag tänder och släcker lysdioden.<br>
+<br>
+Länken nedan visar hur man kopplar upp sitt Firebase projekt med ESP8266, alternativt kan man kolla på mitt exempel där jag tänder och släcker lysdioden.
+<br><br>
 <https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-e624304c3197>
+<br>
 <br>
 <br>
 ## Firebase Realtime Database
 Firebase är en backend-plattform för att bygga webb-, Android- och IOS-applikationer. Den erbjuder databas i realtid, olika API: er, flera autentiseringstyper och en plats att hosta sin applikation.<br>
 Det här är en introduktionshandledning som behandlar grunderna för Firebase-plattformen och förklarar hur man hanterar dess olika komponenter och underkomponenter.
-<br>
+<br><br>
 <https://www.tutorialspoint.com/firebase/index.htm>
 <br>
-<br>
-Här nedan är dokumentation från Firebase egna hemsida om hur man använder produkten.<br>
+<br><br>
+Här nedan är dokumentation från Firebase egna hemsida om hur man använder produkten.<br><br>
 <https://firebase.google.com/docs/database>
