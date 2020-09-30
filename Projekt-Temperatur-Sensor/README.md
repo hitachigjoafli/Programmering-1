@@ -34,3 +34,13 @@ Det här är en introduktionshandledning som behandlar grunderna för Firebase-p
 <br><br>
 Här nedan är dokumentation från Firebase egna hemsida om hur man använder produkten.<br><br>
 <https://firebase.google.com/docs/database>
+
+## Hemsidan
+Ni kan välja att bygga er hemsida med endast HTML, CSS och JavaScript. Men det kan vara lite svårt att designa en hemsida och därför brukar man använda någon form av CSS-bibliotek. Ett sådant bibliotek är tex Bootstrap som jag kan rekommendera att ni använder i era projekt.
+Här kommer lite resurser på Bootstrap:
+<br>
+<br>
+<https://getbootstrap.com/docs/4.0/getting-started/introduction/>
+<br>
+<br>
+<https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp>
