@@ -1,0 +1,40 @@
+<html>
+   <head>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "",
+          authDomain: "",
+          databaseURL: "",
+          projectId: "",
+          storageBucket: "",
+          messagingSenderId: "",
+          appId: ""
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>      
+      <link rel="stylesheet" href="index.css">
+   </head>
+	
+   <body>
+    <div class="center">
+
+      <div>
+        <img id="myImage" src="light-bulb-off.png" style="width:100px">   
+      </div>   
+
+      <div style="padding-top:20px;">
+        <label class="switch">
+          <input id="checkbox" type="checkbox" onclick="turnOnOffLight()">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <script src = "index.js"></script>
+   </body>
+</html>
