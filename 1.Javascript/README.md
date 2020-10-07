@@ -213,7 +213,7 @@ Självklart så **kommenterar** jag alltid koden under projektets gång för att
 
 ### Krav
 * Miniräknaren ska kunna **addera**, **subtrahera**, **multiplicera** och **dividera** mellan två tal.
-* Den behöver inte kunna jobba med fler än två tal samtidigt dvs **3+5**, **7-9**, **12*/4**, **12/4**.
+* Den behöver inte kunna jobba med fler än två tal samtidigt dvs **3+5**, **7-9**, **12*4**, **12/4**.
 
 ### Resurser
 - [Learn CSS Layout](https://learnlayout.com)
