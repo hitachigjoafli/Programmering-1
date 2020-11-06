@@ -7,6 +7,15 @@
 3. Inkludera Vue.js i filen och skriv ut rubriken "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
 
+### Övning 1.1 - Formulär
+0. Skapa en mapp på valfri plats och öppna den med Visual Studio Code.
+1. Skapa en `index.html` fil i mappen.
+2. Lägg till html-kod för ett standard html dokument med `<head>` och `<body>` osv.
+3. Inkludera Vue.js i filen.
+4. Skapa 4 input-fält för address, postnummer, stad och land.
+5. Skapa 4 variabler i data-sektionen för att spara det som matas in.
+6. Skapa en knapp som skriver det som matats in i ***alert()***
+
 ### Övning 2 - Skapa en data-bunden komponent
 Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.<br>
 Det du behöver göra:
