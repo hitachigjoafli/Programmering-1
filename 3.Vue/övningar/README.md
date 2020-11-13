@@ -51,6 +51,11 @@ Lägg testkoden i en fil och gör uppgifterna med den som utgångspunkt.
 5. Skapa 4 variabler i data-sektionen för att spara det som matas in.
 6. Skapa en knapp som skriver det som matats in i ***alert()***
 
+### Övning 1.2 - Computed
+1. Skapa två data-variabler för firstName och lastName.
+2. Skapa en input-fält som har två-vägbindning med lastName dvs **v-model**.
+3. Skapa computed variabel som skriver ut fullName.
+
 ### Övning 2 - Skapa en data-bunden komponent
 Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.<br>
 Det du behöver göra:
