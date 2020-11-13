@@ -8,13 +8,13 @@ Lägg testkoden i en fil och gör uppgifterna med den som utgångspunkt.
 <html>
 
 <head>
-
+    <!-- Hämtar vue.js bibilioteket -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 
 </head>
 
 <body>
-
+    <!-- Anger div som vue ska appliceras på -->
     <div id="app">
         <h1>{{namn}}</h1>
     </div>
@@ -22,7 +22,7 @@ Lägg testkoden i en fil och gör uppgifterna med den som utgångspunkt.
 </body>
 
 <script>
-
+    // Skapar en vue instans som kopplas till div-taggen med id="app"
     var app = new Vue({
         el: '#app',
         data: {
