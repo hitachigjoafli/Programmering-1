@@ -1,5 +1,40 @@
 # Övningar
 
+### Testkod
+Lägg testkoden i en fil och gör uppgifterna med den som utgångspunkt.
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+</head>
+
+<body>
+
+    <div id="app">
+        <h1>{{namn}}</h1>
+    </div>
+
+</body>
+
+<script>
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            namn: 'Kalle Kula!',
+        }
+    })
+
+</script>
+
+</html>
+```
+
 ### Övning 1 - Hello From GroupX
 0. Skapa en mapp på valfri plats och öppna den med Visual Studio Code.
 1. Skapa en `index.html` fil i mappen.
