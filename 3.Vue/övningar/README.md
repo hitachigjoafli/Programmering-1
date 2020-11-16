@@ -35,6 +35,8 @@ Lägg testkoden i en fil och gör uppgifterna med den som utgångspunkt.
 </html>
 ```
 
+Eller skapa ett nytt projekt med Vue CLI.
+
 ### Övning 1 - Hello From GroupX
 0. Skapa en mapp på valfri plats och öppna den med Visual Studio Code.
 1. Skapa en `index.html` fil i mappen.
@@ -108,7 +110,6 @@ Datat för komponenten finns **_nedan_**.
 ####_Här är datat:_####
 
 ```
-
 {
   name:'Smarta System 2020', 
   date: '24/8/2020', 
@@ -122,7 +123,12 @@ Datat för komponenten finns **_nedan_**.
 }
 
 ```
-
+### Övning 2.2 - Hämta data valfri data från API och presentera det
+Använd tjänsten JSON-Placeholder för att göra api-anrop och hämta valfri data och presentera den.
+<br>
+<https://jsonplaceholder.typicode.com/>
+<br>
+<br>
 ### Övning 3 - Kommunikation mellan komponenter Parent -> Child
 **_Instruktioner_**: **EventDetailsComponent**:en visar information om ett lektions-event, där adress är inkluderad.
 Skapa en ny child komponent som ska hantera att adressen visas och skicka eventets adress in till den nya komponenten från EventDetailsComponenten.<br>
