@@ -1,5 +1,8 @@
 # Övningar
 
+Ni som upplever att uppgifterna är för lätta och vill ha lite mer utmanande mindre projekt så kolla på den här länken:
+<https://rojas.io/vue-js-practice-project-ideas/>
+
 ### Testkod
 Lägg testkoden i en fil och gör uppgifterna med den som utgångspunkt.
 
