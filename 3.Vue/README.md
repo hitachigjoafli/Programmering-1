@@ -15,6 +15,15 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 * Vue-Directives är den del av Vue.js som lägger speciell betydelse och beteende till vanliga html-element på sidan.
 
 ## VUE-CLI
+```cd c:/development/vue```<br><br>
+
+```vue create projekt-namn```<br><br>
+
+```cd c:/development/vue/test-projekt```<br><br>
+
+```code .```<br><br>
+
+```npm run serve```<br><br>
 
 ## Övergripande resurser för denna modul:
 
