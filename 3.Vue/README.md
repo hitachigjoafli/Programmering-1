@@ -15,6 +15,10 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 * Vue-Directives är den del av Vue.js som lägger speciell betydelse och beteende till vanliga html-element på sidan.
 
 ## VUE-CLI
+
+## Nytt projekt från start
+Vue CLI används för att generera ett projekt och görs via ett kommandofönster. Så börja med att öppna ett kommandofönster.
+Och byt mapp till den platsen du vill skapa projektet
 ```cd c:/development/vue```<br><br>
 
 ```vue create projekt-namn```<br><br>
@@ -24,6 +28,8 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 ```code .```<br><br>
 
 ```npm run serve```<br><br>
+
+## Öppna befintligt projekt
 
 ## Övergripande resurser för denna modul:
 
