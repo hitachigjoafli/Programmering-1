@@ -21,33 +21,25 @@ Vue CLI används för att generera ett projekt och görs via ett kommandofönste
 Och byt mapp till den platsen du vill skapa projektet<br><br>
 ```cd c:/development/vue```<br><br>
 
-Ange ett namn på projektet du vill skapa<br><br>
-
+Ange ett namn på projektet du vill skapa<br>
 ```vue create projekt-namn```<br><br>
-
-Byt till mappen som projektet finns i<br><br>
-
+Byt till mappen som projektet finns i<br>
 ```cd projekt-namn```<br><br>
 
-Öppna projektet i Visual Studio Code med kommandot<br><br>
-
+Öppna projektet i Visual Studio Code med kommandot<br>
 ```code .```<br><br>
 
-Start upp projektet i en live-server med kommandot<br><br>
-
+Start upp projektet i en live-server med kommandot<br>
 ```npm run serve```<br><br>
 
 ## Öppna befintligt projekt
-Så börja med att öppna ett kommandofönster och byt mapp till projektets mapp<br><br>
-
+Så börja med att öppna ett kommandofönster och byt mapp till projektets mapp<br>
 ```cd c:/development/vue/test-projekt```<br><br>
 
-Öppna projektet i Visual Studio Code med kommandot<br><br>
-
+Öppna projektet i Visual Studio Code med kommandot<br>
 ```code .```<br><br>
 
-Start upp projektet i en live-server med kommandot<br><br>
-
+Start upp projektet i en live-server med kommandot<br>
 ```npm run serve```<br><br>
 
 ## Övergripande resurser för denna modul:
