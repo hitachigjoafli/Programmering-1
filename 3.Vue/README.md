@@ -14,6 +14,8 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 * Vue-Directives är den del av Vue.js som lägger speciell betydelse och beteende till vanliga html-element på sidan.
 
+## VUE-CLI
+
 ## Övergripande resurser för denna modul:
 
 - [Vue](https://vuejs.org/v2/guide/)
