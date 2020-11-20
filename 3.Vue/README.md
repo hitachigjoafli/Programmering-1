@@ -18,7 +18,7 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 ## Nytt projekt från start
 Vue CLI används för att generera ett projekt och görs via ett kommandofönster. Så börja med att öppna ett kommandofönster.
-Och byt mapp till den platsen du vill skapa projektet<br><br>
+Och byt mapp till den platsen du vill skapa projektet<br>
 ```cd c:/development/vue```<br><br>
 
 Ange ett namn på projektet du vill skapa<br>
